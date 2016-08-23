@@ -1,0 +1,10 @@
+Varpunen jouluaamuna
+
+Lumi on jo peittänyt kukat laaksosessa.
+Järven aalto jäätynyt talvipakkasessa.
+Varpunen pienoinen syönyt kesäeinehen.
+Järven aalto jäätynyt talvipakkasessa.
+
+{
+  "other": "Laitetaan tää biisu kirjaan 'No onkos tullut kesä':n jälkeen"
+}

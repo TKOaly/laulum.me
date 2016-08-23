@@ -1,0 +1,142 @@
+html {
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #eee;
+  color: #c1c1c1;
+  height: 70px;
+}
+
+.header h1 {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 22px;
+  font-weight: 100;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  text-align: left;
+  font-size: 24px;
+}
+
+.song-list {
+  padding-top: 20px;
+}
+
+.centered {
+   text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.move-left {
+  margin-left: -50px;
+  position:absolute;
+}
+
+.centered > div {
+   float: none;
+   display: inline-block;
+   text-align: left;
+}
+
+.song-card {
+  text-align: center;
+  padding: 12px 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  background: #f6f6f6;
+  color: #999;
+  transition: all 0.1s ease;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+.song-card:hover {
+  background: #eee;
+  transition: all 0.1s ease;
+  text-decoration: none;
+}
+
+.searchbar {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.lyrics {
+  min-height: calc(100vh - 100px);
+  padding-top: 10px;
+  background-color: #fff;
+}
+
+.lyrics h3 {
+  text-align: left;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  letter-spacing: 0.1em;
+  font-weight: 200;
+  font-size: 28px;
+  margin: 50px 0 30px;
+  }
+
+input.form-control {
+  padding: 15px 0;
+  border: 0;
+  border-bottom: 2px solid #eee;
+  border-radius: 0;
+}
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ccc !important;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: #ccc !important;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: #ccc !important;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: #ccc !important;
+}
+
+.form-control:focus {
+  border-color: #d6cd05;
+}
+
+
+p {
+  line-height: 1.9;
+  font-family: 'Times new Roman', serif;
+  color: #666;
+  font-size: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.dank {
+  border: 0;
+  background: #f3f3f3;
+  border-radius: 4px;
+  color: #999;
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 30px !important;
+  }
+
+  .lyrics h3 {
+    text-align: left;
+  }
+}

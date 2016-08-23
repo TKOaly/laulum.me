@@ -1,1 +1,3 @@
-# laulum.me
+#Laulum.me (frontend)
+
+Elektroninen sitsilaulukirja.
