@@ -2,7 +2,7 @@ require 'json'
 
 songs = []
 id = 0
-Dir.glob("/Users/felixlin/laulum.me/frontend/songs/*").each do |filename|
+Dir.glob(__dir__+"/songs/*").each do |filename|
   id += 1
   file = File.new(filename, "r")
   song = {:name=>"", :melody=>"", :lyrics=>"", :id=>id}
