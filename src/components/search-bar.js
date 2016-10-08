@@ -5,7 +5,7 @@ import { filterSongs } from '../actions/index';
 class SearchBar extends Component {
     constructor(props) {
         super(props);
-        this.state = { searchterm: ''};
+        this.state = this.state || { searchterm: ''};
     }
 
     onInputChange(searchterm) {

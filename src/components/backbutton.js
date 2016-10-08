@@ -1,15 +1,13 @@
-var React = require('react');
-var Router = require('react-router');
+import React, { Component } from 'react';
+import {connect} from 'react-redux';
+import { Link } from 'react-router';
 
-var History = Router.History;
-
-var BackButton = React.createClass({
-  mixins: [ History ],
-  render: function() {
+class BackButton extends Component {
+  render() {
     return (
-      <button className="dank" onClick={this.history.goBack}>{this.props.children}</button>
+      <Link to={'/'}><button className="dank">{this.props.children}</button></Link>
     );
   }
-});
+}
 
-module.exports = BackButton;
+export default BackButton;
