@@ -6,7 +6,7 @@ install:
   - npm install
 
 before_script:
-  - npm run build && node parse.js
+  - node parse.js && npm run build
 
 deploy:
   provider: s3
