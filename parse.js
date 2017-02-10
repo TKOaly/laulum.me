@@ -20,7 +20,7 @@ function parseSong(content, id) {
   newContent = content.split('\n');
   newContent.pop();
   return {
-    id: id,
+    id: id+1,
     name: newContent.shift(),
     melody: newContent.shift(),
     meta: parseMeta(content),
