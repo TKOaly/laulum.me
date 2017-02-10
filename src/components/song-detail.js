@@ -7,9 +7,9 @@ class SongDetail extends Component {
   render() {
     if (!this.props.songs) return (<div>Loading songs...</div>);
 
-    ga('send', { 'hitType': 'pageview', 'page': window.location.pathname });
-
     const song = this.props.songs.find(song => song.key == this.props.params.id);
+
+    ga('send', { 'hitType': 'pageview', 'page': song.title });
 
     var key = 0;
 
