@@ -30,20 +30,33 @@ function parseSong(content, id) {
 
 function parseMeta(content) {
   var newContent = content.split('\n');
+  newContent.pop();
   if (newContent[newContent.length-1] !== '}') return {};
   var meta = "";
   while (newContent[newContent.length-1] != '{') {
     meta = newContent.pop()+meta;
   }
-  meta = newContent.pop()+meta
+  meta = newContent.pop()+meta;
   return JSON.parse(meta);
 }
 
 function parseLyrics(content) {
-  //TODO FIX PLZ
-  return content.reduce((lyrics, line) => {
+  var newContent = removeExtraInfo(content);
+  return newContent.reduce((lyrics, line) => {
     return lyrics+line+'\n';
-  }, "")
+  }, "");
+}
+
+function removeExtraInfo(content) {
+  var newContent = content.split('\n');
+  newContent = newContent.splice(2,newContent.length-1);
+  if (newContent[newContent.length-1] === '}') {
+    while (newContent[newContent.length-1] != '{') {
+      newContent.pop();
+    }
+    newContent.pop();
+  }
+  return newContent;
 }
 
 function writeSongs(filename, songs) {
