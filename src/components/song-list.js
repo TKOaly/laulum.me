@@ -19,7 +19,7 @@ class SongList extends Component {
     return (
       <div>
         <SearchBar />
-        <div className="song-list">
+        <div className="song-list row">
           {this.renderList()}
         </div>
       </div>
