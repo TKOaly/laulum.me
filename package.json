@@ -6,8 +6,6 @@
   "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch",
     "build": "node ./node_modules/webpack/bin/webpack.js && mkdir build && mv bundle.js build/bundle.js && cp songs.json build/songs.json && cp index.html build/index.html && cp -r style build/style"
   },
   "author": "",

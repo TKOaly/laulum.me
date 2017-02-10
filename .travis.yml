@@ -17,3 +17,4 @@ deploy:
   acl: 'public_read_write'
   on:
     repo: muhve/laulum.me
+  local_dir: build
