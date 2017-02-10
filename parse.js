@@ -49,6 +49,7 @@ function parseLyrics(content) {
 
 function removeExtraInfo(content) {
   var newContent = content.split('\n');
+  newContent.pop();
   newContent = newContent.splice(2,newContent.length-1);
   if (newContent[newContent.length-1] === '}') {
     while (newContent[newContent.length-1] != '{') {
