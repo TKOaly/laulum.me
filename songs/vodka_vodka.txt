@@ -6,5 +6,5 @@ jag vill äta kaviar.
 :,: Jag vill älska ruški flicka,
 jag vill spy i samovar! :,:
 {
-"historia": "\"Tuotu teekkarilauluja\" -kirjasta."
+"historia": "Tuotu \"Teekkarilauluja\" -kirjasta."
 }

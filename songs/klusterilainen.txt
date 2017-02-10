@@ -18,5 +18,5 @@ kiva paikka, kiva paikka.
 Klusteri on kiva paikka, kiva paikka.
 
 {
-  "historia": "\"Tuotu teekkarilauluja\" -kirjasta."
+  "historia": "Tuotu \"Teekkarilauluja\" -kirjasta."
 }

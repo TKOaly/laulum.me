@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- '6'
+
+install:
+  - npm install
+
+before_script:
+  - webpack
+
+deploy:
+  provider: s3
+  access_key_id: AKIAJ7ILEUYL5BZHODIA
+  secret_access_key:
+    secure: CC877TFrBLtNrc64VaOM9/xeVfKvPRMqE6T3N1rzpJT+He7+Es/9MZYG0X7HzcJDtmSRpU5tLv4xfivQi9Hyf73WwckDjN9/Ax8Xc/n+TV5GcxxiTIDklxy+wkJr96JQAgLwYyubfAz7uD9Yvoc9AuaPi78FXBPNkzo3XhDALuEeT1Kkd7BqcH5rkLFfoa1OIaorC+SEUp6B6weY5lllUAIKOe934HI2i4RhHJZ+v1SdM8XE9eAMR1gQMFh+4Tb4OwJ3rFOUsPEdTGpjZnXRwTGfopMi1NtyQIWOo80THb3ezAPV0XVsUi1pOAnN3C0kal79geg5/v4id4L3qh05yYIUa4OEXDSj5n+F+G/ajbPupiWo27Q41FrjLHtTABNd0Wrp2scgpHHTTkmmCDxA+m5abMn2f9GHX1bnH8DJASf4ehZffa6uiN2Q7UEBQFsfis11Mqeca98OjWqVE5dnxkw/8unuXc2r+Hqgp0HgsF9aEbH7WV1P7HVEKFFZrf5M5T6TIJP2YzXag6Xz4fX0xad8AAKzp6Kgp9FTpjUqwZJ1F+DBLcHmUVHSxhmVKosL7icVVaQNm7mpIcyI4lZAvPp74T4cr0mnk/Cg+U6xaAIu7GTw7zVR9dU/dbpiBgyQXezfPMzkjouQLHlMobr0pWAoWy02+4LmVEgsOl4nlrg=
+  bucket: laulum.me
+  acl: 'public_read_write'
+  on:
+    repo: muhve/laulum.me

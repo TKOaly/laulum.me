@@ -6,5 +6,5 @@ Varpunen pienoinen syönyt kesäeinehen.
 Järven aalto jäätynyt talvipakkasessa.
 
 {
-  "other": "Laitetaan tää biisu kirjaan 'No onkos tullut kesä':n jälkeen"
+  "other": "Laitetaan tää biisu kirjaan \"No onkos tullut kesä\":n jälkeen"
 }
