@@ -61,7 +61,7 @@ function removeExtraInfo(content) {
 }
 
 function writeSongs(filename, songs) {
-  fs.writeFile(filename, JSON.stringify(songs, null, 4), function(err) {
+  fs.writeFile(filename, JSON.stringify(songs), function(err) {
     if(err) {
       console.log(err);
     } else {
