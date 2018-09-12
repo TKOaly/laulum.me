@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SearchBar from './search-bar';
 import { connect } from 'react-redux';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 class SongList extends Component {
   renderList() {
