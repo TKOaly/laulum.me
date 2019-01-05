@@ -6,10 +6,9 @@ export const FILTER_SONGS = 'FILTER_SONGS';
 export function fetchSongs() {
   const url = '/songs.json';
   const request = axios.get(url);
-  return {
-    type: FETCH_SONGS,
-    payload: request
-  };
+  return request
+    .then(res => res.data)
+    .then(data => ({ type: FETCH_SONGS, payload: data }))
 }
 
 export function filterSongs(searchterm) {
