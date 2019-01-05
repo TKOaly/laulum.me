@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import SearchBar from './search-bar';
 import { connect } from 'react-redux';
 import { fetchSongs } from '../actions/index';
 

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import { Link } from 'react-router';
 import BackButton from './backbutton'
 
 class SongDetail extends Component {
   render() {
     if (!this.props.songs) return (<div>Loading songs...</div>);
 
-    const song = this.props.songs.find(song => song.key == this.props.params.id);
+    const { match: { params: { id } } } = this.props
+    const song = this.props.songs.find(song => song.key == id);
 
     ga('send', { 'hitType': 'pageview', 'page': song.title });
 

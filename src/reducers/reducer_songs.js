@@ -1,5 +1,5 @@
 export default function(state = null, action) {
-  return action.payload.data.map(function(song) {
+  return action.payload.map(function(song) {
     return {
       key: song.id,
       title: song.name,
