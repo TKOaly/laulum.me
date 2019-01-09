@@ -4,8 +4,9 @@ node_js:
 
 install:
   - npm install
-  - echo "npm test temporarily disabled"
 
+script:
+  - echo "npm test temporarily disabled"
 
 before_script:
   - node parse.js && npm run build
