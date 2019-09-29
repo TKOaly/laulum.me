@@ -1,14 +1,10 @@
-import axios from 'axios';
+import songs from '../../songs.json'
 
 export const FETCH_SONGS = 'FETCH_SONGS';
 export const FILTER_SONGS = 'FILTER_SONGS';
 
 export function fetchSongs() {
-  const url = '/songs.json';
-  const request = axios.get(url);
-  return request
-    .then(res => res.data)
-    .then(data => ({ type: FETCH_SONGS, payload: data }))
+  return { type: FETCH_SONGS, payload: songs }
 }
 
 export function filterSongs(searchterm) {
