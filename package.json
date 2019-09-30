@@ -6,17 +6,26 @@
   "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "build": "node ./node_modules/webpack/bin/webpack.js && rm -fr build && mkdir build && mv bundle.js build/bundle.js && cp songs.json build/songs.json && cp index.html build/index.html && cp -r style build/style"
+    "build": "rollup -c && rm -fr build && mkdir build && mv dist/index.js build/bundle.js && cp songs.json build/songs.json && cp index.html build/index.html && cp -r style build/style"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
     "chai": "^4.1.2",
     "chai-jquery": "^2.0.0",
     "jquery": "^3.4.1",
     "jsdom": "^12.0.0",
     "mocha": "^5.2.0",
-    "react-addons-test-utils": "^15.6.2"
+    "react-addons-test-utils": "^15.6.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^5.1.2",
+    "terser": "^4.3.4"
   },
   "dependencies": {
     "axios": "^0.18.1",
@@ -26,6 +35,7 @@
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "redux": "^4.0.4",
-    "redux-promise": "^0.6.0"
+    "redux-promise": "^0.6.0",
+    "rollup": "^1.22.0"
   }
 }

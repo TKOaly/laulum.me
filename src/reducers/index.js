@@ -2,7 +2,7 @@ import songs from './reducer_songs'
 import activeSong from './reducer_active_song';
 import filteredSongs from './reducer-filter-songs';
 
-export default function(state = {}, action) {
+export default (state = {}, action) => {
   switch (action.type) {
     case 'FETCH_SONGS':
       return {

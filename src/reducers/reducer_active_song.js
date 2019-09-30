@@ -1,3 +1,2 @@
-export default function(state = null, action) {
-  return action.payload;
-}
+export default (state = null, action) =>
+  action.payload

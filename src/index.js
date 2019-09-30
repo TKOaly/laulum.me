@@ -6,7 +6,6 @@ import ReduxPromise from 'redux-promise';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import reducers from './reducers';
-import routes from './routes';
 
 import App from './components/app';
 import SongList from './components/song-list';
