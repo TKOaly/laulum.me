@@ -1,39 +1,37 @@
 {
-  "name": "redux-simple-starter",
-  "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
-  "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
-  "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "build": "node ./node_modules/webpack/bin/webpack.js && rm -fr build && mkdir build && mv bundle.js build/bundle.js && cp songs.json build/songs.json && cp index.html build/index.html && cp -r style build/style"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-core": "^6.2.1",
-    "babel-loader": "7",
-    "babel-preset-react": "^6.1.18",
-    "chai": "^4.1.2",
-    "chai-jquery": "^2.0.0",
-    "jquery": "^3.4.1",
-    "jsdom": "^12.0.0",
-    "mocha": "^5.2.0",
-    "react-addons-test-utils": "^15.6.2",
-    "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9",
-    "webpack-dev-server": "^3.8.1"
-  },
+  "name": "laulum.me-new",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "axios": "^0.18.1",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-1": "^6.1.18",
-    "lodash": "^4.17.15",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-redux": "^5.0.7",
-    "react-router-dom": "^4.3.1",
-    "redux": "^4.0.4",
-    "redux-promise": "^0.6.0"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-ga": "^2.7.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "typeface-roboto": "0.0.75"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

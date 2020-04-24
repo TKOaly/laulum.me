@@ -1,28 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
-import ReduxPromise from 'redux-promise';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
-import reducers from './reducers';
-import routes from './routes';
-
-import App from './components/app';
-import SongList from './components/song-list';
-import SongDetail from './components/song-detail';
-
-const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import "typeface-roboto";
 
 ReactDOM.render(
-  <Provider store={createStoreWithMiddleware(reducers)}>
-   <App>
-      <BrowserRouter>
-        <Switch>
-          <Route exact path='/' component={SongList} />
-          <Route path="/songs/:id" component={SongDetail} />
-        </Switch>
-      </BrowserRouter>
-  </App>
-  </Provider>
-  , document.querySelector('.content'));
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

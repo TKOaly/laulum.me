@@ -1,8 +1,8 @@
 Ken ompi fuksi
 
-;,; Ken ompi fuksi n (jne...)
+:,: Ken ompi fuksi n (jne...)
 ylös nouskohon.
 Hän lasin käteen ottakoon
 Sen huulillensa nostakoon.
 Juo pois, juo pois, juo pois, juo pois.
-Juo herran tähden pois. ;,;
+Juo herran tähden pois. :,:
