@@ -17,6 +17,3 @@ Klusteri on kiva paikka,
 kiva paikka, kiva paikka.
 Klusteri on kiva paikka, kiva paikka.
 
-{
-  "historia": "Tuotu \"Teekkarilauluja\" -kirjasta."
-}

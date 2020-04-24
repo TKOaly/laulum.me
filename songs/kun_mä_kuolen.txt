@@ -29,7 +29,7 @@ Taivahassa, hyvä veli, pasuuna on muotipeli
 Kun mä kuolen vanhan kitarani saat.
 
 ...partasutini sä saat...
-Enkeleill’ on partasuti, joka sanoo kitikuti.
+Enkeleill' on partasuti, joka sanoo kitikuti.
 Kun mä kuolen partasutini sä saat.
 
 ...vanhan pottanikin saat...
@@ -57,11 +57,11 @@ Se on tuolla ladon alla, kolmas kivi vasemmalta.
 Kun mä kuolen asekätköni sä saat.
 
 ...taxamittarini saat...
-Sillä taivaass’ ei oo taxaa, enkeleill’ ei tarvii maksaa
+Sillä taivaass' ei oo taxaa, enkeleill' ei tarvii maksaa
 Kun mä kuolen taxamittarini saat.
 
 ...vanhan puukkoni sä saat...
-Sillä enkeleill’ on nixi, heiltä puuttuu appendixi.
+Sillä enkeleill' on nixi, heiltä puuttuu appendixi.
 Kun mä kuolen vanhan puukkoni sä saat.
 
 ...tuttipulloni sä saat...
@@ -89,7 +89,7 @@ Sillä taivaassa ei panna, koska enkelit ei anna.
 Kun mä kuolen varmuusesineeni saat.
 
 ...e-pillerini saat...
-Sillä taivaass’ ei oo vaaraa vaikka kuinka panet Saaraa.
+Sillä taivaass' ei oo vaaraa vaikka kuinka panet Saaraa.
 Kun mä kuolen e-pillerini saat.
 
 ...laskutikkuni sä saat...
@@ -109,7 +109,7 @@ Treenaan harpun soittamista - kiusa siinä rukkasista.
 Kun mä kuolen hiihtorukkaseni saat.
 
 ...banjoni sä saat...
-Jos sä ostat mulle arkun, ett’ saan taivaass’ uuden harpun.
+Jos sä ostat mulle arkun, ett' saan taivaass' uuden harpun.
 Kun mä kuolen vanhan banjoni sä saat.
 
 ...korttipakkani sä saat...
@@ -165,7 +165,7 @@ Es kann nie genug empfohlen werden noch einmal zu SKÅLen.
 Gute Kinder trinken immer bissel mehr.
 
 :,: Healthy babies always drink a little more. :,:
-It’s a vital instinct calling every time we find us SKÅLing.
+It's a vital instinct calling every time we find us SKÅLing.
 Healthy babies always drink a little more.
 
 :,: Sing it hai hai, juppi juppi hai, :,:

@@ -1,10 +1,6 @@
 Raittiuslaulu
 
-
 Pois ottakaa tää moska,
 se pahasta on, koska
 voi siitä juopua.
 
-{
-"historia": "Tuotu \"Teekkarilauluja\" -kirjasta."
-}

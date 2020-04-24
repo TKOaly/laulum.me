@@ -1,7 +1,3 @@
-#Laulum.me
+Elektroninen sitsilaulukirja
 
-Elektroninen sitsilaulukirja.
-
-http://laulum.me
-
-Lisää uusi laulu pull requestilla
+https://www.laulum.me

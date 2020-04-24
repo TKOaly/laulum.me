@@ -1,6 +1,5 @@
 Hei vahtimestari
 
-
 :,: Hei vahtimestari!
 Tule, täytä lasini.
 Vie tyhjät pullot pois! :,:
@@ -12,5 +11,5 @@ ja laskut maksetaan jos jaksetaan. :,:
 Tule täytä lasini.
 Vie kuolleet fuksit pois! :,:
 :,: Ja kun mä kerran kuolen,
-kyll’ firma pitää huolen,
-ett’ Vanhan Kellariin mut haudataan. :,:
+kyll' firma pitää huolen,
+ett' Vanhan Kellariin mut haudataan. :,:

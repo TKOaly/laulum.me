@@ -2,8 +2,13 @@ html {
   min-height: 100vh;
 }
 
+.App {
+  max-width: 900px;
+  margin: auto;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   min-height: 100vh;
 }
 
@@ -14,7 +19,7 @@ body {
 }
 
 .header h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding-top: 22px;
   font-weight: 100;
   text-transform: lowercase;
@@ -24,11 +29,13 @@ body {
 }
 
 .song-list {
-  padding-top: 20px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .centered {
-   text-align: center;
+  text-align: center;
 }
 
 .right {
@@ -37,27 +44,27 @@ body {
 
 .move-left {
   margin-left: -50px;
-  position:absolute;
+  position: absolute;
 }
 
 .centered > div {
-   float: none;
-   display: inline-block;
-   text-align: left;
+  float: none;
+  display: inline-block;
+  text-align: left;
 }
 
 .song-card {
   text-align: center;
   padding: 12px 10px;
-  margin-top: 10px;
+  margin: 10px 10px;
   border-radius: 3px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #f6f6f6;
   color: #999;
   transition: all 0.1s ease;
 }
 
-a:hover {
+a {
   text-decoration: none !important;
 }
 .song-card:hover {
@@ -85,25 +92,33 @@ a:hover {
   font-weight: 200;
   font-size: 28px;
   margin: 50px 0 30px;
-  }
+}
 
 input.form-control {
   padding: 15px 0;
+  margin: 0px 10px;
   border: 0;
   border-bottom: 2px solid #eee;
   border-radius: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  outline: none;
 }
 
-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
   color: #ccc !important;
 }
-input::-moz-placeholder { /* Firefox 19+ */
+input::-moz-placeholder {
+  /* Firefox 19+ */
   color: #ccc !important;
 }
-input:-ms-input-placeholder { /* IE 10+ */
+input:-ms-input-placeholder {
+  /* IE 10+ */
   color: #ccc !important;
 }
-input:-moz-placeholder { /* Firefox 18- */
+input:-moz-placeholder {
+  /* Firefox 18- */
   color: #ccc !important;
 }
 
@@ -111,10 +126,9 @@ input:-moz-placeholder { /* Firefox 18- */
   border-color: #d6cd05;
 }
 
-
 p {
   line-height: 1.9;
-  font-family: 'Times new Roman', serif;
+  font-family: "Times new Roman", serif;
   color: #666;
   font-size: 20px;
   display: inline-block;
@@ -129,6 +143,8 @@ p {
   display: inline-block;
   margin: 10px 0;
   padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 @media (max-width: 767px) {

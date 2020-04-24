@@ -5,7 +5,3 @@ Pienet sammakot
 ne lystikkäitä on :,:
 :,: Ei korvia, ei korvia,
 ei häntää laisinkaan. :,:
-
-{
-"historia": "Tuotu \"Teekkarilauluja\" -kirjasta."
-}
