@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
+
 import slugify from "./slugify";
 
 const SongDetail = (props) => {
@@ -14,6 +16,9 @@ const SongDetail = (props) => {
 
   return (
     <div className="song-details">
+      <Helmet>
+        <title>laulum.me | {song.name}</title>
+      </Helmet>
       <div className="centered">
         <div className="lyrics">
           <Link to={"/"}>

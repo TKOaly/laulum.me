@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
+
 import slugify from "./slugify";
 
 const SongList = (props) => {
@@ -18,6 +20,9 @@ const SongList = (props) => {
 
   return (
     <div>
+      <Helmet>
+        <title>laulum.me</title>
+      </Helmet>
       <div className="searchbar">
         <div className="input-group">
           <input
