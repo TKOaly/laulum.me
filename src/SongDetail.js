@@ -8,23 +8,29 @@ const SongDetail = (props) => {
   const slug = props.match.params.slug;
   const { songs } = props;
   const song = songs.find((s) => slugify(s.name) === slug);
-  let key = 0;
-  const lyrics = song.lyrics.split("\n").map((line) => {
-    key++;
-    return { line, key };
-  });
+  let title = "404 Song not found";
+  let lyrics = [];
+
+  if (song) {
+    title = song.name;
+    let key = 0;
+    lyrics = song.lyrics.split("\n").map((line) => {
+      key++;
+      return { line, key };
+    });
+  }
 
   return (
     <div className="song-details">
       <Helmet>
-        <title>laulum.me | {song.name}</title>
+        <title>laulum.me | {title}</title>
       </Helmet>
       <div className="centered">
         <div className="lyrics">
           <Link to={"/"}>
             <button className="dank">Back to all songs</button>
           </Link>
-          <h3>{song.name}</h3>
+          <h3>{title}</h3>
           <p>
             {lyrics.map(function (line) {
               return (
