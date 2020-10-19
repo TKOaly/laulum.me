@@ -40,7 +40,7 @@ function App() {
           <Route
             exact
             path="/songs/:slug"
-            render={(props) => <SongDetail songs={songs} {...props} />}
+            render={(props) => <SongDetail songs={songs} history={history} {...props} />}
           />
           <Route render={(props) => <SongList songs={songs} />} />
         </Switch>

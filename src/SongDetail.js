@@ -6,7 +6,7 @@ import slugify from "./slugify";
 
 const SongDetail = (props) => {
   const slug = props.match.params.slug;
-  const { songs } = props;
+  const { songs, history } = props;
   const song = songs.find((s) => slugify(s.name) === slug);
   let title = "404 Song not found";
   let lyrics = [];
@@ -27,9 +27,9 @@ const SongDetail = (props) => {
       </Helmet>
       <div className="centered">
         <div className="lyrics">
-          <Link to={"/"}>
-            <button className="dank">Back to all songs</button>
-          </Link>
+          <button className="dank" onClick={() => history.goBack()}>
+            Back to all songs
+          </button>
           <h3>{title}</h3>
           <p>
             {lyrics.map(function (line) {
