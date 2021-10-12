@@ -3,6 +3,12 @@ import { Helmet } from "react-helmet";
 
 import slugify from "./slugify";
 
+const tgShareLink = (url, song) => {
+  const stem = "https://t.me/share/url";
+  const text = song.name + "\n\n" + song.lyrics;
+  return stem + "?url=" + encodeURIComponent(url) + "&text=" + encodeURIComponent(text);
+}
+
 const SongDetail = (props) => {
   const slug = props.match.params.slug;
   const { songs, history } = props;
@@ -29,6 +35,9 @@ const SongDetail = (props) => {
           <button className="dank" onClick={() => history.goBack()}>
             Back to all songs
           </button>
+          <a className="tg-share-button" href={tgShareLink(document.location.href, song)} target="_blank" rel="noreferrer noopener">
+            Share on Telegram
+          </a>
           <h3>{title}</h3>
           <p>
             {lyrics.map(function (line) {
