@@ -2,9 +2,15 @@ html {
   min-height: 100vh;
 }
 
+body {
+  margin: 0;
+  height: 100%;
+}
+
 .App {
   max-width: 900px;
   margin: auto;
+  min-height: calc(100vh - 50px);
 }
 
 body {
@@ -92,7 +98,7 @@ a {
   letter-spacing: 0.1em;
   font-weight: 200;
   font-size: 28px;
-  margin: 50px 0 30px;
+  margin: 50px 0 10px;
 }
 
 input.form-control {
@@ -167,6 +173,13 @@ p {
   background: #4182f3;
 }
 
+.song-info {
+  font-family: "Times new Roman", serif;
+  color: #666;
+  font-size: 16px;
+  font-style: italic;
+}
+
 @media (max-width: 767px) {
   .container {
     padding: 0 30px !important;
@@ -175,4 +188,20 @@ p {
   .lyrics h3 {
     text-align: left;
   }
+}
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  color: #999;
+}
+
+.footer-content {
+  max-width: 880px;
+  margin: auto;
+  padding: 12px 10px;
+}
+
+.footer-content a {
+  color: #666;
+  text-decoration: underline;
 }
