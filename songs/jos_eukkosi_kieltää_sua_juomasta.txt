@@ -1,15 +1,15 @@
-Jos eukkosi kieltää sua juomasta
+Jos (e)ukkosi kieltää sua juomasta
 
-Jos eukkosi kieltää sua juomasta,
+Jos (e)ukkosi kieltää sua juomasta,
 niin juo, niin juo.
 Jos kieltää sua viinoja tuomasta, 
 niin tuo, niin tuo.
 Mutt' juomasta älä sinä milloinkaan lakkaa,
 vaan hanki sinä itselles' parempi akka,
 
+[KERTO:]
 Ja juo ja laula, ja juo ja laula,
 ja juo ja laula, ja juo ja laula ja...
-
 Trink, trink, Brüderlein, trink,
 lass doch die Sorgen zu Haus!
 Trink, trink, Brüderlein, trink,
@@ -28,8 +28,7 @@ ja juo (ja laulaa), ja juo (ja laulaa).
 Kun taistelun melskeessä pyssyt ne paukkaa,
 niin upseerit välillä pullosta naukkaa,
 
-Ja juo ja laulaa ...
-
+[KERTO]
 Kauf dir ein Auto und fahr gegen Baum,
 fann wird das Leben ein Traum,
 mein lieber Augustin!
@@ -43,8 +42,7 @@ ja juo (ja laulaa), ja juo (ja laulaa).
 Kun päivällä saksaa ja matikkaa jauhaa,
 niin illalla raitilla RÄYHÄÄ JA PAUHAA.
 
-Ja juo ja laulaa ...
-
+[KERTO]
 Heirat im Sommer, Scheide in März,
 dann ist das Leben ein Schertz,
 mein lieber Augustin!
@@ -58,8 +56,7 @@ ja juo, ja juo.
 Kun baarissa viimein on tarjoilu loppu,
 on päässäkin sammunut viimeinen proppu.
 
-Ja juo ja laula ...
-
+[KERTO]
 Meide die Weiber und meide das Bier,
 dann wird ein Sportsmann aus dir,
 mein lieber Augustin!
