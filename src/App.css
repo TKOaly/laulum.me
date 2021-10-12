@@ -148,6 +148,25 @@ p {
   font-size: 16px;
 }
 
+.tg-share-button {
+  border: 0;
+  /* color stolen from telegram's embed widget */
+  background: #54a9eb;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  margin: 10px 0 10px 10px;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  transition: all 0.1s ease;
+}
+
+.tg-share-button:hover {
+  /* original color, do not steal */
+  background: #4182f3;
+}
+
 @media (max-width: 767px) {
   .container {
     padding: 0 30px !important;
