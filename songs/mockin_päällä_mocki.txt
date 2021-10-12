@@ -1,4 +1,6 @@
 Mockin päällä mocki
+Lokin päällä lokki
+HeikkiHei
 
 Testit ilman rajoja
 Ilman sisennystä ja rivinvaihtoja
