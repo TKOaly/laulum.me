@@ -1,7 +1,7 @@
 let fs = require("fs");
 let dirname = "songs/";
 let outputFile = "./src/songs.json";
-var songs = [];
+let songs = [];
 
 fs.readdir(dirname, (err, filenames) => {
   if (!err) {
@@ -10,7 +10,8 @@ fs.readdir(dirname, (err, filenames) => {
         if (!err) {
           songs.push(parseSong(content, id));
         }
-        if (filename === filenames[filenames.length - 1]) writeSongs(outputFile, songs);
+        if (filename === filenames[filenames.length - 1])
+          writeSongs(outputFile, songs);
       });
     });
   }
@@ -23,35 +24,31 @@ function parseSong(content, id) {
     id: id + 1,
     name: newContent.shift(),
     melody: newContent.shift(),
-    meta: parseMeta(content),
-    lyrics: parseLyrics(content),
+    lyricsBy: newContent.shift(),
+    lyrics: parseLyrics(newContent),
   };
 }
 
-function parseMeta(content) {
-  var newContent = content.split("\n");
-  newContent.pop();
-  if (newContent[newContent.length - 1] !== "}") return {};
-  var meta = "";
-  while (newContent[newContent.length - 1] != "{") {
-    meta = newContent.pop() + meta;
-  }
-  meta = newContent.pop() + meta;
-  return JSON.parse(meta);
-}
-
 function parseLyrics(content) {
-  var newContent = removeExtraInfo(content);
+  let newContent = removeEmptyLinesFromBeginning(content);
   return newContent.reduce((lyrics, line) => {
     return lyrics + line + "\n";
   }, "");
 }
 
+function removeEmptyLinesFromBeginning(arr) {
+  while (arr[0] === "") {
+    arr.shift();
+  }
+  return arr;
+}
+
 function removeExtraInfo(content) {
-  var newContent = content.split("\n");
+  let newContent = content.split("\n");
   newContent.pop();
   newContent = newContent.splice(2, newContent.length - 1);
   if (newContent[newContent.length - 1] === "}") {
+    console.log("!!!!");
     while (newContent[newContent.length - 1] != "{") {
       newContent.pop();
     }
