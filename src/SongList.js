@@ -11,19 +11,18 @@ const SongList = (props) => {
 
   const [searchTerm, setSearchTerm] = useState("");
 
+  const searchIsEmpty = searchTerm.trim().length === 0
+
   const sortedSongs = useMemo(() => {
-    if (searchTerm.trim().length === 0) {
-      return songs
-    }
-    const fuzzSortedSongs = extract(searchTerm, songs, { scorer: partial_ratio, processor: choice => choice.name })
-    return fuzzSortedSongs.map(([song]) => song)
-  }, [songs, searchTerm])
+    const fuzzSortedSongs = extract(searchTerm, songs, { scorer: partial_ratio, processor: choice => choice.name, limit: searchIsEmpty ? undefined : 15 })
+    return fuzzSortedSongs
+  }, [songs, searchTerm, searchIsEmpty])
 
   const handleSubmit = () => {
     if (sortedSongs.length === 0) {
       return
     }
-    history.push("songs/" + slugify(sortedSongs[0].name))
+    history.push("songs/" + slugify(sortedSongs[0][0].name))
   }
 
   return (
@@ -36,7 +35,7 @@ const SongList = (props) => {
           <form onSubmit={handleSubmit}>
             <input
               className="form-control"
-              placeholder="Search songs..."
+              placeholder="Type song name and press enter/submit"
               value={searchTerm}
               onChange={(event) => setSearchTerm(event.target.value)}
             />
@@ -44,9 +43,9 @@ const SongList = (props) => {
         </div>
       </div>
       <div className="song-list">
-        {sortedSongs.map((s) => (
+        {sortedSongs.map(([s, score]) => (
           <Link to={"songs/" + slugify(s.name)} key={s.id}>
-            <div className="song-card">{s.name}</div>
+            <div className="song-card" style={!searchIsEmpty ? {opacity: score / 100 } : {}}>{s.name}</div>
           </Link>
         ))}
       </div>
