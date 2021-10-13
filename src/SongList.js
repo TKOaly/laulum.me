@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-import { extract } from "fuzzball";
+import { extract, partial_ratio } from "fuzzball";
 import { Link, useHistory } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
@@ -15,7 +15,7 @@ const SongList = (props) => {
     if (searchTerm.trim().length === 0) {
       return songs
     }
-    const fuzzSortedSongs = extract(searchTerm, songs, { processor: choice => choice.name })
+    const fuzzSortedSongs = extract(searchTerm, songs, { scorer: partial_ratio, processor: choice => choice.name })
     return fuzzSortedSongs.map(([song]) => song)
   }, [songs, searchTerm])
 
