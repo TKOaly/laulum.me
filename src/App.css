@@ -91,6 +91,10 @@ a {
   width: 100%;
 }
 
+.song-content {
+  padding: 0 0.5em;
+}
+
 .lyrics h3 {
   text-align: left;
   line-height: 1.5;
