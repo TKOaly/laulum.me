@@ -62,23 +62,25 @@ const SongDetail = (props) => {
           >
             Share on Telegram
           </a>
-          <h3>{title}</h3>
-          <div className="song-info">
-            {song.melody ? `melody: ${song.melody}` : null}
-            {song.melody ? <br /> : null}
+          <div className="song-content">
+            <h3>{title}</h3>
+            <div className="song-info">
+              {song.melody ? `melody: ${song.melody}` : null}
+              {song.melody ? <br /> : null}
 
-            {song.lyricsBy ? `lyrics by: ${song.lyricsBy}` : null}
+              {song.lyricsBy ? `lyrics by: ${song.lyricsBy}` : null}
+            </div>
+            <p>
+              {lyrics.map(function (line) {
+                return (
+                  <span key={line.key}>
+                    {line.line}
+                    <br />
+                  </span>
+                );
+              })}
+            </p>
           </div>
-          <p>
-            {lyrics.map(function (line) {
-              return (
-                <span key={line.key}>
-                  {line.line}
-                  <br />
-                </span>
-              );
-            })}
-          </p>
         </div>
       </div>
     </div>
