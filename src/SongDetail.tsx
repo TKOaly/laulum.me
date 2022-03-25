@@ -1,9 +1,11 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { useHistory } from "react-router-dom";
 
 import slugify from "./slugify.tsx";
+import { Song } from "./types";
 
-const tgShareLink = (url, song) => {
+const tgShareLink = (url: string, song: Song) => {
   // I'm not sure whether a limit exists on Telegram's side or not. Adjust as necessary.
   // Note: Some web servers refuse to deal with header lines longer than 4096 bytes if my memory serves me right.
   const CHARLIM = 9001;
@@ -28,9 +30,15 @@ const tgShareLink = (url, song) => {
   return urlify(head);
 };
 
-const SongDetail = (props) => {
+interface SongDetailProps {
+  songs: Song[]
+  match: any
+}
+
+const SongDetail = (props: SongDetailProps) => {
+  const history = useHistory()
   const slug = props.match.params.slug;
-  const { songs, history } = props;
+  const { songs } = props;
   const song = songs.find((s) => slugify(s.name) === slug);
   let title = "404 Song not found";
   let lyrics = [];

@@ -3,10 +3,13 @@ import { Router, Route, Switch } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import ReactGA from "react-ga";
 
-import songs from "./songs.json";
+import songsJson from "./songs.json";
 import "./App.css";
 import SongList from "./SongList.tsx";
 import SongDetail from "./SongDetail.tsx";
+import { Song } from "./types";
+
+const songs = songsJson as Song[]
 
 const history = createBrowserHistory();
 
@@ -53,7 +56,7 @@ function App() {
             exact
             path="/songs/:slug"
             render={(props) => (
-              <SongDetail songs={songs} history={history} {...props} />
+              <SongDetail songs={songs} {...props} />
             )}
           />
           <Route render={(props) => <SongList songs={songs} />} />
