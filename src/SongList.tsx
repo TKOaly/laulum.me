@@ -3,7 +3,7 @@ import { extract, partial_ratio } from "fuzzball";
 import { Link, useHistory } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
-import slugify from "./slugify";
+import slugify from "./slugify.tsx";
 
 const SongList = (props) => {
   const { songs } = props;
