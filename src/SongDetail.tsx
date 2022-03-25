@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-import slugify from "./slugify";
+import slugify from "./slugify.tsx";
 
 const tgShareLink = (url, song) => {
   // I'm not sure whether a limit exists on Telegram's side or not. Adjust as necessary.
