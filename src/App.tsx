@@ -3,10 +3,10 @@ import { Router, Route, Switch } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import ReactGA from "react-ga";
 
-import songs from "./songs";
+import songs from "./songs.json";
 import "./App.css";
-import SongList from "./SongList";
-import SongDetail from "./SongDetail";
+import SongList from "./SongList.tsx";
+import SongDetail from "./SongDetail.tsx";
 
 const history = createBrowserHistory();
 
