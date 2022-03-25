@@ -4,8 +4,13 @@ import { Link, useHistory } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 import slugify from "./slugify.tsx";
+import { Song } from "./types";
 
-const SongList = (props) => {
+interface SongListProps {
+  songs: Song[]
+}
+
+const SongList = (props: SongListProps) => {
   const { songs } = props;
   const history = useHistory()
 
@@ -14,7 +19,7 @@ const SongList = (props) => {
   const searchIsEmpty = searchTerm.trim().length === 0
 
   const sortedSongs = useMemo(() => {
-    const fuzzSortedSongs = extract(searchTerm, songs, { scorer: partial_ratio, processor: choice => choice.name, limit: searchIsEmpty ? undefined : 15 })
+    const fuzzSortedSongs = extract(searchTerm, songs, { scorer: partial_ratio, processor: choice => choice.name, limit: searchIsEmpty ? undefined : 15 }) as [Song, number, number][]
     return fuzzSortedSongs
   }, [songs, searchTerm, searchIsEmpty])
 
