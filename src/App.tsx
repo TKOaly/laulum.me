@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, Route, Switch } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import ReactGA from "react-ga";
 
@@ -50,18 +50,20 @@ if (path !== "/") {
 function App() {
   return (
     <div className="App">
-      <Router history={history}>
-        <Switch>
+      <BrowserRouter>
+        <Routes>
           <Route
-            exact
-            path="/songs/:slug"
-            render={(props) => (
-              <SongDetail songs={songs} {...props} />
-            )}
+            path="songs/:slug"
+            element={
+              <SongDetail songs={songs} />
+            }
           />
-          <Route render={(props) => <SongList songs={songs} />} />
-        </Switch>
-      </Router>
+          <Route
+            path="/"
+            element={<SongList songs={songs} />}
+          />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
