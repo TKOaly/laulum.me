@@ -9,7 +9,7 @@ import SongList from "./SongList.tsx";
 import SongDetail from "./SongDetail.tsx";
 import { Song } from "./types";
 
-const songs = songsJson as Song[]
+const songs = songsJson as Song[];
 
 const history = createBrowserHistory();
 
@@ -35,22 +35,13 @@ history.listen((location) => {
   if (GA_CODE) trackGa(location);
 });
 
-
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route
-            path="songs/:slug"
-            element={
-              <SongDetail songs={songs} />
-            }
-          />
-          <Route
-            path="/"
-            element={<SongList songs={songs} />}
-          />
+          <Route path="songs/:slug" element={<SongDetail songs={songs} />} />
+          <Route path="/" element={<SongList songs={songs} />} />
         </Routes>
       </BrowserRouter>
     </div>
