@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { extract, partial_ratio } from "fuzzball";
-import { Link, useHistory } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 import slugify from "./slugify.tsx";
@@ -12,7 +12,7 @@ interface SongListProps {
 
 const SongList = (props: SongListProps) => {
   const { songs } = props;
-  const history = useHistory()
+  const navigate = useNavigate()
 
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -27,7 +27,7 @@ const SongList = (props: SongListProps) => {
     if (sortedSongs.length === 0) {
       return
     }
-    history.push("songs/" + slugify(sortedSongs[0][0].name))
+    navigate("songs/" + slugify(sortedSongs[0][0].name))
   }
 
   return (
