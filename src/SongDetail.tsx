@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { Helmet } from "react-helmet";
 import { useNavigate, useParams } from "react-router-dom";
 
@@ -31,26 +31,22 @@ const tgShareLink = (url: string, song: Song) => {
 };
 
 interface SongDetailProps {
-  songs: Song[]
+  songs: Song[];
 }
 
 const SongDetail = (props: SongDetailProps) => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const params = useParams();
   const { slug } = params;
   const { songs } = props;
-  const song = songs.find((s) => slugify(s.name) === slug);
-  let title = "404 Song not found";
-  let lyrics = [];
-
-  if (song) {
-    title = song.name;
-    let key = 0;
-    lyrics = song.lyrics.split("\n").map((line) => {
-      key++;
-      return { line, key };
-    });
-  }
+  const song = useMemo(
+    () => songs.find((s) => slugify(s.name) === slug),
+    [songs, slug]
+  );
+  const title = song ? song.name : "404 Song not found";
+  const lyrics = song
+    ? song.lyrics.split("\n").map((line, index) => ({ line, key: index }))
+    : [];
 
   return (
     <div className="song-details">
@@ -59,7 +55,7 @@ const SongDetail = (props: SongDetailProps) => {
       </Helmet>
       <div className="centered">
         <div className="lyrics">
-          <button className="dank" onClick={() => navigate('/')}>
+          <button className="dank" onClick={() => navigate("/")}>
             Back to all songs
           </button>
           <a
