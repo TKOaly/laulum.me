@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { useHistory } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 import slugify from "./slugify.tsx";
 import { Song } from "./types";
@@ -32,12 +32,12 @@ const tgShareLink = (url: string, song: Song) => {
 
 interface SongDetailProps {
   songs: Song[]
-  match: any
 }
 
 const SongDetail = (props: SongDetailProps) => {
-  const history = useHistory()
-  const slug = props.match.params.slug;
+  const navigate = useNavigate()
+  const params = useParams();
+  const { slug } = params;
   const { songs } = props;
   const song = songs.find((s) => slugify(s.name) === slug);
   let title = "404 Song not found";
@@ -59,7 +59,7 @@ const SongDetail = (props: SongDetailProps) => {
       </Helmet>
       <div className="centered">
         <div className="lyrics">
-          <button className="dank" onClick={() => history.goBack()}>
+          <button className="dank" onClick={() => navigate(-1)}>
             Back to all songs
           </button>
           <a
