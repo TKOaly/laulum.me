@@ -7,6 +7,7 @@ import slugify from "./slugify.tsx";
 import { Song } from "./types";
 
 interface SongListProps {
+  /** Songs to be listed in SongList */
   songs: Song[];
 }
 
