@@ -7,28 +7,32 @@ import slugify from "./slugify.tsx";
 import { Song } from "./types";
 
 interface SongListProps {
-  songs: Song[]
+  songs: Song[];
 }
 
 const SongList = (props: SongListProps) => {
   const { songs } = props;
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const [searchTerm, setSearchTerm] = useState("");
 
-  const searchIsEmpty = searchTerm.trim().length === 0
+  const searchIsEmpty = searchTerm.trim().length === 0;
 
   const sortedSongs = useMemo(() => {
-    const fuzzSortedSongs = extract(searchTerm, songs, { scorer: partial_ratio, processor: choice => choice.name, limit: searchIsEmpty ? undefined : 15 }) as [Song, number, number][]
-    return fuzzSortedSongs
-  }, [songs, searchTerm, searchIsEmpty])
+    const fuzzSortedSongs = extract(searchTerm, songs, {
+      scorer: partial_ratio,
+      processor: (choice) => choice.name,
+      limit: searchIsEmpty ? undefined : 15,
+    }) as [Song, number, number][];
+    return fuzzSortedSongs;
+  }, [songs, searchTerm, searchIsEmpty]);
 
   const handleSubmit = () => {
     if (sortedSongs.length === 0) {
-      return
+      return;
     }
-    navigate("songs/" + slugify(sortedSongs[0][0].name))
-  }
+    navigate("songs/" + slugify(sortedSongs[0][0].name));
+  };
 
   return (
     <div>
@@ -50,7 +54,12 @@ const SongList = (props: SongListProps) => {
       <div className="song-list">
         {sortedSongs.map(([s, score]) => (
           <Link to={"songs/" + slugify(s.name)} key={s.id}>
-            <div className="song-card" style={!searchIsEmpty ? {opacity: score / 100 } : {}}>{s.name}</div>
+            <div
+              className="song-card"
+              style={!searchIsEmpty ? { opacity: score / 100 } : {}}
+            >
+              {s.name}
+            </div>
           </Link>
         ))}
       </div>
