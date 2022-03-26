@@ -59,7 +59,7 @@ const SongDetail = (props: SongDetailProps) => {
       </Helmet>
       <div className="centered">
         <div className="lyrics">
-          <button className="dank" onClick={() => navigate(-1)}>
+          <button className="dank" onClick={() => navigate('/')}>
             Back to all songs
           </button>
           <a

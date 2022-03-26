@@ -35,17 +35,6 @@ history.listen((location) => {
   if (GA_CODE) trackGa(location);
 });
 
-const path = window.location.pathname;
-
-if (path !== "/") {
-  history.push({
-    pathname: "/",
-  });
-
-  history.push({
-    pathname: path,
-  });
-}
 
 function App() {
   return (
