@@ -31,6 +31,7 @@ const tgShareLink = (url: string, song: Song) => {
 };
 
 interface SongDetailProps {
+  /** List of songs where from the selected song is retrieved */
   songs: Song[];
 }
 
