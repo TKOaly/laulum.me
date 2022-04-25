@@ -1,3 +1,7 @@
+:root {
+  color-scheme: light dark;
+}
+
 html {
   min-height: 100vh;
 }
@@ -79,6 +83,18 @@ a {
   text-decoration: none;
 }
 
+@media (prefers-color-scheme: dark) {
+  .song-card {
+    background-color: #444;
+    color: #f6f6f6;
+  }
+
+  .song-card:hover {
+    background: #333;
+  }
+}
+
+
 .searchbar {
   padding: 10px;
   margin: auto;
@@ -91,10 +107,6 @@ a {
   width: 100%;
 }
 
-.song-content {
-  padding: 0 0.5em;
-}
-
 .lyrics h3 {
   text-align: left;
   line-height: 1.5;
@@ -104,6 +116,28 @@ a {
   font-size: 28px;
   margin: 50px 0 10px;
 }
+
+@media (prefers-color-scheme: dark) {
+  .lyrics {
+    /* Use browser defaults for dark color scheme */
+    background-color: inherit;
+  }
+
+  .lyrics p, .lyrics h3 {
+    color: #eee;
+  }
+  
+  .lyrics h3 {
+    color: #eee;
+    /* font-weight 200 causes very thin edges with antialiasing */
+    font-weight: 300;
+  }
+}
+
+.song-content {
+  padding: 0 0.5em;
+}
+
 
 input.form-control {
   padding: 15px 0;
@@ -156,6 +190,23 @@ p {
   padding: 10px 20px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  cursor: pointer;
+}
+
+.dank:hover {
+  background-color: #eee;
+  transition: all 0.1s ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dank {
+    background-color: #999;
+    color: #f3f3f3;
+  }
+
+  .dank:hover {
+    background-color: #888;
+  }
 }
 
 .tg-share-button {
@@ -172,6 +223,7 @@ p {
   transition: all 0.1s ease;
 }
 
+
 .tg-share-button:hover {
   /* original color, do not steal */
   background: #4182f3;
@@ -182,6 +234,12 @@ p {
   color: #666;
   font-size: 16px;
   font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+  .song-info {
+    color: #ddd;
+  }
 }
 
 @media (max-width: 767px) {
