@@ -7,7 +7,6 @@ import songs from "./songs";
 import "./App.css";
 import SongList from "./SongList";
 import SongDetail from "./SongDetail";
-import A2HSButton from "./A2HSButton";
 
 const history = createBrowserHistory();
 
@@ -48,7 +47,6 @@ if (path !== "/") {
 function App() {
   return (
     <div className="App">
-      <A2HSButton />
       <Router history={history}>
         <Switch>
           <Route

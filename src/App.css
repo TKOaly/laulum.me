@@ -209,9 +209,3 @@ p {
   color: #666;
   text-decoration: underline;
 }
-
-.add-button {
-  position: absolute;
-  top: 1px;
-  left: 1px;
-}
