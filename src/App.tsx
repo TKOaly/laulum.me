@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter, Navigate } from "react-router-dom";
 import { createBrowserHistory, Update } from "history";
 import ReactGA from "react-ga";
 
@@ -47,6 +47,7 @@ function App() {
         <Routes>
           <Route path="songs/:slug" element={<SongDetail songs={songs} />} />
           <Route path="/" element={<SongList songs={songs} />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </BrowserRouter>
     </div>
