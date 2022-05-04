@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import { Helmet } from "react-helmet";
 import { useNavigate, useParams } from "react-router-dom";
 
-import slugify from "./slugify.tsx";
+import slugify from "./slugify";
 import { Song } from "./types";
 
 const tgShareLink = (url: string, song: Song) => {
@@ -10,7 +10,7 @@ const tgShareLink = (url: string, song: Song) => {
   // Note: Some web servers refuse to deal with header lines longer than 4096 bytes if my memory serves me right.
   const CHARLIM = 9001;
   const stem = "https://t.me/share/url";
-  const urlify = (text) => {
+  const urlify = (text: string) => {
     return (
       stem +
       "?url=" +
@@ -44,7 +44,31 @@ const SongDetail = (props: SongDetailProps) => {
     () => songs.find((s) => slugify(s.name) === slug),
     [songs, slug]
   );
-  const title = song ? song.name : "404 Song not found";
+
+  if (song === undefined) {
+    return (
+      <div className="song-details">
+        <Helmet>
+          <title>laulum.me | 404</title>
+        </Helmet>
+        <div className="centered">
+          <div className="lyrics">
+            <button className="dank" onClick={() => navigate("/")}>
+              Back to all songs
+            </button>
+            <div className="song-content">
+              <h3>404 - Song not found</h3>
+              <div className="song-info">
+                <span>That song was not found.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  const title = song.name;
   const lyrics = song
     ? song.lyrics.split("\n").map((line, index) => ({ line, key: index }))
     : [];

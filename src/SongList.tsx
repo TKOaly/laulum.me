@@ -3,7 +3,7 @@ import { extract, partial_ratio } from "fuzzball";
 import { Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
-import slugify from "./slugify.tsx";
+import slugify from "./slugify";
 import { Song } from "./types";
 
 interface SongListProps {
