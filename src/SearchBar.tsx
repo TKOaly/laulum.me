@@ -1,6 +1,8 @@
 import React from "react";
 
-const SearchBar = (props) => {
+interface SearchBarProps {}
+
+const SearchBar = (props: SearchBarProps) => {
   return <div className="song-details"></div>;
 };
 

@@ -55,5 +55,9 @@
     "src/**/*.{js,jsx,ts,tsx,css,scss,md}": [
       "prettier --write"
     ]
+  },
+  "devDependencies": {
+    "@types/react-ga": "^2.3.0",
+    "@types/react-helmet": "^6.1.5"
   }
 }

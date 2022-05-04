@@ -1,12 +1,12 @@
 import React from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import { createBrowserHistory } from "history";
+import { createBrowserHistory, Update } from "history";
 import ReactGA from "react-ga";
 
 import songsJson from "./songs.json";
 import "./App.css";
-import SongList from "./SongList.tsx";
-import SongDetail from "./SongDetail.tsx";
+import SongList from "./SongList";
+import SongDetail from "./SongDetail";
 import { Song } from "./types";
 
 const songs = songsJson as Song[];
@@ -19,7 +19,12 @@ if (GA_CODE) {
   ReactGA.initialize(GA_CODE, {});
 }
 
-const trackGa = (location) => {
+const isUpdate = (presumed: any): presumed is Update =>
+  presumed.location !== undefined;
+
+const trackGa = (event: Location | Update) => {
+  // Update is an object { action: Action, location: Location }
+  const location = isUpdate(event) ? event.location : event;
   const completePath = location.pathname + location.search;
 
   if (GA_CODE) {
