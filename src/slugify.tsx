@@ -1,4 +1,4 @@
-const slugify = (str) => {
+const slugify = (str: string) => {
   str = str.replace(/^\s+|\s+$/g, ""); // trim
   str = str.toLowerCase();
 

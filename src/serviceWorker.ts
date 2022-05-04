@@ -20,8 +20,19 @@ const isLocalhost = Boolean(
     )
 );
 
-export function register(config) {
+// https://github.com/cra-template/pwa/blob/cd104aebd3ecb81f9fdfbd28da9f4abb1ad7d043/packages/cra-template-pwa-typescript/template/src/serviceWorkerRegistration.ts#L21
+interface Config {
+  onSuccess?: (registration: ServiceWorkerRegistration) => void;
+  onUpdate?: (registration: ServiceWorkerRegistration) => void;
+}
+
+export function register(config?: Config) {
   if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
+    if (process.env.PUBLIC_URL === undefined) {
+      console.error("PUBLIC_URL is undefined.");
+      return;
+    }
+
     // The URL constructor is available in all browsers that support SW.
     const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);
     if (publicUrl.origin !== window.location.origin) {
@@ -54,7 +65,7 @@ export function register(config) {
   }
 }
 
-function registerValidSW(swUrl, config) {
+function registerValidSW(swUrl: string, config?: Config) {
   navigator.serviceWorker
     .register(swUrl)
     .then((registration) => {
@@ -98,7 +109,7 @@ function registerValidSW(swUrl, config) {
     });
 }
 
-function checkValidServiceWorker(swUrl, config) {
+function checkValidServiceWorker(swUrl: string, config?: Config) {
   // Check if the service worker can be found. If it can't reload the page.
   fetch(swUrl, {
     headers: { "Service-Worker": "script" },
