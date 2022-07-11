@@ -29,3 +29,6 @@ A good example would be gurulassa.txt
 | ...     | ...                          |
 
 Melody and credits can be left empty, but don't start the lyrics itself before line 4. So if you don't want to add melody or credits, leave lines 2 and 3 empty in the file. When you create a pull request, Netlify should automatically create a preview page, where you can make sure your song is correctly formatted.
+
+## Favicon
+The favicon was created by Lassi Koistinen.
