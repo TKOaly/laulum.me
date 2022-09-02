@@ -22,6 +22,12 @@ body {
   min-height: 100vh;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #111;
+  }
+}
+
 .header {
   background-color: #eee;
   color: #c1c1c1;
@@ -150,6 +156,14 @@ input.form-control {
   width: 100%;
 }
 
+@media (prefers-color-scheme: dark) {
+  input.form-control {
+    background-color: #111;
+    color: #eee;
+    border-bottom: 2px solid #666;
+  }
+}
+
 input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #ccc !important;
@@ -266,4 +280,10 @@ p {
 .footer-content a {
   color: #666;
   text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer-content a {
+    color: #eee;
+  }
 }
