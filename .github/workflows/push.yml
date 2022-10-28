@@ -1,0 +1,79 @@
+name: Push
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  changes:
+    runs-on: ubuntu-latest
+
+    outputs:
+      songs: ${{ steps.filter.outputs.songs }}
+
+    steps:
+    - uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          songs:
+            - 'songs/**'
+
+  parse_songs:
+    runs-on: ubuntu-latest
+
+    needs: changes
+    if: ${{ needs.changes.outputs.songs == 'true' }}
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Parse songs
+        run: node parse
+
+      - name: Upload songs artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: parsed-songs
+          path: src/songs.json
+
+      - name: Commit updated songs.json
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'src/songs.json'
+          default_author: github_actor
+          message: 'update songs.json (automatic parse)'
+          pathspec_error_handling: exitImmediately
+
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Update parsed songs from artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: parsed-songs
+
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - run: npm ci
+      - run: npm run build --if-present
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+        
