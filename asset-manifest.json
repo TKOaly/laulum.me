@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/laulum.me/static/css/main.489181e6.css",
-    "main.js": "/laulum.me/static/js/main.2ee41e50.js",
+    "main.js": "/laulum.me/static/js/main.0db72ee0.js",
     "service-worker.js": "/laulum.me/service-worker.js",
     "static/media/roboto-latin-900italic.woff": "/laulum.me/static/media/roboto-latin-900italic.c20d916c1a1b094c1cec.woff",
     "static/media/roboto-latin-300italic.woff": "/laulum.me/static/media/roboto-latin-300italic.bd5b7a13f2c52b531a2a.woff",
@@ -29,10 +29,10 @@
     "static/media/roboto-latin-900.woff2": "/laulum.me/static/media/roboto-latin-900.870c8c1486f76054301a.woff2",
     "index.html": "/laulum.me/index.html",
     "main.489181e6.css.map": "/laulum.me/static/css/main.489181e6.css.map",
-    "main.2ee41e50.js.map": "/laulum.me/static/js/main.2ee41e50.js.map"
+    "main.0db72ee0.js.map": "/laulum.me/static/js/main.0db72ee0.js.map"
   },
   "entrypoints": [
     "static/css/main.489181e6.css",
-    "static/js/main.2ee41e50.js"
+    "static/js/main.0db72ee0.js"
   ]
 }
