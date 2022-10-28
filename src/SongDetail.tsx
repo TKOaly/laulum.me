@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import { Helmet } from "react-helmet";
 import { useNavigate, useParams } from "react-router-dom";
 
@@ -36,6 +36,11 @@ interface SongDetailProps {
 }
 
 const SongDetail = (props: SongDetailProps) => {
+  useEffect(() => {
+    // Scroll to top on mount so that we're not in the middle of the song
+    window.scrollTo({ top: 0 });
+  }, []);
+
   const navigate = useNavigate();
   const params = useParams();
   const { slug } = params;
