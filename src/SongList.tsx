@@ -67,8 +67,8 @@ const SongList = (props: SongListProps) => {
       <div className="footer">
         <div className="footer-content">
           Want to add a song? Make a pull request!{" "}
-          <a href="https://github.com/muhve/laulum.me/">
-            github.com/muhve/laulum.me
+          <a href="https://github.com/TKOaly/laulum.me/">
+            github.com/TKOaly/laulum.me
           </a>
         </div>
       </div>
