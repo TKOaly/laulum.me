@@ -1,5 +1,4 @@
 import { Route, Routes, BrowserRouter, Navigate } from "react-router-dom";
-import { createBrowserHistory } from "@remix-run/router";
 
 import songsJson from "./songs.json";
 import "./App.css";
@@ -8,12 +7,6 @@ import SongDetail from "./SongDetail";
 import { Song } from "./types";
 
 const songs = songsJson as Song[];
-
-const history = createBrowserHistory();
-
-history.listen(() => {
-  window.scrollTo(0, 0);
-});
 
 function App() {
   return (
