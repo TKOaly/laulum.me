@@ -20,8 +20,8 @@ const tgShareLink = (url: string, song: Song) => {
     );
   };
   const head = song.melody
-    ? song.name + "\n(melod. " + song.melody + ")"
-    : song.name;
+    ? song.title + "\n(melod. " + song.melody + ")"
+    : song.title;
   const text = head + "\n\n" + song.lyrics;
   const full = urlify(text);
   if (full.length <= CHARLIM) {
@@ -41,7 +41,7 @@ const SongDetail = (props: SongDetailProps) => {
   const { slug } = params;
   const { songs } = props;
   const song = useMemo(
-    () => songs.find((s) => slugify(s.name) === slug),
+    () => songs.find((song) => slugify(song.title) === slug),
     [songs, slug]
   );
 
@@ -68,10 +68,7 @@ const SongDetail = (props: SongDetailProps) => {
     );
   }
 
-  const title = song.name;
-  const lyrics = song
-    ? song.lyrics.split("\n").map((line, index) => ({ line, key: index }))
-    : [];
+  const { title, melody, lyrics, writers } = song;
 
   return (
     <div className="song-details">
@@ -94,20 +91,20 @@ const SongDetail = (props: SongDetailProps) => {
           <div className="song-content">
             <h3>{title}</h3>
             <div className="song-info">
-              {song.melody ? `melody: ${song.melody}` : null}
-              {song.melody ? <br /> : null}
-
-              {song.lyricsBy ? `lyrics by: ${song.lyricsBy}` : null}
+              {melody && (
+                <>
+                  melody: {melody} <br />
+                </>
+              )}
+              {writers && <>lyrics by: {writers}</>}
             </div>
             <p>
-              {lyrics.map(function (line) {
-                return (
-                  <span key={line.key}>
-                    {line.line}
-                    <br />
-                  </span>
-                );
-              })}
+              {lyrics.split("\n").map((line, i) => (
+                <span key={`line-${i}`}>
+                  {line}
+                  <br />
+                </span>
+              ))}
             </p>
           </div>
         </div>
