@@ -2,6 +2,7 @@
   "name": "laulum.me-new",
   "version": "0.1.0",
   "homepage": "https://tkoaly.github.io/laulum.me/",
+  "type": "module",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,6 +12,7 @@
     "@types/node": "^18.7.19",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "front-matter": "^4.0.2",
     "fuzzball": "^2.1.2",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",

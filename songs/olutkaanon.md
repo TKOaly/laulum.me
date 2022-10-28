@@ -1,0 +1,8 @@
+---
+title: Olutkaanon
+melody: Jaakko kulta
+---
+Lapin Kulta, Lapin Kulta
+Karjala, Karjala
+Sininen ja Karhu, Sininen ja Karhu
+Koff Koff Koff, Koff Koff Koff.

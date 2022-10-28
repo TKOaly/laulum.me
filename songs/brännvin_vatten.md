@@ -1,0 +1,12 @@
+---
+title: Brännvin, Vatten
+---
+Brännvin, vatten
+Smakar skit som katten.
+Brännvin, helt rått
+:,: smakar jävligt gott :,:
+
+Viinaa, vettä,
+mitä perkelettä.
+Viinaa raakaa
+:,: napaan kaatakaa :,:
