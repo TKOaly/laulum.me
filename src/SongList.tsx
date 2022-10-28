@@ -53,6 +53,12 @@ const SongList = (props: SongListProps) => {
         </div>
       </div>
       <div className="song-list">
+        {sortedSongs.length === 0 &&
+          [...new Array(50).fill(1)].map((_, i) => (
+            <div className="song-card" key={i}>
+              &nbsp;
+            </div>
+          ))}
         {sortedSongs.map(([song, score]) => (
           <Link to={"songs/" + slugify(song.title)} key={song.id}>
             <div

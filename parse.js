@@ -3,7 +3,7 @@ import { join } from "path";
 import fm, { test } from "front-matter";
 
 const INPUT_DIRECTORY = "./songs/";
-const OUTPUT_FILE = "./src/songs.json";
+const OUTPUT_FILE = "./public/songs.json";
 
 async function parseSongFromFile(filename) {
   const data = await promises.readFile(

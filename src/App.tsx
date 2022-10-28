@@ -1,14 +1,20 @@
 import { Route, Routes, BrowserRouter, Navigate } from "react-router-dom";
 
-import songsJson from "./songs.json";
 import "./App.css";
 import SongList from "./SongList";
 import SongDetail from "./SongDetail";
-import { Song } from "./types";
-
-const songs = songsJson as Song[];
+import type { Song } from "./types";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [songs, setSongs] = useState<Song[]>([]);
+
+  useEffect(() => {
+    fetch(process.env.PUBLIC_URL + "/songs.json")
+      .then((res) => res.json())
+      .then(setSongs);
+  }, [setSongs]);
+
   return (
     <div className="App">
       <BrowserRouter basename={process.env.PUBLIC_URL}>
