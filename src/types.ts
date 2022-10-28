@@ -4,9 +4,9 @@ export interface Song {
   /** Name of the song */
   name: string;
   /** Melody of the song */
-  melody: string;
+  melody?: string;
   /** Writer of the song */
-  lyricsBy: string;
+  lyricsBy?: string;
   /** Lyrics of the song */
   lyrics: string;
 }
