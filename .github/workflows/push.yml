@@ -59,6 +59,7 @@ jobs:
     runs-on: ubuntu-latest
 
     needs: parse_songs
+    if: ${{ always() }}
     
     steps:
       - uses: actions/checkout@v3
