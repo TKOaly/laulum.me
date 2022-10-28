@@ -1,0 +1,21 @@
+---
+title: Nyt ryypätään
+melody: Oi kuusipuu
+---
+Nyt ryypätään, nyt ryypätään,
+hyt ryypätään, ryypätään!
+Nyt ryypätään, nyt ryypätään,
+hyt ryypätään, nyt ryypätään!
+Nyt ryypätään, nyt ryypätään,
+hyt ryypätään, ryypätään!
+
+//ryyppy//
+
+Nyt ryypättiin, nyt ryypättiin,
+nyt ryypättiin, ryypättiin.
+Nyt ryypättiin, nyt ryypättiin,
+nyt ryypättiin, nyt ryypättiin.
+Nyt ryypättiin, nyt ryypättiin,
+nyt ryypättiin, nyt ryypättiin.
+Nyt ryypättiin, nyt ryypättiin,
+nyt ryypättiin, ryypättiin.
