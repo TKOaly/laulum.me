@@ -11,6 +11,12 @@
 import { clientsClaim } from "workbox-core";
 import { precacheAndRoute, createHandlerBoundToURL } from "workbox-precaching";
 import { registerRoute } from "workbox-routing";
+import { CacheFirst } from "workbox-strategies";
+
+interface RouteRegistration {
+  request: Request;
+  url: URL;
+}
 
 declare const self: ServiceWorkerGlobalScope;
 
@@ -28,7 +34,7 @@ precacheAndRoute([...self.__WB_MANIFEST, "songs.json"]);
 const fileExtensionRegexp = new RegExp("/[^/?]+\\.[^/]+$");
 registerRoute(
   // Return false to exempt requests from being fulfilled by index.html.
-  ({ request, url }: { request: Request; url: URL }) => {
+  ({ request, url }: RouteRegistration) => {
     // If this isn't a navigation, skip.
     if (request.mode !== "navigate") {
       return false;
@@ -49,6 +55,14 @@ registerRoute(
     return true;
   },
   createHandlerBoundToURL(process.env.PUBLIC_URL + "/index.html")
+);
+
+// Use cache-first for pngs and svgs
+registerRoute(
+  ({ url }: RouteRegistration) =>
+    url.origin === self.location.origin &&
+    (url.pathname.endsWith(".png") || url.pathname.endsWith("svg")),
+  new CacheFirst()
 );
 
 // This allows the web app to trigger skipWaiting via
