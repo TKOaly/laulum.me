@@ -19,7 +19,7 @@ history.listen((location) => {
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="songs/:slug" element={<SongDetail songs={songs} />} />
           <Route path="/" element={<SongList songs={songs} />} />
