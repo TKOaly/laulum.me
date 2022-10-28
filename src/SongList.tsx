@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { extract, partial_ratio } from "fuzzball";
 import { Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
