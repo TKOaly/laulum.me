@@ -1,4 +1,4 @@
 ---
 title: Test Song
 ---
-lorem ipsum dolor sit amet tai jotain en osaa latinaa
+voisko tää jo vihdoinkin toimia kiitos
