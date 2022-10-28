@@ -71,6 +71,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: parsed-songs
+          path: src
 
       - name: Use Node.js 18
         uses: actions/setup-node@v3
