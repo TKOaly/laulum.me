@@ -52,6 +52,8 @@ jobs:
         with:
           add: 'src/songs.json'
           default_author: github_actor
+          committer_name: GitHub Actions
+          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
           message: 'update songs.json (automatic parse)'
           pathspec_error_handling: exitImmediately
 
