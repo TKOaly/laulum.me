@@ -22,7 +22,7 @@ const SongList = (props: SongListProps) => {
   const sortedSongs = useMemo(() => {
     const fuzzSortedSongs = extract(searchTerm, songs, {
       scorer: partial_ratio,
-      processor: (choice) => choice.name,
+      processor: (choice: Song) => choice.title,
       limit: searchIsEmpty ? undefined : 15,
     }) as [Song, number, number][];
     return fuzzSortedSongs;
@@ -32,7 +32,7 @@ const SongList = (props: SongListProps) => {
     if (sortedSongs.length === 0) {
       return;
     }
-    navigate("songs/" + slugify(sortedSongs[0][0].name));
+    navigate("songs/" + slugify(sortedSongs[0][0].title));
   };
 
   return (
@@ -53,13 +53,13 @@ const SongList = (props: SongListProps) => {
         </div>
       </div>
       <div className="song-list">
-        {sortedSongs.map(([s, score]) => (
-          <Link to={"songs/" + slugify(s.name)} key={s.id}>
+        {sortedSongs.map(([song, score]) => (
+          <Link to={"songs/" + slugify(song.title)} key={song.id}>
             <div
               className="song-card"
               style={!searchIsEmpty ? { opacity: score / 100 } : {}}
             >
-              {s.name}
+              {song.title}
             </div>
           </Link>
         ))}

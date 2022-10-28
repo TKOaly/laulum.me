@@ -16,10 +16,10 @@ async function parseSongFromFile(filename) {
   }
 
   const content = fm(data);
-  const { title: name, melody, writers: lyricsBy } = content.attributes;
+  const { title, melody, writers } = content.attributes;
   const lyrics = content.body;
 
-  return { name, melody, lyricsBy, lyrics };
+  return { title, melody, writers, lyrics };
 }
 
 function writeSongs(filename, songs) {
@@ -35,7 +35,7 @@ function writeSongs(filename, songs) {
 const filenames = await promises.readdir(INPUT_DIRECTORY);
 const parsedSongs = await Promise.all(filenames.map(parseSongFromFile));
 // Sort songs in alphabetical order
-parsedSongs.sort((a, b) => a.name.localeCompare(b.name));
+parsedSongs.sort((a, b) => a.title.localeCompare(b.title));
 // Add id based on index
 const songs = parsedSongs.map((song, i) => ({ id: i + 1, ...song }));
 
