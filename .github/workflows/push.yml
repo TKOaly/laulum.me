@@ -45,12 +45,12 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: parsed-songs
-          path: src/songs.json
+          path: public/songs.json
 
       - name: Commit updated songs.json
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'src/songs.json'
+          add: 'public/songs.json'
           default_author: github_actor
           committer_name: GitHub Actions
           committer_email: 41898282+github-actions[bot]@users.noreply.github.com
@@ -71,7 +71,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: parsed-songs
-          path: src
+          path: public
 
       - name: Use Node.js 18
         uses: actions/setup-node@v3
