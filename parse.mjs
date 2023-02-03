@@ -3,7 +3,8 @@ import { join } from "path";
 import fm, { test } from "front-matter";
 
 const INPUT_DIRECTORY = "./songs/";
-const OUTPUT_FILE = "./public/songs.json";
+const OUTPUT_DIRECTORY = "./public/";
+const OUTPUT_FILENAME = "songs.json";
 
 async function parseSongFromFile(filename) {
   const data = await promises.readFile(
@@ -39,4 +40,9 @@ parsedSongs.sort((a, b) => a.title.localeCompare(b.title));
 // Add id based on index
 const songs = parsedSongs.map((song, i) => ({ id: i + 1, ...song }));
 
-writeSongs(OUTPUT_FILE, songs);
+// If output directory does not exist, create it
+try {
+  await promises.mkdir(OUTPUT_DIRECTORY);
+} catch (e) {}
+
+writeSongs(join(OUTPUT_DIRECTORY, OUTPUT_FILENAME), songs);

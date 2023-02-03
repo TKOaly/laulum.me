@@ -1,52 +1,41 @@
 {
-  "name": "laulum.me-new",
-  "version": "0.1.0",
+  "name": "laulum.me-next",
+  "version": "1.0.0",
   "homepage": "https://tkoaly.github.io/laulum.me/",
-  "type": "module",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.4.3",
-    "@types/jest": "^29.0.3",
-    "@types/node": "^18.7.19",
-    "@types/react": "^18.0.21",
-    "@types/react-dom": "^18.0.6",
+    "@next/font": "^13.1.6",
     "front-matter": "^4.0.2",
     "fuzzball": "^2.1.2",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
+    "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.4.1",
-    "react-scripts": "^5.0.1",
     "typeface-roboto": "1.1.13",
     "typescript": "^4.8.3"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && cp build/index.html build/404.html",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "@types/node": "^18.7.19",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-ga": "^2.3.0",
+    "@types/react-helmet": "^6.1.5",
+    "eslint": "^8.33.0",
+    "eslint-config-next": "^13.1.6",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
   },
   "engines": {
-    "node": ">=16.14.2"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "node": ">=18"
   },
   "husky": {
     "hooks": {
@@ -57,9 +46,5 @@
     "src/**/*.{js,jsx,ts,tsx,css,scss,md}": [
       "prettier --write"
     ]
-  },
-  "devDependencies": {
-    "@types/react-ga": "^2.3.0",
-    "@types/react-helmet": "^6.1.5"
   }
 }
