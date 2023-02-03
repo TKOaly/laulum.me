@@ -50,13 +50,19 @@ const SongPage: NextPage<{ song: Song }> = ({ song }) => {
       </header>
       <main>
         <h1>{song.title}</h1>
-        {song.writers && <p>Written by {song.writers}</p>}
-        {song.melody && <p>Melody: {song.melody}</p>}
+        {song.writers && (
+          <em style={{ display: "block" }}>Written by {song.writers}</em>
+        )}
+        {song.melody && (
+          <em style={{ display: "block" }}>Melody: {song.melody}</em>
+        )}
         <pre
           style={{
+            fontFamily: "Times New Roman, serif",
             maxWidth: "fit-content",
             whiteSpace: "pre-line",
-            fontSize: "1.25rem",
+            fontSize: "1.3rem",
+            lineHeight: "2rem",
           }}
         >
           {song.lyrics}
