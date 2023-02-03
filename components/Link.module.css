@@ -12,7 +12,7 @@
 
   transition: backround .2s ease, color .2s ease, border-color .2s ease;
 }
-.link:hover {
+.link:hover, .link:focus {
   background-color: black;
   color: white;
 }
@@ -51,7 +51,7 @@
     border-color: white;
     color: white;
   }
-  .link:hover {
+  .link:hover, .link:focus {
     background-color: white;
     color: black;
   }
