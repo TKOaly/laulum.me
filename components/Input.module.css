@@ -1,0 +1,26 @@
+.input {
+  width: 100%;
+  margin-block: 1rem;
+  box-sizing: border-box;
+  padding: 1rem 0;
+  border: 0;
+  border-bottom: 2px solid #eee;
+  border-radius: 0;
+  background: transparent;
+
+  transition: border-bottom-color .2s ease;
+}
+
+.input:focus {
+  border-bottom-color: black;
+  outline: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .input {
+    color: white;
+  }
+  .input:focus {
+    border-bottom-color: #ffff55;
+  }
+}
