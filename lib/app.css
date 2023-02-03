@@ -3,3 +3,10 @@ body {
   padding: 1rem;
   margin: auto;
 }
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black;
+    color: white;
+  }
+}
