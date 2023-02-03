@@ -1,8 +1,8 @@
 ---
 title: Krapularyyppy
 melody: Petteri Punakuono
-writers: 
 ---
+
 Muistat juoneesi kossun ja vinkunkin varmaan
 ja heräät keskellä aamun niin harmaan
 Silloin keino tää, sut uudestaan henkiin herättää:

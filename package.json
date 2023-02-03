@@ -4,6 +4,7 @@
   "homepage": "https://tkoaly.github.io/laulum.me/",
   "private": true,
   "dependencies": {
+    "@next/font": "^13.1.6",
     "front-matter": "^4.0.2",
     "fuzzball": "^2.1.2",
     "next": "^13.1.6",
@@ -15,19 +16,20 @@
     "typescript": "^4.8.3"
   },
   "devDependencies": {
-    "@types/react-ga": "^2.3.0",
-    "@types/react-helmet": "^6.1.5",
     "@types/jest": "^29.0.3",
     "@types/node": "^18.7.19",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "@types/react-ga": "^2.3.0",
+    "@types/react-helmet": "^6.1.5",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
+    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages",
     "start": "next start",
     "lint": "next lint"
   },

@@ -1,0 +1,47 @@
+.link {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5pt;
+  
+  padding: 1rem;
+  width: fit-content;
+
+  color: black;
+  text-decoration: none;
+
+  transition: backround .2s ease, color .2s ease, border-color .2s ease;
+}
+.link:hover {
+  background-color: black;
+  color: white;
+}
+
+.primary {
+  background-color: black;
+  color: #fff;
+}
+.primary:hover, .primary:focus {
+  background-color: transparent;
+  color: black;
+}
+
+.secondary {
+  color: black;
+  border-color: #eaeaea;
+}
+.secondary:hover, .secondary:focus {
+  color: black;
+  border-color: black;
+  background: transparent;
+}
+
+.telegram {
+  background-color: #4182f3;
+  border-color: #4182f3;
+  color: white;
+}
+.telegram:hover, .telegram:focus {
+  background: transparent;
+  color: #4182f3;
+}
