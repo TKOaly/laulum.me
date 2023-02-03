@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Head from "next/head";
 
 import { Link } from "@/components/Link";
@@ -44,7 +43,7 @@ const Index = () => {
           href="https://github.com/TKOaly/laulum.me"
           variant="primary"
           target="_blank"
-          rel="noreferer noopener"
+          rel="noreferrer noopener"
         >
           Contribute a song on GitHub
         </Link>

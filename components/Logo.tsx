@@ -8,7 +8,7 @@ const Logo = (props: HTMLProps<HTMLAnchorElement>) => (
   <a
     href="https://tko-aly.fi"
     target="_blank"
-    rel="noreferer noopener"
+    rel="noreferrer noopener"
     {...props}
   >
     <Image
