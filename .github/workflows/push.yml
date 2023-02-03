@@ -39,7 +39,7 @@ jobs:
       - run: npm ci
 
       - name: Parse songs
-        run: node parse
+        run: node parse.mjs
 
       - name: Upload songs artifact
         uses: actions/upload-artifact@v2
