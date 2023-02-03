@@ -17,31 +17,61 @@
   color: white;
 }
 
-.primary {
+.link.primary {
   background-color: black;
   color: #fff;
 }
-.primary:hover, .primary:focus {
+.link.primary:hover, .link.primary:focus {
   background-color: transparent;
   color: black;
 }
 
-.secondary {
+.link.secondary {
   color: black;
   border-color: #eaeaea;
 }
-.secondary:hover, .secondary:focus {
+.link.secondary:hover, .link.secondary:focus {
   color: black;
   border-color: black;
   background: transparent;
 }
 
-.telegram {
+.link.telegram {
   background-color: #4182f3;
   border-color: #4182f3;
   color: white;
 }
-.telegram:hover, .telegram:focus {
+.link.telegram:hover, .link.telegram:focus {
   background: transparent;
   color: #4182f3;
+}
+
+@media (prefers-color-scheme: dark) {
+  .link {
+    border-color: white;
+    color: white;
+  }
+  .link:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .link.primary {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  .link.primary:hover, .link.primary:focus {
+    background-color: transparent;
+    color: white;
+  }
+  
+  .link.secondary {
+    color: white;
+    border-color: #6f6f6f;
+  }
+  .link.secondary:hover, .link.secondary:focus {
+    color: white;
+    border-color: white;
+    background: transparent;
+  }
 }

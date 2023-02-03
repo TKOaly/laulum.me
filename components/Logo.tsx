@@ -2,6 +2,8 @@ import Image from "next/image";
 import { basePath } from "@/next.config";
 import { HTMLProps } from "react";
 
+import styles from "./Logo.module.css";
+
 const Logo = (props: HTMLProps<HTMLAnchorElement>) => (
   <a
     href="https://tko-aly.fi"
@@ -10,6 +12,7 @@ const Logo = (props: HTMLProps<HTMLAnchorElement>) => (
     {...props}
   >
     <Image
+      className={styles.logo}
       src={`${basePath}/logo.svg`}
       width={72}
       height={72}

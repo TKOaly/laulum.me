@@ -58,7 +58,14 @@ const SongPage: NextPage<{ song: Song }> = ({ song }) => {
         <h1>{song.title}</h1>
         {song.writers && <p>Written by {song.writers}</p>}
         {song.melody && <p>Melody: {song.melody}</p>}
-        <pre style={{ fontSize: "1.25rem", ...roboto.style }}>
+        <pre
+          style={{
+            maxWidth: "fit-content",
+            whiteSpace: "pre-line",
+            fontSize: "1.25rem",
+            ...roboto.style,
+          }}
+        >
           {song.lyrics}
         </pre>
       </main>
