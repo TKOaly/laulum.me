@@ -12,7 +12,7 @@ const Custom404 = () => {
           href="https://github.com/TKOaly/laulum.me"
           variant="secondary"
           target="_blank"
-          rel="noreferer noopener"
+          rel="noreferrer noopener"
         >
           Contribute a song
         </Link>

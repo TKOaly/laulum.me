@@ -1,17 +1,11 @@
 import type { GetStaticProps, NextPage } from "next";
 import type { Song } from "@/lib/song";
-
-import Image from "next/image";
 import Head from "next/head";
-
 import slugify from "@/lib/slugify";
 import { getTelegramLink } from "@/lib/shareLink";
 import { Link } from "@/components/Link";
-import songs from "@/public/songs.json";
-
-import { Roboto } from "@next/font/google";
 import Logo from "@/components/Logo";
-const roboto = Roboto({ subsets: ["latin"], weight: "400" });
+import songs from "@/public/songs.json";
 
 export async function getStaticPaths() {
   const paths = songs.map(({ title }) => {
@@ -48,7 +42,7 @@ const SongPage: NextPage<{ song: Song }> = ({ song }) => {
           href={getTelegramLink(song)}
           variant="telegram"
           target="_blank"
-          rel="noreferer noopener"
+          rel="noreferrer noopener"
         >
           Share on Telegram
         </Link>
@@ -63,7 +57,6 @@ const SongPage: NextPage<{ song: Song }> = ({ song }) => {
             maxWidth: "fit-content",
             whiteSpace: "pre-line",
             fontSize: "1.25rem",
-            ...roboto.style,
           }}
         >
           {song.lyrics}
@@ -75,7 +68,7 @@ const SongPage: NextPage<{ song: Song }> = ({ song }) => {
             song.title
           )}.md`}
           target="_blank"
-          rel="noreferer noopener"
+          rel="noreferrer noopener"
           variant="secondary"
         >
           Suggest an edit to this song
