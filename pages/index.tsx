@@ -35,7 +35,7 @@ const Index = () => {
     }) as [Song, number, number][];
 
     return fuzzSortedSongs.map(([song, score]) => ({ ...song, score }));
-  }, [query, songs]);
+  }, [query]);
 
   const handleSubmit = useCallback(() => {
     if (sortedSongs.length === 0) {
