@@ -4,7 +4,6 @@
  * @type {import('next').NextConfig}
  **/
 const nextConfig = {
-  basePath: "/laulum.me",
   images: {
     unoptimized: true,
   },
