@@ -12,7 +12,7 @@ const Logo = (props: HTMLProps<HTMLAnchorElement>) => (
   >
     <Image
       className={styles.logo}
-      src={`logo.svg`}
+      src="/logo.svg"
       width={72}
       height={72}
       alt="Logo of TKO-äly ry"
