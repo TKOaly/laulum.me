@@ -1,4 +1,3 @@
-import { publicUrl } from "@/lib/publicUrl";
 import Image from "next/image";
 import { HTMLProps } from "react";
 
@@ -13,7 +12,7 @@ const Logo = (props: HTMLProps<HTMLAnchorElement>) => (
   >
     <Image
       className={styles.logo}
-      src={publicUrl("/logo.svg")}
+      src="/logo.svg"
       width={72}
       height={72}
       alt="Logo of TKO-äly ry"
