@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import { basePath } from "@/next.config";
+import { publicUrl } from "@/lib/publicUrl";
 
 export default function Document() {
   return (
@@ -13,13 +13,13 @@ export default function Document() {
           name="keywords"
           content="sitsit, laulu, sitsilaulu, laulum.me, tko-äly, sitz, table party, academic table party, pöytäjuhla"
         />
-        <link rel="icon" href={`${basePath}/favicon.ico`} sizes="any" />
-        <link rel="icon" href={`${basePath}/icon.svg`} type="image/svg+xml" />
+        <link rel="icon" href={publicUrl("/favicon.ico")} sizes="any" />
+        <link rel="icon" href={publicUrl("/icon.svg")} type="image/svg+xml" />
         <link
           rel="apple-touch-icon"
-          href={`${basePath}/apple-touch-icon.png`}
+          href={publicUrl("/apple-touch-icon.png")}
         />
-        <link rel="manifest" href={`${basePath}/manifest.json`} />
+        <link rel="manifest" href={publicUrl("/manifest.json")} />
       </Head>
       <body>
         <Main />
