@@ -17,6 +17,7 @@ import { Header } from "@/components/Header";
 import { usePWAPrompt } from "@/lib/usePWAPrompt";
 import { getSongs } from "@/lib/songs";
 import slugify from "@/lib/slugify";
+import { UpdateOverlay } from "@/components/UpdateOverlay";
 
 const merriweather = Merriweather({ subsets: ["latin"], weight: "400" });
 
@@ -69,13 +70,11 @@ const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
       </Head>
 
       <Header>
-        <Icon />
+        <div style={{ position: "relative" }}>
+          <Icon style={promptVisible ? { filter: "blur(3px)" } : {}} />
+          {promptVisible && <UpdateOverlay updateWorker={updateWorker} />}
+        </div>
         <h1 className={merriweather.className}>laulum.me</h1>
-        {promptVisible && (
-          <Button style={{ padding: ".5rem" }} onClick={updateWorker}>
-            ⟳ Update
-          </Button>
-        )}
       </Header>
 
       <main>
