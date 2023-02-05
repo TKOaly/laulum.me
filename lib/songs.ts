@@ -40,7 +40,10 @@ const getSlugs = async (
     })
   );
 
-  const mapping = songs.map(({ slug, filename }) => ({ slug, filename }));
+  const mapping = songs.map(({ title, filename }) => ({
+    slug: slugify(title),
+    filename,
+  }));
 
   try {
     await promises.mkdir(path.join(process.cwd(), "cache"));
@@ -60,10 +63,9 @@ const readSong = async (filename: string) => {
   const fileContents = await promises.readFile(filePath, "utf-8");
 
   const content = fm<Song>(fileContents);
-  const { title } = content.attributes;
   const lyrics = content.body;
 
-  return { ...content.attributes, lyrics, slug: slugify(title) };
+  return { ...content.attributes, lyrics };
 };
 
 export const getSongs = async () => {

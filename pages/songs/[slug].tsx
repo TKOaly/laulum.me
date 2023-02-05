@@ -7,10 +7,13 @@ import { Link } from "@/components/Link";
 
 import { getTelegramLink } from "@/lib/shareLink";
 import { getSong, getSongs } from "@/lib/songs";
+import slugify from "@/lib/slugify";
 
 export async function getStaticPaths() {
   const songs = await getSongs();
-  const paths = songs.map(({ slug }) => ({ params: { slug } }));
+  const paths = songs.map(({ title }) => ({
+    params: { slug: slugify(title) },
+  }));
   return { paths, fallback: false };
 }
 
@@ -83,7 +86,9 @@ const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
       <Footer>
         <Link
-          href={`https://github.com/TKOaly/laulum.me/edit/main/songs/${song.slug}.md`}
+          href={`https://github.com/TKOaly/laulum.me/edit/main/songs/${slugify(
+            song.title
+          )}.md`}
           target="_blank"
           rel="noreferrer noopener"
           variant="secondary"

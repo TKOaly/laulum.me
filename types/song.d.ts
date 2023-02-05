@@ -7,6 +7,4 @@ export interface Song {
   writers?: string;
   /** Lyrics of the song */
   lyrics: string;
-  /** Slug of the song */
-  slug?: string;
 }
