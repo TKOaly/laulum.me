@@ -8,7 +8,13 @@ export type HeaderProps = DetailedHTMLProps<
 
 export const Header = ({ children, style, ...props }: HeaderProps) => (
   <header
-    style={{ display: "flex", gap: "1rem", alignItems: "center", ...style }}
+    style={{
+      display: "flex",
+      gap: "1rem",
+      alignItems: "center",
+      height: "5rem",
+      ...style,
+    }}
     {...props}
   >
     {children}
