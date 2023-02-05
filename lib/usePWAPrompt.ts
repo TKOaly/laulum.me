@@ -21,6 +21,7 @@ export const usePWAPrompt = () => {
   }, [setPrompt]);
 
   const updateWorker = useCallback(() => {
+    setPrompt(false);
     const wb = window.workbox;
 
     wb.addEventListener("controlling", () => {
