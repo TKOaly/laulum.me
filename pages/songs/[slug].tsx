@@ -1,10 +1,10 @@
-import type { GetStaticProps, NextPage } from "next";
+import type { GetStaticProps, InferGetStaticPropsType, NextPage } from "next";
 import type { Song } from "@/types/song";
 import Head from "next/head";
 import { getTelegramLink } from "@/lib/shareLink";
 import { Link } from "@/components/Link";
 import Logo from "@/components/Logo";
-import { getSongs } from "@/lib/songs";
+import { getSong, getSongs } from "@/lib/songs";
 
 export async function getStaticPaths() {
   const songs = await getSongs();
@@ -12,16 +12,23 @@ export async function getStaticPaths() {
   return { paths, fallback: false };
 }
 
-export const getStaticProps: GetStaticProps<{ song?: Song }> = async (
-  context
-) => {
-  const songs = await getSongs();
+export const getStaticProps: GetStaticProps = async (context) => {
   const query = context.params?.slug;
-  const song = songs.find(({ slug }) => slug === query);
+
+  if (!query || query instanceof Array) {
+    return { notFound: true };
+  }
+
+  const song = await getSong(query);
+
+  if (song === null) {
+    return { notFound: true };
+  }
+
   return { props: { song } };
 };
 
-const SongPage: NextPage<{ song: Song }> = ({ song }) => {
+const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <>
       <Head>
@@ -68,7 +75,7 @@ const SongPage: NextPage<{ song: Song }> = ({ song }) => {
           {song.lyrics}
         </pre>
       </main>
-      <footer style={{ marginTop: "2rem" }}>
+      <footer style={{ marginBlock: "2rem" }}>
         <Link
           href={`https://github.com/TKOaly/laulum.me/edit/main/songs/${song.slug}.md`}
           target="_blank"
