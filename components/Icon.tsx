@@ -9,7 +9,7 @@ const Icon = ({
   <Image
     {...props}
     className={styles.icon}
-    src="/icons/icon.svg"
+    src="/icon.svg"
     width={size}
     height={size}
     alt=""
