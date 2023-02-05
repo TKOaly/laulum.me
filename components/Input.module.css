@@ -21,6 +21,6 @@
     color: white;
   }
   .input:focus {
-    border-bottom-color: #ffff55;
+    border-bottom-color: #fff500;
   }
 }
