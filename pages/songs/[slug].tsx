@@ -1,9 +1,11 @@
-import type { GetStaticProps, InferGetStaticPropsType, NextPage } from "next";
-import type { Song } from "@/types/song";
+import type { GetStaticProps, InferGetStaticPropsType } from "next";
 import Head from "next/head";
-import { getTelegramLink } from "@/lib/shareLink";
+
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
 import { Link } from "@/components/Link";
-import Logo from "@/components/Logo";
+
+import { getTelegramLink } from "@/lib/shareLink";
 import { getSong, getSongs } from "@/lib/songs";
 
 export async function getStaticPaths() {
@@ -43,7 +45,8 @@ const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
           }`}
         />
       </Head>
-      <header style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
+
+      <Header>
         <Link href="/" variant="primary">
           Back
         </Link>
@@ -55,8 +58,8 @@ const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
         >
           Share on Telegram
         </Link>
-        <Logo style={{ marginLeft: "auto" }} />
-      </header>
+      </Header>
+
       <main>
         <h1>{song.title}</h1>
         {song.writers && (
@@ -77,7 +80,8 @@ const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
           {song.lyrics}
         </pre>
       </main>
-      <footer style={{ marginBlock: "2rem" }}>
+
+      <Footer>
         <Link
           href={`https://github.com/TKOaly/laulum.me/edit/main/songs/${song.slug}.md`}
           target="_blank"
@@ -86,7 +90,7 @@ const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
         >
           Suggest an edit to this song
         </Link>
-      </footer>
+      </Footer>
     </>
   );
 };
