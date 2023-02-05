@@ -24,7 +24,7 @@ export async function getStaticProps() {
 
 const Index = ({ songs }: InferGetStaticPropsType<typeof getStaticProps>) => {
   // PWA update prompting, song downloads
-  const { promptToUpdate, updateWorker } = usePWAPrompt();
+  const { promptVisible, updateWorker } = usePWAPrompt();
 
   // Search box
   const [query, setQuery] = useState("");
@@ -65,7 +65,7 @@ const Index = ({ songs }: InferGetStaticPropsType<typeof getStaticProps>) => {
       </Head>
       <header style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
         <h1 className={merriweather.className}>laulum.me</h1>
-        {promptToUpdate && (
+        {promptVisible && (
           <Button style={{ padding: ".5rem" }} onClick={updateWorker}>
             ⟳ Update
           </Button>
