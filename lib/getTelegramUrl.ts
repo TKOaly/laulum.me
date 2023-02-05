@@ -1,4 +1,5 @@
 import type { Song } from "@/types/song";
+import slugify from "./slugify";
 
 const BYTE_LIMIT = 4096;
 const TELEGRAM_BASE = "https://t.me/share/url";
@@ -17,7 +18,7 @@ const getTelegramURL = (url: string, text: string): string =>
  */
 export const getTelegramLink = (song: Song, baseURL?: string): string => {
   const songURL = new URL(
-    `/songs/${song.slug}`,
+    `/songs/${slugify(song.title)}`,
     baseURL ?? FALLBACK_BASE_URL
   ).toString();
 

@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Link } from "@/components/Link";
 
-import { getTelegramLink } from "@/lib/shareLink";
+import { getTelegramLink } from "@/lib/getTelegramUrl";
 import { getSong, getSongs } from "@/lib/songs";
 import slugify from "@/lib/slugify";
 
