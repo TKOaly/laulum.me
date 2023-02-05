@@ -1,4 +1,3 @@
-import type { Song } from "@/types/song";
 import type { InferGetStaticPropsType } from "next";
 
 import Head from "next/head";
@@ -17,17 +16,18 @@ import { Header } from "@/components/Header";
 
 import { usePWAPrompt } from "@/lib/usePWAPrompt";
 import { getSongs } from "@/lib/songs";
+import slugify from "@/lib/slugify";
 
 const merriweather = Merriweather({ subsets: ["latin"], weight: "400" });
 
 export async function getStaticProps() {
   const songs = await getSongs();
   return {
-    props: { songs: songs.map(({ title, slug }) => ({ title, slug })) },
+    props: { titles: songs.map(({ title }) => title) },
   };
 }
 
-const Index = ({ songs }: InferGetStaticPropsType<typeof getStaticProps>) => {
+const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
   // PWA update prompting, song downloads
   const { promptVisible, updateWorker } = usePWAPrompt();
 
@@ -40,28 +40,27 @@ const Index = ({ songs }: InferGetStaticPropsType<typeof getStaticProps>) => {
     [setQuery]
   );
 
-  const sortedSongs = useMemo(() => {
+  const sortedTitles = useMemo(() => {
     if (query.trim().length === 0) {
-      return songs.map((song) => ({ ...song, score: 100 }));
+      return titles.map((title) => ({ title, score: 100 }));
     }
 
-    const fuzzSortedSongs = extract(query, songs, {
+    const fuzzSortedSongs = extract(query, titles, {
       scorer: partial_ratio,
-      processor: (choice: Song) => choice.title,
       cutoff: 40,
       limit: 15,
-    }) as [Pick<Song, "title" | "slug">, number, number][];
+    }) as [string, number, number][];
 
-    return fuzzSortedSongs.map(([song, score]) => ({ ...song, score }));
-  }, [query, songs]);
+    return fuzzSortedSongs.map(([title, score]) => ({ title, score }));
+  }, [query, titles]);
 
   const handleSubmit = useCallback(() => {
-    if (sortedSongs.length === 0) {
+    if (sortedTitles.length === 0) {
       return;
     }
 
-    Router.push(`songs/${sortedSongs[0].slug}`);
-  }, [sortedSongs]);
+    Router.push(`songs/${slugify(sortedTitles[0].title)}`);
+  }, [sortedTitles]);
 
   return (
     <>
@@ -95,10 +94,10 @@ const Index = ({ songs }: InferGetStaticPropsType<typeof getStaticProps>) => {
             alignItems: "center",
           }}
         >
-          {sortedSongs.map(({ title, slug, score }) => (
+          {sortedTitles.map(({ title, score }) => (
             <Link
               key={title}
-              href={`/songs/${slug}`}
+              href={`/songs/${slugify(title)}`}
               style={{ width: "100%", opacity: Math.max(score, 20) / 100 }}
             >
               {title}
