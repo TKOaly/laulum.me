@@ -2,7 +2,7 @@ import { useEffect, useCallback, useState } from "react";
 
 // https://github.com/shadowwalker/next-pwa/blob/master/examples/lifecycle/pages/index.js#L26-L38
 export const usePWAPrompt = () => {
-  const [promptToUpdate, setPrompt] = useState(false);
+  const [promptVisible, setPrompt] = useState(false);
 
   useEffect(() => {
     if (
@@ -34,5 +34,5 @@ export const usePWAPrompt = () => {
     setPrompt(false);
   }, [setPrompt]);
 
-  return { promptToUpdate, rejectUpdate, updateWorker };
+  return { promptVisible, rejectUpdate, updateWorker };
 };
