@@ -99,7 +99,7 @@ const Index = ({ songs }: InferGetStaticPropsType<typeof getStaticProps>) => {
           ))}
         </div>
       </main>
-      <footer style={{ marginTop: "2rem", textAlign: "center" }}>
+      <footer style={{ marginBlock: "2rem", textAlign: "center" }}>
         <Link
           href="https://github.com/TKOaly/laulum.me"
           variant="primary"
