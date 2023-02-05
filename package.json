@@ -18,7 +18,6 @@
     "@types/node": "^18.7.19",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
-    "@types/workbox-core": "^5.0.0",
     "eslint": "^8.33.0",
     "eslint-config-next": "^13.1.6",
     "husky": "^8.0.1",
@@ -38,10 +37,5 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,css,scss,md}": [
-      "prettier --write"
-    ]
   }
 }
