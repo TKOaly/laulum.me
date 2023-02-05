@@ -1,23 +1,23 @@
 import type { GetStaticProps, NextPage } from "next";
-import type { Song } from "@/lib/song";
+import type { Song } from "@/types/song";
 import Head from "next/head";
-import slugify from "@/lib/slugify";
 import { getTelegramLink } from "@/lib/shareLink";
 import { Link } from "@/components/Link";
 import Logo from "@/components/Logo";
-import songs from "@/public/songs.json";
+import { getSongs } from "@/lib/songs";
 
 export async function getStaticPaths() {
-  const paths = songs.map(({ title }) => {
-    const slug = slugify(title);
-    return { params: { slug } };
-  });
+  const songs = await getSongs();
+  const paths = songs.map(({ slug }) => ({ params: { slug } }));
   return { paths, fallback: false };
 }
 
-export const getStaticProps: GetStaticProps<{ song?: Song }> = (context) => {
-  const slug = context.params?.slug;
-  const song = songs.find(({ title }) => slugify(title) === slug);
+export const getStaticProps: GetStaticProps<{ song?: Song }> = async (
+  context
+) => {
+  const songs = await getSongs();
+  const query = context.params?.slug;
+  const song = songs.find(({ slug }) => slug === query);
   return { props: { song } };
 };
 
@@ -70,9 +70,7 @@ const SongPage: NextPage<{ song: Song }> = ({ song }) => {
       </main>
       <footer style={{ marginTop: "2rem" }}>
         <Link
-          href={`https://github.com/TKOaly/laulum.me/edit/main/songs/${slugify(
-            song.title
-          )}.md`}
+          href={`https://github.com/TKOaly/laulum.me/edit/main/songs/${song.slug}.md`}
           target="_blank"
           rel="noreferrer noopener"
           variant="secondary"

@@ -1,4 +1,4 @@
-import type { Song } from "@/lib/song";
+import type { Song } from "@/types/song";
 import { ChangeEvent, useCallback, useMemo, useState } from "react";
 import { extract, partial_ratio } from "fuzzball";
 import Router from "next/router";
@@ -7,13 +7,26 @@ import Head from "next/head";
 import { Link } from "@/components/Link";
 import Logo from "@/components/Logo";
 import { Input } from "@/components/Input";
-import slugify from "@/lib/slugify";
-import songs from "@/public/songs.json";
+import { usePWAPrompt } from "@/lib/usePWAPrompt";
 
 import { Merriweather } from "@next/font/google";
+import { Button } from "@/components/Button";
+import { InferGetStaticPropsType } from "next";
+import { getSongs } from "@/lib/songs";
 const merriweather = Merriweather({ subsets: ["latin"], weight: "400" });
 
-const Index = () => {
+export async function getStaticProps() {
+  const songs = await getSongs();
+  return {
+    props: { songs: songs.map(({ title, slug }) => ({ title, slug })) },
+  };
+}
+
+const Index = ({ songs }: InferGetStaticPropsType<typeof getStaticProps>) => {
+  // PWA update prompting, song downloads
+  const { promptToUpdate, updateWorker } = usePWAPrompt();
+
+  // Search box
   const [query, setQuery] = useState("");
   const updateQuery = useCallback(
     ({ target }: ChangeEvent<HTMLInputElement>) => {
@@ -32,17 +45,17 @@ const Index = () => {
       processor: (choice: Song) => choice.title,
       cutoff: 40,
       limit: 15,
-    }) as [Song, number, number][];
+    }) as [Pick<Song, "title" | "slug">, number, number][];
 
     return fuzzSortedSongs.map(([song, score]) => ({ ...song, score }));
-  }, [query]);
+  }, [query, songs]);
 
   const handleSubmit = useCallback(() => {
     if (sortedSongs.length === 0) {
       return;
     }
 
-    Router.push(`songs/${slugify(sortedSongs[0].title)}`);
+    Router.push(`songs/${sortedSongs[0].slug}`);
   }, [sortedSongs]);
 
   return (
@@ -52,6 +65,11 @@ const Index = () => {
       </Head>
       <header style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
         <h1 className={merriweather.className}>laulum.me</h1>
+        {promptToUpdate && (
+          <Button style={{ padding: ".5rem" }} onClick={updateWorker}>
+            ⟳ Update
+          </Button>
+        )}
         <Logo style={{ marginLeft: "auto" }} />
       </header>
       <main>
@@ -70,13 +88,13 @@ const Index = () => {
             alignItems: "center",
           }}
         >
-          {sortedSongs.map((song) => (
+          {sortedSongs.map(({ title, slug, score }) => (
             <Link
-              key={song.id}
-              href={`/songs/${slugify(song.title)}`}
-              style={{ width: "100%", opacity: Math.max(song.score, 20) / 100 }}
+              key={title}
+              href={`/songs/${slug}`}
+              style={{ width: "100%", opacity: Math.max(score, 20) / 100 }}
             >
-              {song.title}
+              {title}
             </Link>
           ))}
         </div>
