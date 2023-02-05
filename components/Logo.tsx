@@ -1,6 +1,6 @@
-import Image from "next/image";
-import { HTMLProps } from "react";
+import type { HTMLProps } from "react";
 
+import Image from "next/image";
 import styles from "./Logo.module.css";
 
 const Logo = (props: HTMLProps<HTMLAnchorElement>) => (

@@ -1,18 +1,22 @@
 import type { Song } from "@/types/song";
+import type { InferGetStaticPropsType } from "next";
+
+import Head from "next/head";
+import Router from "next/router";
+import { Merriweather } from "@next/font/google";
+
 import { ChangeEvent, useCallback, useMemo, useState } from "react";
 import { extract, partial_ratio } from "fuzzball";
-import Router from "next/router";
-import Head from "next/head";
 
-import { Link } from "@/components/Link";
-import Logo from "@/components/Logo";
 import { Input } from "@/components/Input";
-import { usePWAPrompt } from "@/lib/usePWAPrompt";
-
-import { Merriweather } from "@next/font/google";
+import { Link } from "@/components/Link";
 import { Button } from "@/components/Button";
-import { InferGetStaticPropsType } from "next";
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
+
+import { usePWAPrompt } from "@/lib/usePWAPrompt";
 import { getSongs } from "@/lib/songs";
+
 const merriweather = Merriweather({ subsets: ["latin"], weight: "400" });
 
 export async function getStaticProps() {
@@ -63,15 +67,16 @@ const Index = ({ songs }: InferGetStaticPropsType<typeof getStaticProps>) => {
       <Head>
         <title>laulum.me | TKO-äly Songbook</title>
       </Head>
-      <header style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
+
+      <Header>
         <h1 className={merriweather.className}>laulum.me</h1>
         {promptVisible && (
           <Button style={{ padding: ".5rem" }} onClick={updateWorker}>
             ⟳ Update
           </Button>
         )}
-        <Logo style={{ marginLeft: "auto" }} />
-      </header>
+      </Header>
+
       <main>
         <form onSubmit={handleSubmit}>
           <Input
@@ -99,7 +104,8 @@ const Index = ({ songs }: InferGetStaticPropsType<typeof getStaticProps>) => {
           ))}
         </div>
       </main>
-      <footer style={{ marginBlock: "2rem", textAlign: "center" }}>
+
+      <Footer style={{ textAlign: "center" }}>
         <Link
           href="https://github.com/TKOaly/laulum.me"
           variant="primary"
@@ -108,7 +114,7 @@ const Index = ({ songs }: InferGetStaticPropsType<typeof getStaticProps>) => {
         >
           Contribute a song on GitHub
         </Link>
-      </footer>
+      </Footer>
     </>
   );
 };

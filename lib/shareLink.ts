@@ -1,4 +1,4 @@
-import type { Song } from "../types/song";
+import type { Song } from "@/types/song";
 
 const BYTE_LIMIT = 4096;
 const TELEGRAM_BASE = "https://t.me/share/url";
