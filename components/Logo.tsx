@@ -3,7 +3,10 @@ import type { HTMLProps } from "react";
 import Image from "next/image";
 import styles from "./Logo.module.css";
 
-const Logo = (props: HTMLProps<HTMLAnchorElement>) => (
+const Logo = ({
+  size = 72,
+  ...props
+}: HTMLProps<HTMLAnchorElement> & { size?: number }) => (
   <a
     href="https://tko-aly.fi"
     target="_blank"
@@ -13,8 +16,8 @@ const Logo = (props: HTMLProps<HTMLAnchorElement>) => (
     <Image
       className={styles.logo}
       src="/logo.svg"
-      width={72}
-      height={72}
+      width={size}
+      height={size}
       alt="Logo of TKO-äly ry"
     />
   </a>

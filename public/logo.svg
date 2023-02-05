@@ -8,7 +8,7 @@
 
   <style type="text/css">
     .background  { fill: none; fill-opacity: 1; stroke: none; stroke-width: 1; }
-    .fillable { fill: #000000; fill-opacity: 1; stroke: none; stroke-width: 1; }
+    .fillable { fill: #fff500; fill-opacity: 1; stroke: none; stroke-width: 1; }
   </style>
 
   <g id="background">

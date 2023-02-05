@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: light) {
-  .logo {
+  .icon {
     filter: brightness(0);
   }
 }

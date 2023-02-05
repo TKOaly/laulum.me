@@ -8,6 +8,7 @@ import { Merriweather } from "@next/font/google";
 import { ChangeEvent, useCallback, useMemo, useState } from "react";
 import { extract, partial_ratio } from "fuzzball";
 
+import Icon from "@/components/Icon";
 import { Input } from "@/components/Input";
 import { Link } from "@/components/Link";
 import { Button } from "@/components/Button";
@@ -69,6 +70,7 @@ const Index = ({ songs }: InferGetStaticPropsType<typeof getStaticProps>) => {
       </Head>
 
       <Header>
+        <Icon />
         <h1 className={merriweather.className}>laulum.me</h1>
         {promptVisible && (
           <Button style={{ padding: ".5rem" }} onClick={updateWorker}>
