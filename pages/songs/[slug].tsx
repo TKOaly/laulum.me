@@ -29,10 +29,12 @@ export const getStaticProps: GetStaticProps = async (context) => {
 };
 
 const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
+  const title = `${song.title} | laulum.me`;
+
   return (
     <>
       <Head>
-        <title>{song.title} | laulum.me</title>
+        <title>{title}</title>
         <meta name="title" content={`${song.title} on laulum.me`} />
         <meta
           name="description"
