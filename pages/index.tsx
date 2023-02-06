@@ -76,7 +76,10 @@ const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
         <meta name="og:title" content="laulum.me, the electronic songbook" />
         <meta name="og:type" content="website" />
-        <meta name="og:image" content="/icons/apple-touch-icon.png" />
+        <meta
+          name="og:image"
+          content="https://laulum.me/icons/apple-touch-icon.png"
+        />
         <meta name="og:url" content="https://laulum.me" />
         <meta name="og:description" content="TKO-äly's electronic songbook" />
         <meta name="og:site_name" content="laulum.me" />

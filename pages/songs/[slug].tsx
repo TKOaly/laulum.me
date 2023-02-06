@@ -55,7 +55,10 @@ const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
         <meta name="og:title" content={`♫ ${song.title}`} />
         <meta name="og:type" content="website" />
-        <meta name="og:image" content="/icons/apple-touch-icon.png" />
+        <meta
+          name="og:image"
+          content="https://laulum.me/icons/apple-touch-icon.png"
+        />
         <meta name="og:url" content={`https://laulum.me/songs/${slug}`} />
         <meta
           name="og:description"
