@@ -35,6 +35,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
 const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
   const title = `${song.title} | laulum.me`;
+  const slug = slugify(song.title);
 
   return (
     <>
@@ -47,6 +48,20 @@ const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
             song.writers ? ` by ${song.writers}` : ""
           }`}
         />
+        <meta
+          name="keywords"
+          content={`${song.title}, sitsit, laulu, sitsilaulu, sanat, lyrics, laulum.me, tko-äly, sitz, table party, academic table party, pöytäjuhla`}
+        />
+
+        <meta name="og:title" content={`♫ ${song.title}`} />
+        <meta name="og:type" content="website" />
+        <meta name="og:image" content="/icons/apple-touch-icon.png" />
+        <meta name="og:url" content={`https://laulum.me/songs/${slug}`} />
+        <meta
+          name="og:description"
+          content={`Lyrics for the song ${song.title}.`}
+        />
+        <meta name="og:site_name" content="laulum.me" />
       </Head>
 
       <Header>
@@ -86,9 +101,7 @@ const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
       <Footer>
         <Link
-          href={`https://github.com/TKOaly/laulum.me/edit/main/songs/${slugify(
-            song.title
-          )}.md`}
+          href={`https://github.com/TKOaly/laulum.me/edit/main/songs/${slug}.md`}
           target="_blank"
           rel="noreferrer noopener"
           variant="secondary"

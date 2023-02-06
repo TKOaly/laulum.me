@@ -7,10 +7,6 @@ export default function Document() {
         <meta charSet="utf-8" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="robots" content="index, follow" />
-        <meta
-          name="keywords"
-          content="sitsit, laulu, sitsilaulu, laulum.me, tko-äly, sitz, table party, academic table party, pöytäjuhla"
-        />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
 

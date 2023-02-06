@@ -67,6 +67,19 @@ const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
     <>
       <Head>
         <title>laulum.me | TKO-äly Songbook</title>
+
+        <meta
+          name="keywords"
+          content="sitsit, laulu, sanat, lyrics, sitsilaulu, laulum.me, tko-äly, sitz, table party, academic table party, pöytäjuhla"
+        />
+        <meta name="description" content="Electronic Songbook by TKO-äly ry." />
+
+        <meta name="og:title" content="laulum.me, the electronic songbook" />
+        <meta name="og:type" content="website" />
+        <meta name="og:image" content="/icons/apple-touch-icon.png" />
+        <meta name="og:url" content="https://laulum.me" />
+        <meta name="og:description" content="TKO-äly's electronic songbook" />
+        <meta name="og:site_name" content="laulum.me" />
       </Head>
 
       <Header>
