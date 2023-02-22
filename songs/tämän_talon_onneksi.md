@@ -8,7 +8,7 @@ kippis, kippis :,:
 ja vastakin talohon tuleville,
 kippis, kippis :,:
 
-:,:Ja me juomme tämän talon konkurssiin,
+:,: Ja me juomme tämän talon konkurssiin,
 kippis, kippis :,:
 :,: Täällä oleville, poissa oleville
 ja vastakin talohon tuleville,
@@ -17,5 +17,5 @@ kippis, kippis. :,:
 :,: Ja me juomme tämän auton bensiinin,
 kippis, kippis. :,:
 :,: Kaiken öljynkin, koko voitelun
-ja helavita akkumalaattorin,
+ja helavita akkumulaattorin,
 kippis, kippis. :,:
