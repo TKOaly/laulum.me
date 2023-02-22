@@ -5,10 +5,12 @@ const BYTE_LIMIT = 4096;
 const TELEGRAM_BASE = "https://t.me/share/url";
 const FALLBACK_BASE_URL = "https://laulum.me/";
 
-const getTelegramURL = (url: string, text: string): string =>
-  `${TELEGRAM_BASE}?url=${encodeURIComponent(url)}&text=${encodeURIComponent(
-    text
-  )}`;
+const getTelegramURL = (songUrl: string, text: string): string => {
+  const url = new URL(TELEGRAM_BASE);
+  url.searchParams.set("url", songUrl);
+  url.searchParams.set("text", text);
+  return url.toString();
+};
 
 /**
  * A function to generate a Telegram share link for a song.
