@@ -1,5 +1,5 @@
 ---
-title: Teletappien joumalaulu
+title: Teletappien juomalaulu
 melody: A Finnish Drinkin Song
 ---
 
