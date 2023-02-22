@@ -8,6 +8,7 @@ import { Link } from "@/components/Link";
 import { getTelegramLink } from "@/lib/getTelegramUrl";
 import { getSong, getSongs } from "@/lib/songs";
 import slugify from "@/lib/slugify";
+import { Song } from "@/types/song";
 
 export async function getStaticPaths() {
   const songs = await getSongs();
@@ -17,7 +18,9 @@ export async function getStaticPaths() {
   return { paths, fallback: false };
 }
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps<{
+  song: Song & { filename: string };
+}> = async (context) => {
   const query = context.params?.slug;
 
   if (!query || query instanceof Array) {
@@ -104,7 +107,7 @@ const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
       <Footer>
         <Link
-          href={`https://github.com/TKOaly/laulum.me/edit/main/songs/${slug}.md`}
+          href={`https://github.com/TKOaly/laulum.me/edit/main/songs/${song.filename}`}
           target="_blank"
           rel="noreferrer noopener"
           variant="secondary"

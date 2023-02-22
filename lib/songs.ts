@@ -58,14 +58,16 @@ const getSlugs = async (
   return mapping;
 };
 
-const readSong = async (filename: string) => {
+const readSong = async (
+  filename: string
+): Promise<Song & { filename: string }> => {
   const filePath = path.join(directory, filename);
   const fileContents = await promises.readFile(filePath, "utf-8");
 
   const content = fm<Song>(fileContents);
   const lyrics = content.body;
 
-  return { ...content.attributes, lyrics };
+  return { ...content.attributes, lyrics, filename: filename };
 };
 
 export const getSongs = async () => {
@@ -74,7 +76,7 @@ export const getSongs = async () => {
   return songs;
 };
 
-export const getSong = async (querySlug: string): Promise<Song | null> => {
+export const getSong = async (querySlug: string) => {
   const mapping = await getSlugs(querySlug);
   const match = mapping.find(({ slug }) => querySlug === slug);
 
