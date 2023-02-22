@@ -2,6 +2,7 @@
 title: Always Look on the Bright Side of Life
 melody: Monty Python
 ---
+
 Some things in life are bad, they can really make you mad
 Other things just make you swear and curse
 When you're chewing on life's gristle, don't grumble give a whistle
@@ -27,7 +28,7 @@ Enjoy it - it's your last chance anyhow.
 So, always look on the bright side of death
 Just before you draw your terminal breath
 
-Life's a piece of shit 
+Life's a piece of shit
 When you look at it
 Life's a laugh and death's the joke, it's true
 You'll see it's all a show

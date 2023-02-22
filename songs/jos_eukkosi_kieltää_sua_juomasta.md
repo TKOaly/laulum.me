@@ -1,9 +1,10 @@
 ---
 title: Jos (e)ukkosi kieltää sua juomasta
 ---
+
 Jos (e)ukkosi kieltää sua juomasta,
 niin juo, niin juo.
-Jos kieltää sua viinoja tuomasta, 
+Jos kieltää sua viinoja tuomasta,
 niin tuo, niin tuo.
 Mutt' juomasta älä sinä milloinkaan lakkaa,
 vaan hanki sinä itselles' parempi akka,
@@ -17,7 +18,7 @@ Trink, trink, Brüderlein, trink,
 leere dein Glas mit mir aus!
 
 Meide den Kummer und meide den Schmerz,
-dann ist das Leben ein Schertz, 
+dann ist das Leben ein Schertz,
 mein lieber Augustin!
 Meide den Kummer und meide den Schmerz,
 dann ist das Leben ein Schertz, huhhei!
@@ -36,9 +37,9 @@ mein lieber Augustin!
 Kauf dir ein Auto und fahr gegen Baum,
 fann wird das Leben ein Traum, huhhei!
 
-Maisterit koulussa opettaa, 
+Maisterit koulussa opettaa,
 ja juo (ja laulaa), ja juo (ja laulaa).
-Ja illalla tuntinsa lopettaa, 
+Ja illalla tuntinsa lopettaa,
 ja juo (ja laulaa), ja juo (ja laulaa).
 Kun päivällä saksaa ja matikkaa jauhaa,
 niin illalla raitilla RÄYHÄÄ JA PAUHAA.
@@ -50,9 +51,9 @@ mein lieber Augustin!
 Heirat im Sommer, Scheide in März,
 dann ist das Leben ein Schertz, huhhei!
 
-Yhä seurassa veikot nuo maistelee, 
+Yhä seurassa veikot nuo maistelee,
 ja juo, ja juo,
-Ja viime pullosta taistelee, 
+Ja viime pullosta taistelee,
 ja juo, ja juo.
 Kun baarissa viimein on tarjoilu loppu,
 on päässäkin sammunut viimeinen proppu.
@@ -67,5 +68,5 @@ dann wird ein Sportsmann aus dir, huhhei!
 Kas kuusen latvassa oksien alla
 on pesä pienoinen oravalla
 Joka juo ja laulaa ja juo ja laulaa
-ja juo ja laulaa ja juo ja laulaa 
+ja juo ja laulaa ja juo ja laulaa
 ja juo...

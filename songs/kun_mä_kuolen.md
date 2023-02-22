@@ -1,6 +1,7 @@
 ---
 title: Kun mä kuolen
 ---
+
 :,: Kun mä kuolen vanhan piippuni sä saat. :,:
 Noilla taivaan kessumailla en oo piippuani vailla.
 Kun mä kuolen vanhan piippuni sä saat.

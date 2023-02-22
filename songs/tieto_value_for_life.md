@@ -1,6 +1,7 @@
 ---
 title: TIETO - Value for Life
 ---
+
 No option for duality
 Old is where we come
 Clock-speed is fast, but we'll survive

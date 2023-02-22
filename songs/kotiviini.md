@@ -2,6 +2,7 @@
 title: Kotiviini
 melody: Summer Wine
 ---
+
 Tein sulle kotiviinin mansikoista vain
 kirsikoista omenoista rakkaus rinnassain
 

@@ -2,6 +2,7 @@
 title: Internationalen
 melody: Kansainvälinen
 ---
+
 Mera brännvin i glasen,
 mera glas på vårt bord,
 mera bord på kalasen,

@@ -2,6 +2,7 @@
 title: Sinä lähdit pois
 melody: Ultra Bra - Sinä lähdit pois
 ---
+
 Aamuyöllä kumpikaan meistä ei jaksa enää juhlia
 Aamuyöllä kumpikaan meistä ei jaksa enää juhlia
 Väsyneet katseet, käheät äänet

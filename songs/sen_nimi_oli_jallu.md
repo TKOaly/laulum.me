@@ -2,6 +2,7 @@
 title: Sen nimi oli Jallu
 melody: Kliff - Maija
 ---
+
 Törmäsin, niin hyvään juomaan et sen kaltaista maistanut en oo.
 Tajusin, et ei mul muitten kanssa oo koskaan ollu niin rentoo.
 Vaik koitin näytellä chillii, se meininki oli niin villii,

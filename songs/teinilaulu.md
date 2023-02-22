@@ -1,6 +1,7 @@
 ---
 title: Teinilaulu
 ---
+
 Pojat tenttiin emme me ehtineet
 kera veljien uurastaneitten.
 Meille eivät laakerit lehtineet

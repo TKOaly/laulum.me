@@ -2,6 +2,7 @@
 title: Ei tippa tapa
 melody: Juice Leskinen - Ei tippa tapa
 ---
+
 Kaikki alkoi siitä kun mä opintolainan sain,
 sitten juhlan kunniaksi täyden lastin hain.
 Eikä siinä turhaan liioin kainosteltu lain,

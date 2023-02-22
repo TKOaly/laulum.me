@@ -2,6 +2,7 @@
 title: F-U-K-S-I
 melody: R-A-K-A-S
 ---
+
 Tulit landelta Helsinkiin
 kaikki suurta ja uutta niin
 tapasit tuutorin kuuman

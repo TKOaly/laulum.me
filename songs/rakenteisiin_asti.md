@@ -2,6 +2,7 @@
 title: Rakenteisiin asti
 melody: Kulkuset
 ---
+
 Viinaa tulvillaan on vujulaisen pää
 se aistit sumentaa ja laatat lennättää
 Jalat kanna ei, ja puhe sammaltaa,

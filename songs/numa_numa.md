@@ -2,14 +2,15 @@
 title: Numa Numa
 melody: O-Zone - Dragostea Din Tei
 ---
-:,: Ma-i-a hii, 
+
+:,: Ma-i-a hii,
 ma-i-a huu
-Ma-i-a hoo, 
+Ma-i-a hoo,
 ma-i-a ha-ha ;.;
 
-:,: Ma-i-a hii, 
+:,: Ma-i-a hii,
 ma-i-a huu
-Ma-i-a hoo, 
+Ma-i-a hoo,
 ma-i-a ha-ha ;.;
 
 Alo! Salut!

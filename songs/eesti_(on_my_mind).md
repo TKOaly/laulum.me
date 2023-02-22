@@ -2,6 +2,7 @@
 title: Eesti (On My Mind)
 melody: Juice Leskinen - Eesti (On My Mind)
 ---
+
 Mulla viipyi viisumi Tallinnan
 Minä hukkasin lanttuni hallinnan
 Taoin sormia pöytään kuin nuorempi Charlie Watts

@@ -5,7 +5,7 @@ This is an electronic version of songbook for sitsit. All the songs in this repo
 ## Want to add a song? Make a pull request!
 
 Song lyrics are stored in the `songs/` directory.  
-If you want to add a song, create a new file in the directory with the song lyrics in it.  
+If you want to add a song, create a new file in the directory with the song lyrics in it.
 
 You'll also need to add a header, containing at least a title for the song:
 
@@ -30,6 +30,6 @@ Gurulassa ilta viilenee.
 Topi lämpimikseen koodailee...
 ```
 
-
 ## Favicon
+
 The favicon was created by Lassi Koistinen.

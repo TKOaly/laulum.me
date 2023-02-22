@@ -2,6 +2,7 @@
 title: Skumppaa punkun kaa
 melody: Boom Kah
 ---
+
 Krapula on jo ohi kohta,
 joten skippaa se kotisohva
 Myöhemminkin ehtii lepää

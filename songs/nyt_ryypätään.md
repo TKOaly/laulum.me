@@ -2,6 +2,7 @@
 title: Nyt ryypätään
 melody: Oi kuusipuu
 ---
+
 Nyt ryypätään, nyt ryypätään,
 hyt ryypätään, ryypätään!
 Nyt ryypätään, nyt ryypätään,

@@ -1,6 +1,7 @@
 ---
 title: Hauki ja viina
 ---
+
 Katonrajass' kulkee hauki,
 pahaa taitaa tarkoittaa!
 :,: Kierrä pullon korkki auki,
@@ -30,4 +31,3 @@ Vita möss som går i taket
 råna hest och falla ner,
 :,: men ni ska inte vara rädda,
 tag en sup och allt gör väl. :,:
-

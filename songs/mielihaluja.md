@@ -2,6 +2,7 @@
 title: Mielihaluja
 melody: Silja-line hymni
 ---
+
 Tahtoisin ginitonicin, ginitonicin,
 tai sitten minttufernetin, minttufernetin.
 Kelpaa se kossuvissykin, kossuvissykin.

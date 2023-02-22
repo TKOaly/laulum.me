@@ -2,6 +2,7 @@
 title: Jallutähden alla
 melody: Täällä Pohjantähden alla
 ---
+
 Täällä jallutähden alla
 korkeimmalla kukkulalla.
 Katson läpi lasin tyhjän,
@@ -28,4 +29,4 @@ hiipii sieluun asti halla,
 mutta korkin avaamalla,
 sulaa sydän uudelleen.
 
-Ja alla jallutähden... 
+Ja alla jallutähden...

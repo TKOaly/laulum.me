@@ -3,6 +3,7 @@ title: Javamies
 melody: Pelimies
 writers: Kimmo Rantamäki, malo, mämmelä, rosama
 ---
+
 :,: Nanananaa na na nan nan naa nanananaa na na nan nan naa nanananaa na na nan nan naa.
 Tänä iltana ollaan Klussella. :,:
 

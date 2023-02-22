@@ -2,6 +2,7 @@
 title: Take on Me
 melody: a-ha - Take on Me
 ---
+
 Talking away
 I don't know what I'm to say
 I'll say it anyway

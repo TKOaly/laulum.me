@@ -2,6 +2,7 @@
 title: Pohjois-Karjala
 melody: Leevi and the Leavings - Pohjois-Karjala
 ---
+
 Minä halusin tavata Annelin
 Sillä tiesin sen minua vielä etsivän
 Eihän elämä paljoa antanut

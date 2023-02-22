@@ -3,6 +3,7 @@ title: Gurulassa
 melody: Puistossa
 writers: Ada
 ---
+
 Gurulassa ilta viilenee.
 Topi lämpimikseen koodailee.
 Kelloaan katsoo kiroillen,

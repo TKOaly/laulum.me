@@ -1,6 +1,7 @@
 ---
 title: Lasi täyttyy oluesta
 ---
+
 Lasi täytyy oluesta, elämä on dokaamista
 ota lasi käteen, juodaan kaljaa.
 Pyydä minut aamuteelle,

@@ -2,6 +2,7 @@
 title: Mandariinimies
 melody: Hektor - Mandoliinimies
 ---
+
 Hei ystävä pyyhi kyyneleet,
 aivan turhaan niitä teet.
 Minä mandariinin perseeseeni saan mahtumaan,

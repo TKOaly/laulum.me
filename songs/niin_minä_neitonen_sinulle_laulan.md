@@ -1,6 +1,7 @@
 ---
 title: Niin minä neitonen sinulle laulan
 ---
+
 :,: Niin minä, neitonen, sinulle laulan
 kuin omalle kullalleni :,:
 :,: Jos olis valtaa, niin kuin on mieli,

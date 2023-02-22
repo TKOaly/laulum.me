@@ -3,6 +3,7 @@ title: Mikan Faijan BSD
 melody: Mikan faijan BMW
 writers: Kalle Viiri
 ---
+
 Lauri jälkeen vuosien
 soitti kysyäkseen
 Kerättäiskö kannu kasaan
@@ -12,7 +13,6 @@ Mistä saadaan palvelin?
 Uumenista Mikan kellarin
 Miksei pantais sitä virtoihin,
 tehtäis kaikki niinkuin ennenkin
-
 
 Ja niin loggaan uudelleen
 shelliin vanhan BSD:n,
@@ -33,7 +33,6 @@ Mikan faijan BSD
 pönttö huhkii, huokailee
 vaikka on kaikki kohdallaan,
 ei mikään ole ennallaan.
-
 
 Viimeksi kun tavattiin,
 tämän servun kuoret avattiin.

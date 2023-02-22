@@ -2,6 +2,7 @@
 title: Tähtipölyä
 melody: Samuli Edelmann - Tähtipölyä
 ---
+
 Tyttö ja poika suutelee
 Puiston penkillä elämä aukee
 Tytön hiuksilla on tähtipölyä
@@ -33,4 +34,4 @@ Silmissään on vielä tähtipölyä
 Hetken elämää kaikki kellot soittaa
 Hetken elämää kaikki kunnioittaa
 Hetken elämää
-Tähtipölyä 
+Tähtipölyä

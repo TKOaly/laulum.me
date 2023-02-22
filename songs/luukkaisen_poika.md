@@ -2,6 +2,7 @@
 title: Luukkaisen poika
 melody: Lentäjän poika
 ---
+
 Minä saavuin OhPen pajaan,
 jäin menoa katselemaan.
 Siellä satalukuinen laskarivuori

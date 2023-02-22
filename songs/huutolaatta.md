@@ -2,6 +2,7 @@
 title: Huutolaatta
 melody: Cicapo
 ---
+
 Juon mä hiukan viinaa, sitten oksennan, oksennan.
 Vessaan ryömin, sielläkin mä oksennan, oksennan.
 Huu-uutolaa-aatta, huu-uutolaa-aatta.

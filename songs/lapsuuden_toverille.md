@@ -1,6 +1,7 @@
 ---
 title: Lapsuuden toverille
 ---
+
 Sä kasvoit, neito kaunoinen,
 isäsi majassa,
 :,: kuin kukka kaunis, suloinen

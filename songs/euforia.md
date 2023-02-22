@@ -2,6 +2,7 @@
 title: Euforia
 melody: Euphoria
 ---
+
 Soolo:
 Oon - kokenut oudon muodonmuutoksen
 Saan - mä aikaan ihmeellisten tuotoksen

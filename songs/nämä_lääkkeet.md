@@ -2,6 +2,7 @@
 title: Nämä lääkkeet
 melody: Jääkärimarssi
 ---
+
 Syvä kurkkumme on, jano sammumaton,
 juomme saavista Karjalan A:ta.
 Sillä kossu ja kessu ne lääkkeemme on,

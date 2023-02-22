@@ -1,6 +1,7 @@
 ---
 title: Oodi Kumpulalle
 ---
+
 Käpistelyn pitäis olla amislinja,
 Käpistelyn pitäis olla amislinja,
 Käpistelyn pitäis olla amislinja

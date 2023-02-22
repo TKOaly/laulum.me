@@ -3,10 +3,10 @@ title: Valomerkin jälkeen
 melody: Alitalon Annikki
 writers: Suomen laki
 ---
+
 27.9.1968 annetun alkoholilain 47. pykälä
 pitää sisällään seuraavassa kuultavan
 karun totuuden:
-
 
 Anniskeluajan päättyminen
 on asiakkaille ilmoitettava
