@@ -38,7 +38,7 @@ Books can be linked using their filename, e.g. `tekis-2017.json` matches https:/
 
 **Format**
 
-```json
+```js
 {
   "title": "Title of the book",
   // Can be left out. Currently not displayed.
