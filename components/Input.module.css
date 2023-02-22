@@ -9,6 +9,7 @@
   background: transparent;
 
   transition: border-bottom-color 0.2s ease;
+  font-size: 16px;
 }
 
 .input:focus {
