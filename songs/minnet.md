@@ -1,6 +1,7 @@
 ---
 title: Minnet
 ---
+
 Minne, jag har tappat mitt minne,
 är jag svensk eller finne,
 kommer inte ihåg.

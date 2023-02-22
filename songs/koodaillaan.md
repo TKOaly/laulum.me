@@ -3,6 +3,7 @@ title: Koodaillaan
 melody: Kirka - Hengaillaan
 writers: Julia Lindén & Emilia Ala-Harja
 ---
+
 70T ja 55,
 on dösä mennyt viimeinen,
 mut siitä viis.

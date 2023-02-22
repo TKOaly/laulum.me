@@ -2,6 +2,7 @@
 title: Dokataan
 melody: Heilutaan
 ---
+
 Sitsit loppui ja meillä on pulloja vaan,
 jossei viinaa oo jäljellä pisaraakaan.
 Laskuhumalan oireita odotetaan,

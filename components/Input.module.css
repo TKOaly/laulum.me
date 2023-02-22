@@ -8,7 +8,7 @@
   border-radius: 0;
   background: transparent;
 
-  transition: border-bottom-color .2s ease;
+  transition: border-bottom-color 0.2s ease;
 }
 
 .input:focus {

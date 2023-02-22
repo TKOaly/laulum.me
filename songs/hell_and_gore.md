@@ -2,6 +2,7 @@
 title: Hell and Gore
 melody: Helan går
 ---
+
 Hell and gore,
 shun gop, Father Allan, lallen lay.
 Hell and gore,

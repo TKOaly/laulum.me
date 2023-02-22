@@ -2,6 +2,7 @@
 title: Juodaan viinaa
 melody: Hector - Juodaan viinaa
 ---
+
 Kolmen tähden jallupullon juotuaan
 kaksi miestä tutkii muistikirjojaan.
 Toinen tuskailee, kun sivut täynnä on -
@@ -16,6 +17,7 @@ Juodaan viinaa,
 tullaan viisaammiksi näin.
 Juodaan viinaa,
 on todellisuus piinaa hetkittäin...
+
 - selvinpäin
 
 Vanhus nuoren pastorin saa sekaisin

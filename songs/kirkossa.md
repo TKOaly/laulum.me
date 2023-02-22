@@ -1,6 +1,7 @@
 ---
 title: Kirkossa
 ---
+
 Tuli kirkkoon mies ja lapsi,
 he eteeni istuivat.
 Kai tie oli pienelle hmmhmm,

@@ -2,10 +2,11 @@
 title: Maija
 melody: Kliff - Maija
 ---
+
 Törmäsin, niin kuumaan mimmiin et sen kaltaista tavannut en oo.
 Tajusin, et ei mul muitten kanssa oo koskaan ollu niin rentoo.
 Vaik koitin näytellä chillii, se meininki oli niin villii,
-et estot ja  järki läksi se sai mut lämpimäksi.
+et estot ja järki läksi se sai mut lämpimäksi.
 
 Sen nimi oli Maija, huulipuna maistui mansikalta, jalat lähti alta.
 Sen nimi oli Maija, ei oo koskaan tuntunut paremmalta.

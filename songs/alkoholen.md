@@ -3,6 +3,7 @@ title: Alkoholen
 melody: Hallelujah
 writers: Eva Rönnqvist & Ellen Strömberg
 ---
+
 Jag hörde om en helig fest
 där den är bäst som dricker mest
 och alla som betalar är välkomna.

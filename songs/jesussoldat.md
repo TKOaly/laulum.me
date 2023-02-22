@@ -1,6 +1,7 @@
 ---
 title: Jesussoldat
 ---
+
 Jag är inte med i infanteriet,
 kavalleriet,
 artilleriet.

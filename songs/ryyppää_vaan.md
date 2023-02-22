@@ -1,6 +1,7 @@
 ---
 title: Ryyppää vaan
 ---
+
 Ryyppää, ryyppää, ryyppää vaan,
 huomenna on sulla krapula.
 Mutt' jos ryyppäät, ryyppäät, ryyppäät
@@ -18,7 +19,7 @@ roottori ei pyörikään.
 
 Irkkaa, irkkaa, irkkaa vaan
 huomenna on sulla elämä.
-Mutt' jos irkkaat, irkkaat, irkkaat vaan, 
+Mutt' jos irkkaat, irkkaat, irkkaat vaan,
 elämä ei tulekaan.
 
 Sorvaa, sorvaa, sorvaa vaan,

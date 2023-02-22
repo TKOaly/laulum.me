@@ -1,6 +1,7 @@
 ---
 title: Rati riti ralla
 ---
+
 Rati riti ralla, huomenna on darra.
 Snapsit hyvin alas menee,
 viinipullot tyhjenee.

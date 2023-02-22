@@ -2,6 +2,7 @@
 title: Aku Ankka
 melody: Saku Sammakko
 ---
+
 :,: Aku Ankkako lapsemme turmelee?
 Oh yeah, oh yeah :,:
 Aku Iineksen kanssa seurustelee,
@@ -51,4 +52,3 @@ Sanat valhetta on, mutta sitä en kadu:
 "Hyvät vanhemmat!
 Ostakaa nyt lapsillenne uusi Aku."
 oh yeah, oh yeah, oh yeah.
-

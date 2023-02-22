@@ -1,6 +1,7 @@
 ---
 title: Unkari-kokonaisuus
 ---
+
 Unkarin viini
 
 Voi hyvät ystävät meillä jos ois'
@@ -29,7 +30,6 @@ Lähdön he sais' pian pilviä päin,
 huutaa ja huitoa jaksamme näin..
 Muuta nyt, ystävät, toivota ei:
 päästäispä saavihin uimaan.
-
 
 Krimin kriisi
 

@@ -1,6 +1,7 @@
 ---
 title: Lenin-setä asuu Venäjällä
 ---
+
 Lenin-setä asuu Venäjällä
 ja sieltä on pitkä matka Vietnamiin
 mutta minusta vain tuntuu että
@@ -20,4 +21,4 @@ Minä olen pikku pioneeri
 ja vähäinen on vielä minun voimani
 mutta pienikin voi taistella
 rauhan puolesta kuin Lenin ja setä Ho-Chi-Minh
-rauhan puolesta kuin Lenin ja setä Ho-Chi-Minh. 
+rauhan puolesta kuin Lenin ja setä Ho-Chi-Minh.

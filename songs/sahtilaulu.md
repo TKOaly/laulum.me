@@ -2,6 +2,7 @@
 title: Sahtilaulu
 melody: Son Ar Christr
 ---
+
 :,: Oi ihmislapset - te kuunnelkaa,
 kun teille lapset soittaa maan. :,:
 :,: On kevyt askel, vie mukanaan,
@@ -20,8 +21,8 @@ ja jalkain tahtia kannustaa. :,:
 On mahti maltaalla,
 soi viulu, kiulu kiertää, yhdessä tanssitaan. :,:
 
-:,: Was wollen wir trinken sieben Tage lang 
+:,: Was wollen wir trinken sieben Tage lang
 Was wollen wir trinken? So ein Durst :,:
-:,: Es wird genug für alle sein 
-Wir trinken zusammen, roll das Fass mal rein! 
+:,: Es wird genug für alle sein
+Wir trinken zusammen, roll das Fass mal rein!
 Wir trinken zusammen, nicht allein :,:

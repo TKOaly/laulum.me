@@ -3,6 +3,7 @@ title: Riti Tira Ralla
 melody: Riti Rati Ralla
 writers: Ada-Maaria Hyvärinen, Outi Savolainen
 ---
+
 Rati-riti-ralla, algot teen tiralla
 Kuinka löytää lyhin reitti?
 Aivoni jo yli keitti

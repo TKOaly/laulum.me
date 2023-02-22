@@ -3,6 +3,7 @@ title: Leikkaamaan
 melody: Baarikärpänen
 writers: Julius
 ---
+
 Suomella on velkaa mut miks suremaan
 Jo kauan sitten lääke löytyi siihen ongelmaan
 Alla kokoomuksen, keskustan ja Soinin persujen

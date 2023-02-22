@@ -2,6 +2,7 @@
 title: Bohemian Rhapsody
 melody: Queen - Bohemian Rhapsody
 ---
+
 Is this the real life?
 Is this just fantasy?
 Caught in a landslide
@@ -35,8 +36,8 @@ I sometimes wish I'd never been born at all
 I see a little silhouetto of a man
 Scaramouch, scaramouch will you do the fandango
 Thunderbolt and lightning very very frightening me
-Gallileo, Gallileo, 
-Gallileo, Gallileo, 
+Gallileo, Gallileo,
+Gallileo, Gallileo,
 Gallileo Figaro - magnifico
 
 But I'm just a poor boy and nobody loves me

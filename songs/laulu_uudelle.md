@@ -2,6 +2,7 @@
 title: Laulu Uudelle
 melody: Mombasa
 ---
+
 Jäi Uudelle vain päivä elämää
 ja elämään se iltakin näin jää.
 Kuumankostean minä tunsin Alinan

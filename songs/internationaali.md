@@ -2,6 +2,7 @@
 title: Internationaali
 melody: Kansainvälinen
 ---
+
 Hei, neiti pullot eteem' tuokaa
 oi kuulu raisu laulumme.
 Hei, veikot kaikki pois te juokaa

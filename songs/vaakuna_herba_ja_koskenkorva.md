@@ -2,6 +2,7 @@
 title: Vaakuna, Herba ja Koskenkorva
 melody: Piippolan vaari
 ---
+
 Vaakuna, Herba ja Koskenkorva,
 Alkon parhaita, hei.
 Viinaa siellä ja viinaa täällä,

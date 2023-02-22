@@ -1,6 +1,7 @@
 ---
 title: Sähkö-ATK laulu
 ---
+
 Javascripti, javascripti, RoR, RoR,
 React sekä Angular, React sekä Angular,
 NoSQL, NoSQL.

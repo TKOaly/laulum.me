@@ -1,6 +1,7 @@
 ---
 title: Pikkukakkosen posti
 ---
+
 Pikku kakkosen posti
 postilokero 347
 33101 Tampere 10
@@ -17,7 +18,7 @@ Kolkytä vuotta nyrkki perseessä
 Pikku kakkosen Ransu
 
 Sinivilkkuinen taksi
-Etupenkillä kaksi v***n mulkkua
+Etupenkillä kaksi v\*\*\*n mulkkua
 takapenkin susikoira
 ei voi ymmärtää
 

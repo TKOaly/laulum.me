@@ -3,6 +3,7 @@ title: Rakastuin mä klusteriin
 melody: Rakastuin mä luuseriin
 writers: Sakari Väkevä
 ---
+
 Herkän hahmos kaukaa näin
 Sua ennen tuskin koskaan huomasin
 Vaan nyt sulta

@@ -1,6 +1,7 @@
 ---
 title: Ko-ko-ko-koskenkorvaa
 ---
+
 Ko-ko-ko-kosken-ko-ko-ko-korvaa,
 siitä aina kunnon rä-kä-kä-kännit saa.
 Ko-ko-ko-kosken-ko-ko-ko-korvaa,
@@ -44,8 +45,8 @@ aina kunnon näpy-näpy,
 aina kunnon näpy-näpy saa!
 
 Si-si-si-sissi-ko-ko-ko-komppania,
-siellä aina kunnon *shh* saa!
+siellä aina kunnon _shh_ saa!
 Si-si-si-sissi-ko-ko-ko-komppania,
-siellä aina kunnon *shh*,
-aina kunnon *shh*,
-aina kunnon *shh* saa!
+siellä aina kunnon _shh_,
+aina kunnon _shh_,
+aina kunnon _shh_ saa!

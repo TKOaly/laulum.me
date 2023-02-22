@@ -2,6 +2,7 @@
 title: Leppätalo
 melody: Täti Monika
 ---
+
 On meillä hauska talo, se Leppätalo on.
 Kun design-tuoli katoaa, on huuto armoton.
 Kas näin saapuu lasku, ja lasku saapuu näin,

@@ -3,6 +3,7 @@ title: Käpy
 melody: Kaapo-tunnusmusiikki
 writers: Ada
 ---
+
 Oon jo n-vuotias,
 Oppimaan innokas,
 Sain aineen hauskimman käpy.

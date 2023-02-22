@@ -1,6 +1,7 @@
 ---
 title: Kansainvälinen
 ---
+
 Työn orjat sorron yöstä nouskaa,
 maan ääriin kuuluu kutsumus
 Nyt ryskyin murtuu pakko valta,

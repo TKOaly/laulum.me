@@ -1,6 +1,7 @@
 ---
 title: Unkarin viini
 ---
+
 Voi hyvät ystävät meillä jos ois'
 Unkarin viiniä saavi.
 Eikö kun kaks' sitä kantais ja jois,

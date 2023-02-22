@@ -3,6 +3,7 @@ title: Meksikon pikapano
 melody: Meksikon pikajuna
 writers: EKK
 ---
+
 Illan tullen nolottaa,
 panopäätä kolottaa,
 Pikku-Pete tahtoo päästä sänkyyn painimaan

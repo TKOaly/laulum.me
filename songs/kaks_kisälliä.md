@@ -1,6 +1,7 @@
 ---
 title: Kaks kisälliä
 ---
+
 Kaks' kisälliä kulki
 maantietä laulellen.
 He laulussaan toi julki
@@ -12,7 +13,6 @@ elellä kelpaisi!
 Kyllä vaan!
 
 :,: Kaljaa, kaljaa, kaljallallallallaa! :,:
-
 
 Rannalle viinajärven
 majamme laadittais,

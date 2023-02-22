@@ -1,6 +1,7 @@
 ---
 title: Olof Palme -snapvisan
 ---
+
 Olof Palme gick på bio,
 tra la la la laa, la laa laa laa.
 Han kom ut strax efter tio,

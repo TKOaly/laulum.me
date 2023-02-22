@@ -2,6 +2,7 @@
 title: Sauvakirkon polttaja
 melody: Vanha holvikirkko
 ---
+
 Kun ilta tullut on, pillit soi, savu haisee,
 vain vanhan sauvakirkon seinät tuntee kuumuuden.
 Kas, parvella nyt "RAKS!" parru leimuten halkee.
@@ -15,7 +16,7 @@ ja roihuavat liekit piirtyy yöhön kesäiseen.
     Se tuttuu on kyllä mutta innostavaa.
     Kun palokellot soivat ja liekit ilakoivat,
     ne kertoa sen, voivat kuinka nauroi hän.
-    
+
 Hän nuori vielä on, mutta oottaa jo aikaa,
 kun kaikkialta konstat saapuu häntä tutkimaan.
 Voi kuinka lauluaan kolkko selli tuo kaikaa.

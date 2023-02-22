@@ -2,6 +2,7 @@
 title: Vit vecka
 melody: White Christmas
 ---
+
 Jag drömmer om en vit vecka.
 Sju dagar utan alkohol.
 Tänk att bara skåla
@@ -12,4 +13,4 @@ Jag drömmer om en vit vecka,
 det finns en gräns för vad jag tål.
 Jag vill inte drick
 mera sprit
-så låt nästä vecka vara vit. 
+så låt nästä vecka vara vit.

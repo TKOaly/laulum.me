@@ -2,6 +2,7 @@
 title: Barbie Girl
 melody: Aqua - Barbie Girl
 ---
+
 Hi, Barbie
 Hi, Ken!
 Do you wanna go for a ride?
@@ -36,7 +37,7 @@ I can act like a star, I can beg on my knees
 Come jump in, bimbo friend, let us do it again,
 Hit the town, fool around, let's go party
 
-:,: You can touch, 
+:,: You can touch,
 you can play,
 If you say, "I'm always yours." :,:
 

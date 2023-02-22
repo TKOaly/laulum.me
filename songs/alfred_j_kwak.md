@@ -1,6 +1,7 @@
 ---
 title: Alfred J. Kwak
 ---
+
 (Intro)
 Minä lennän, polskin ja uin.
 Sanon sulle kvaak,
@@ -15,7 +16,6 @@ Minä poika roiskin lammikossa loiskin,
 mutta malttakaa, tulen kohta poiskin.
 Minä poika roiskin lammikossa loiskin,
 mutta malttakaa, tulen kohta poiskin.
-
 
 (Outro)
 On tänään onnenpäivä, ei murheesta häivää,

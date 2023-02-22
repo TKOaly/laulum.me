@@ -2,6 +2,7 @@
 title: Gurulah
 melody: Delilah
 ---
+
 Ikkunaa vasten näin
 sovelman kaatuvan jälleen,
 poikkeuksen heittänyt

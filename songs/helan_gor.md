@@ -1,6 +1,7 @@
 ---
 title: Helan går
 ---
+
 (Soolo:)
 En liten fågel satt en gång
 och sjöng i furuskog,
@@ -15,4 +16,5 @@ Helan går, sjung hoppfaderallan lej
 Och den som inte helan tar,
 han ej heller halvan får.
 Helan går...
+
 - sjung hoppfaderallan lej!

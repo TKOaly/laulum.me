@@ -2,6 +2,7 @@
 title: Lonkéro
 melody: Pokémon
 ---
+
 Mä tunnen sen jo tympivän,
 kaljan lämpimän.
 Uuden vaiheen aloitan

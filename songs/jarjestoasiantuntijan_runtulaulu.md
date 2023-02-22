@@ -2,6 +2,7 @@
 title: Järjestöasiantuntijan runtulaulu
 melody: Minä soitan harmonikkaa
 ---
+
 Fuksit oksentaa rappuun,
 kaljatölkkejä tippuu
 parvekkeelta alas asfalttiin.

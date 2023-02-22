@@ -2,6 +2,7 @@
 title: Nisti ja Nööri
 melody: Päivänsäde ja Menninkäinen
 ---
+
 Assari kun päätti tentin,
 siskoistaan jäi jälkeen sentin
 humanisti viimeinen.
@@ -22,7 +23,7 @@ Sanoi: poltat Marlboroa,
 mutten ole eläissäni
 nähnyt mitään yhtä ihanaa!
 Ei haittaa, vaikka röökisi
-mut yskiväksi saa - 
+mut yskiväksi saa -
 on astmaisena hyvä asustaa.
 Käy kanssani, niin Otaniemeen
 näytän sulle tien,

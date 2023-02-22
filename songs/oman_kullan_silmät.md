@@ -1,6 +1,7 @@
 ---
 title: Oman kullan silmät
 ---
+
 Oman kullan silmät sinisen on harmaat,
 ne on minun mielessäni aina.
 :,: Joka sunnuntaki, väliin viikollaki,

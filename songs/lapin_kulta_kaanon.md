@@ -1,6 +1,7 @@
 ---
 title: Lapin Kulta -kaanon
 ---
+
 Lapin Kulta, Lapin Kulta,
 Karjala, Karjala,
 Sininen ja Olvi, Sininen ja Olvi,

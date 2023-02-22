@@ -2,6 +2,7 @@
 title: Mökkitie
 melody: Arttu Wiskari - Mökkitie
 ---
+
 Kesäkuu vuonna kasikuus
 Meidän Sierra oli melkein uus
 Faija tankkas mutsi pakkasi eväitä

@@ -2,6 +2,7 @@
 title: Karhuviinaa
 melody: Mörri-Möykky
 ---
+
 Ottaisin minä Karhuviinaa,
 jos vain pullon saisin.
 :;: Pieneen kurkkuun kaataisin
@@ -24,6 +25,7 @@ varpaanväleissämme.
 Eikä me sukkia vaihdeta kuin
 korkeintaan keskenämme.
 Eikä me sukkia vaihdeta,
+
 - ei ainakaan keskenämme!
 
 Tiu tau, tiu tau...

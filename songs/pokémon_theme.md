@@ -1,6 +1,7 @@
 ---
 title: Pokémon Theme
 ---
+
 I wanna be the very best
 Like no one ever was
 To catch them is my real test
@@ -19,11 +20,10 @@ In a world we must defend
 Pokémon! Gotta catch 'em all (a heart so true)
 Our courage will pull us through
 You teach me and I'll teach you
-Pokémon! 
+Pokémon!
 Gotta catch 'em all
 Gotta catch 'em all
 Pokémon!
-
 
 -- Not included in the song book --
 
@@ -45,6 +45,6 @@ In a world we must defend
 Pokémon! Gotta catch 'em all (a heart so true)
 Our courage will pull us through
 You teach me and I'll teach you
-Pokémon! 
+Pokémon!
 
 (repeat n amount of times)

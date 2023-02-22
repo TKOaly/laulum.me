@@ -3,6 +3,7 @@ title: Assarit
 melody: PMMP - Joutsenet
 writers: Mikko Halmela
 ---
+
 Voit sanoa mitä haluat,
 se ei tunnu se ei opeta
 Mene vaan, mene vaan
@@ -28,7 +29,6 @@ Oppisin, mut se vaan ei mee enää niin,
 ei mee enää niin,
 ei mikään mee enää niin
 
-
 Aina etänä ei ikinä lähellä
 proffia ei meille riitäkkään.
 Mene vaan,
@@ -49,4 +49,3 @@ Sä et ehdi juosta enää
 junaan viimeiseen.
 Et ehdi enää
 jos et jo mee
-

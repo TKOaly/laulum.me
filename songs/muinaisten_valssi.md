@@ -2,6 +2,7 @@
 title: Muinaisten Valssi aka Kultisti Miikkulainen
 melody: Vanhojapoikia viiksekkäitä
 ---
+
 Saimaan saaressa pikkuinen torppa,
 uhraa portailla kultisti Miikkulainen,
 mutta pintaan ei nouse kuin norppa,

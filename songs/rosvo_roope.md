@@ -1,6 +1,7 @@
 ---
 title: Rosvo-Roope
 ---
+
 Jos täytätte mun lasini
 niin tahdon kertoa
 tään surullisen tarinan
@@ -45,4 +46,4 @@ hän on nyt Suomessa
 Ja jossain jokivarressa lie lossivahtina
 Hän lesken eessä nöyrtyi
 ja joutui naimisiin
-Ja sillä lailla Rosvo-Roope hiljaa hirtettiin. 
+Ja sillä lailla Rosvo-Roope hiljaa hirtettiin.
