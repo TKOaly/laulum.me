@@ -1,5 +1,5 @@
 ---
-title: Sitsipeton on irti
+title: Sitsipeto on irti
 melody: Peto on irti
 ---
 
