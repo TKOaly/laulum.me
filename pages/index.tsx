@@ -4,13 +4,12 @@ import Head from "next/head";
 import Router from "next/router";
 import { Merriweather } from "@next/font/google";
 
-import { ChangeEvent, useCallback, useMemo, useState } from "react";
+import { ChangeEvent, useCallback, useMemo, useRef, useState } from "react";
 import { extract, partial_ratio } from "fuzzball";
 
 import Icon from "@/components/Icon";
 import { Input } from "@/components/Input";
 import { Link } from "@/components/Link";
-import { Button } from "@/components/Button";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 
@@ -33,6 +32,7 @@ const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
   const { promptVisible, updateWorker } = usePWAPrompt();
 
   // Search box
+  const inputRef = useRef<HTMLInputElement>(null);
   const [query, setQuery] = useState("");
   const updateQuery = useCallback(
     ({ target }: ChangeEvent<HTMLInputElement>) => {
@@ -62,6 +62,14 @@ const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
     Router.push(`songs/${slugify(sortedTitles[0].title)}`);
   }, [sortedTitles]);
+  const scrollToInput = useCallback(() => {
+    if (!inputRef?.current) {
+      return;
+    }
+    inputRef.current.scrollIntoView({
+      behavior: "smooth",
+    });
+  }, []);
 
   return (
     <>
@@ -96,9 +104,11 @@ const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
       <main>
         <form onSubmit={handleSubmit}>
           <Input
+            ref={inputRef}
             placeholder="Type song name and press enter/submit"
             value={query}
             onChange={updateQuery}
+            onFocus={scrollToInput}
           />
         </form>
         <div
