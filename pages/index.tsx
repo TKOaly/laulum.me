@@ -17,6 +17,8 @@ import { usePWAPrompt } from "@/lib/usePWAPrompt";
 import { getSongs } from "@/lib/songs";
 import slugify from "@/lib/slugify";
 import { UpdateOverlay } from "@/components/UpdateOverlay";
+import { Button } from "@/components/Button";
+import useInput from "@/lib/useInput";
 
 const merriweather = Merriweather({ subsets: ["latin"], weight: "400" });
 
@@ -32,14 +34,13 @@ const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
   const { promptVisible, updateWorker } = usePWAPrompt();
 
   // Search box
-  const inputRef = useRef<HTMLInputElement>(null);
-  const [query, setQuery] = useState("");
-  const updateQuery = useCallback(
-    ({ target }: ChangeEvent<HTMLInputElement>) => {
-      setQuery(target.value);
-    },
-    [setQuery]
-  );
+  const {
+    ref: inputRef,
+    scrollTo: scrollToInput,
+    query,
+    updateQuery,
+    clearQuery,
+  } = useInput();
 
   const sortedTitles = useMemo(() => {
     if (query.trim().length === 0) {
@@ -62,14 +63,6 @@ const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
     Router.push(`songs/${slugify(sortedTitles[0].title)}`);
   }, [sortedTitles]);
-  const scrollToInput = useCallback(() => {
-    if (!inputRef?.current) {
-      return;
-    }
-    inputRef.current.scrollIntoView({
-      behavior: "smooth",
-    });
-  }, []);
 
   return (
     <>
@@ -101,46 +94,60 @@ const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
         <h1 className={merriweather.className}>laulum.me</h1>
       </Header>
 
-      <main>
-        <form onSubmit={handleSubmit}>
-          <Input
-            ref={inputRef}
-            placeholder="Type song name and press enter/submit"
-            value={query}
-            onChange={updateQuery}
-            onFocus={scrollToInput}
-          />
-        </form>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
-            gap: "1rem",
-            alignItems: "center",
-          }}
-        >
-          {sortedTitles.map(({ title, score }) => (
-            <Link
-              key={title}
-              href={`/songs/${slugify(title)}`}
-              style={{ width: "100%", opacity: Math.max(score, 20) / 100 }}
-            >
-              {title}
-            </Link>
-          ))}
-        </div>
-      </main>
+      <div
+        style={{
+          height: "100vh",
+        }}
+      >
+        <main>
+          <form onSubmit={handleSubmit}>
+            <Input
+              ref={inputRef}
+              placeholder="Type song name and press enter/submit"
+              value={query}
+              onChange={updateQuery}
+              onFocus={scrollToInput}
+            />
+          </form>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+              gap: "1rem",
+              alignItems: "center",
+            }}
+          >
+            {sortedTitles.length === 0 && (
+              <div>
+                <p>No songs found</p>
+                <Button variant="secondary" onClick={clearQuery}>
+                  Clear search
+                </Button>
+              </div>
+            )}
+            {sortedTitles.map(({ title, score }) => (
+              <Link
+                key={title}
+                href={`/songs/${slugify(title)}`}
+                style={{ width: "100%", opacity: Math.max(score, 20) / 100 }}
+              >
+                {title}
+              </Link>
+            ))}
+          </div>
+        </main>
 
-      <Footer style={{ textAlign: "center" }}>
-        <Link
-          href="https://github.com/TKOaly/laulum.me"
-          variant="primary"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Contribute a song on GitHub
-        </Link>
-      </Footer>
+        <Footer style={{ textAlign: "center" }}>
+          <Link
+            href="https://github.com/TKOaly/laulum.me"
+            variant="primary"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Contribute a song on GitHub
+          </Link>
+        </Footer>
+      </div>
     </>
   );
 };
