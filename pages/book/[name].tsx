@@ -7,9 +7,9 @@ import { getBookLink } from "@/lib/getTelegramUrl";
 import { Link } from "@/components/Link";
 import { Header } from "@/components/Header";
 import slugify from "@/lib/slugify";
-import React from "react";
 import { BackButton } from "@/components/BackButton";
 import { songExists } from "@/lib/songs";
+import { Footer } from "@/components/Footer";
 
 export async function getStaticPaths() {
   const bookNames = await getBookNames();
@@ -62,6 +62,11 @@ export const getStaticProps: GetStaticProps<{ book: Book }> = async (
 
 const BookPage = ({ book }: InferGetStaticPropsType<typeof getStaticProps>) => {
   const title = `${book.title} | laulum.me`;
+
+  const amountValidSongs = book.songs.filter(
+    (song) => song.content || song.slug
+  ).length;
+
   return (
     <>
       <Head>
@@ -103,6 +108,25 @@ const BookPage = ({ book }: InferGetStaticPropsType<typeof getStaticProps>) => {
       </Header>
 
       <main>
+        <div>
+          <h1>{book.title}</h1>
+          {book.credits && (
+            <details style={{ marginBottom: "2rem" }}>
+              <summary>Credits</summary>
+              {Object.keys(book.credits).map((title) => {
+                return (
+                  <div key={title} style={{ marginBottom: "2rem" }}>
+                    <p>
+                      <strong>{title}</strong>
+                    </p>
+                    {book.credits![title].join(", ")}
+                  </div>
+                );
+              })}
+            </details>
+          )}
+        </div>
+
         <div
           style={{
             display: "grid",
@@ -158,6 +182,21 @@ const BookPage = ({ book }: InferGetStaticPropsType<typeof getStaticProps>) => {
           })}
         </div>
       </main>
+
+      <Footer>
+        <p style={{ opacity: 0.75 }}>
+          {amountValidSongs} / {book.songs.length} songs found in laulum.me.
+        </p>
+
+        <Link
+          href={`https://github.com/TKOaly/laulum.me/edit/main/books/${book.name}.json`}
+          target="_blank"
+          rel="noreferrer noopener"
+          variant="secondary"
+        >
+          Edit this book on GitHub
+        </Link>
+      </Footer>
     </>
   );
 };
