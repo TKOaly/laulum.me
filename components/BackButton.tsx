@@ -1,9 +1,11 @@
 import useMounted from "@/lib/useMounted";
+import { Roboto } from "@next/font/google";
 import { useRouter } from "next/router";
 import { useCallback } from "react";
 import { Link } from "./Link";
 
 import styles from "./Link.module.css";
+const roboto = Roboto({ subsets: ["latin"], weight: "400" });
 
 export const BackButton = () => {
   const mounted = useMounted();
@@ -24,8 +26,8 @@ export const BackButton = () => {
   return (
     <button
       onClick={goBack}
-      className={`${styles.link} ${styles.primary}`}
-      style={{ cursor: "pointer" }}
+      className={`${styles.link} ${styles.primary} ${roboto.className}`}
+      style={{ cursor: "pointer", fontSize: "16px" }}
     >
       Back
     </button>

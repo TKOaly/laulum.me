@@ -96,7 +96,9 @@ const BookPage = ({ book }: InferGetStaticPropsType<typeof getStaticProps>) => {
       </Head>
 
       <Header>
-        <BackButton />
+        <Link href="/" variant="primary">
+          Home
+        </Link>
         <Link
           href={getBookLink(book)}
           variant="telegram"
