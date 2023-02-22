@@ -86,3 +86,8 @@ export const getSong = async (querySlug: string) => {
 
   return readSong(match.filename);
 };
+
+export const songExists = async (querySlug: string) => {
+  const mapping = await getSlugs(querySlug);
+  return mapping.some(({ slug }) => querySlug === slug);
+};

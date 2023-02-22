@@ -5,10 +5,11 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Link } from "@/components/Link";
 
-import { getTelegramLink } from "@/lib/getTelegramUrl";
+import { getSongLink } from "@/lib/getTelegramUrl";
 import { getSong, getSongs } from "@/lib/songs";
 import slugify from "@/lib/slugify";
 import { Song } from "@/types/song";
+import { BackButton } from "@/components/BackButton";
 
 export async function getStaticPaths() {
   const songs = await getSongs();
@@ -71,11 +72,9 @@ const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
       </Head>
 
       <Header>
-        <Link href="/" variant="primary">
-          Back
-        </Link>
+        <BackButton />
         <Link
-          href={getTelegramLink(song)}
+          href={getSongLink(song)}
           variant="telegram"
           target="_blank"
           rel="noreferrer noopener"
