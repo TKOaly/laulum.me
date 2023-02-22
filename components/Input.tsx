@@ -4,4 +4,6 @@ import styles from "./Input.module.css";
 export const Input = forwardRef<
   HTMLInputElement,
   DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
->((props, ref) => <input ref={ref} {...props} className={styles.input} />);
+>(function Input(props, ref) {
+  return <input ref={ref} {...props} className={styles.input} />;
+});
