@@ -3,7 +3,7 @@ import type { InferGetStaticPropsType } from "next";
 import Head from "next/head";
 import { Merriweather } from "@next/font/google";
 
-import Icon from "@/components/Icon";
+import { Icon } from "@/components/Icon";
 import { Link } from "@/components/Link";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
