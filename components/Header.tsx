@@ -18,6 +18,6 @@ export const Header = ({ children, style, ...props }: HeaderProps) => (
     {...props}
   >
     {children}
-    <Logo style={{ marginLeft: "auto" }} />
+    <Logo key="header-logo" style={{ marginLeft: "auto" }} />
   </header>
 );
