@@ -2,7 +2,7 @@ import Image, { ImageProps } from "next/image";
 
 import styles from "./Icon.module.css";
 
-const Icon = ({
+export const Icon = ({
   size = 64,
   ...props
 }: Omit<ImageProps, "src" | "alt"> & { size?: number }) => (
@@ -15,5 +15,3 @@ const Icon = ({
     alt=""
   />
 );
-
-export default Icon;
