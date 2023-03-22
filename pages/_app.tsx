@@ -1,7 +1,7 @@
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
-import "@/lib/app.css";
+import "./app.css";
 import { Roboto } from "@next/font/google";
 import { ErrorBoundary } from "@/components";
 
