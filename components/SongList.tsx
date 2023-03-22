@@ -3,7 +3,6 @@ import { useMemo, useCallback } from "react";
 
 import { extract, partial_ratio } from "fuzzball";
 
-import { Button } from "./Button";
 import { Input } from "./Input";
 import { Link } from "./Link";
 
@@ -65,14 +64,7 @@ export const SongList = ({ titles }: SongListProps) => {
           alignItems: "center",
         }}
       >
-        {sortedTitles.length === 0 && (
-          <div>
-            <p>No songs found</p>
-            <Button variant="secondary" onClick={clearQuery}>
-              Clear search
-            </Button>
-          </div>
-        )}
+        {sortedTitles.length === 0 && <p>No songs found</p>}
         {sortedTitles.map(({ title, score }) => (
           <Link
             key={title}
