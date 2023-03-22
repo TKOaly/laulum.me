@@ -1,15 +1,12 @@
 import type { GetStaticProps, InferGetStaticPropsType } from "next";
 import Head from "next/head";
 
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
-import { Link } from "@/components/Link";
+import { Footer, Header, Link, BackButton } from "@/components";
 
 import { getSongLink } from "@/lib/getTelegramUrl";
 import { getSong, getSongs } from "@/lib/songs";
 import slugify from "@/lib/slugify";
 import { Song } from "@/types/song";
-import { BackButton } from "@/components/BackButton";
 
 export async function getStaticPaths() {
   const songs = await getSongs();

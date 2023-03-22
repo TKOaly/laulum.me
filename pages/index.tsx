@@ -3,15 +3,17 @@ import type { InferGetStaticPropsType } from "next";
 import Head from "next/head";
 import { Merriweather } from "@next/font/google";
 
-import { Icon } from "@/components/Icon";
-import { Link } from "@/components/Link";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
+import {
+  Icon,
+  Link,
+  Footer,
+  Header,
+  UpdateOverlay,
+  SongList,
+} from "@/components";
 
 import { usePWAPrompt } from "@/lib/usePWAPrompt";
 import { getSongs } from "@/lib/songs";
-import { UpdateOverlay } from "@/components/UpdateOverlay";
-import { SongList } from "@/components/SongList";
 
 const merriweather = Merriweather({ subsets: ["latin"], weight: "400" });
 

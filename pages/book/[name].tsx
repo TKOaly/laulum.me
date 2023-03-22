@@ -4,12 +4,9 @@ import Head from "next/head";
 import type { Book } from "@/types/book";
 import { getBook, getBookNames } from "@/lib/books";
 import { getBookLink } from "@/lib/getTelegramUrl";
-import { Link } from "@/components/Link";
-import { Header } from "@/components/Header";
+import { Link, Header, Footer } from "@/components";
 import slugify from "@/lib/slugify";
-import { BackButton } from "@/components/BackButton";
 import { songExists } from "@/lib/songs";
-import { Footer } from "@/components/Footer";
 
 export async function getStaticPaths() {
   const bookNames = await getBookNames();
