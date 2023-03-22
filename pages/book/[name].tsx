@@ -156,7 +156,7 @@ const BookPage = ({ book }: InferGetStaticPropsType<typeof getStaticProps>) => {
               return (
                 <Link
                   key={song.number}
-                  href={`/songs/${song.slug}`}
+                  href={`/songs/${song.slug}?book=${book.name}`}
                   style={{ width: "100%" }}
                 >
                   {numberedTitle}
