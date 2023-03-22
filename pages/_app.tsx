@@ -3,7 +3,7 @@ import Head from "next/head";
 
 import "@/lib/app.css";
 import { Roboto } from "@next/font/google";
-import ErrorBoundary from "@/components/ErrorBoundary";
+import { ErrorBoundary } from "@/components";
 
 const roboto = Roboto({ subsets: ["latin"], weight: "400" });
 

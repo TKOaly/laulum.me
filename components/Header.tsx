@@ -1,5 +1,5 @@
 import type { DetailedHTMLProps, HTMLAttributes, ReactNode } from "react";
-import Logo from "./Logo";
+import { Logo } from "./Logo";
 
 export type HeaderProps = DetailedHTMLProps<
   HTMLAttributes<HTMLElement>,

@@ -5,7 +5,7 @@ type ErrorState = {
   error?: Error;
 };
 
-class ErrorBoundary extends React.Component<
+export class ErrorBoundary extends React.Component<
   React.PropsWithChildren<{}>,
   ErrorState
 > {
@@ -38,5 +38,3 @@ class ErrorBoundary extends React.Component<
     return this.props.children;
   }
 }
-
-export default ErrorBoundary;
