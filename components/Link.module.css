@@ -19,7 +19,14 @@
 
   transition: backround 0.2s ease, color 0.2s ease, border 0.2s ease;
 }
-.link:hover,
+@media (hover: hover) {
+  .link:hover {
+    --background: black;
+    --text: white;
+
+    outline: solid 1px var(--accent);
+  }
+}
 .link:focus {
   --background: black;
   --text: white;
