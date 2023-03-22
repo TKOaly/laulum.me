@@ -1,12 +1,14 @@
 import type { GetStaticProps, InferGetStaticPropsType } from "next";
 import Head from "next/head";
 
-import { Footer, Header, Link, BackButton } from "@/components";
+import { Footer, Header, Link } from "@/components";
 
 import { getSongLink } from "@/lib/getTelegramUrl";
 import { getSong, getSongs } from "@/lib/songs";
 import slugify from "@/lib/slugify";
 import { Song } from "@/types/song";
+import { useEffect, useState } from "react";
+import { getBookNames } from "@/lib/books";
 
 export async function getStaticPaths() {
   const songs = await getSongs();
@@ -18,6 +20,7 @@ export async function getStaticPaths() {
 
 export const getStaticProps: GetStaticProps<{
   song: Song & { filename: string };
+  bookNames: string[] | null;
 }> = async (context) => {
   const query = context.params?.slug;
 
@@ -31,12 +34,32 @@ export const getStaticProps: GetStaticProps<{
     return { notFound: true };
   }
 
-  return { props: { song } };
+  const bookNames = await getBookNames();
+
+  return { props: { song, bookNames } };
 };
 
-const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
+const SongPage = ({
+  song,
+  bookNames,
+}: InferGetStaticPropsType<typeof getStaticProps>) => {
   const title = `${song.title} | laulum.me`;
   const slug = slugify(song.title);
+
+  const [backPage, setBackPage] = useState("/");
+  useEffect(() => {
+    if (!bookNames) return;
+
+    const params = new URLSearchParams(window?.location.search);
+    const book = params.get("book");
+
+    if (!book) return;
+    if (!bookNames.includes(book)) {
+      console.error("Unknown book name provided to query string.");
+      return;
+    }
+    setBackPage(`/book/${encodeURIComponent(book)}`);
+  }, [setBackPage]);
 
   return (
     <>
@@ -69,7 +92,9 @@ const SongPage = ({ song }: InferGetStaticPropsType<typeof getStaticProps>) => {
       </Head>
 
       <Header>
-        <BackButton />
+        <Link href={backPage} variant="primary">
+          Back
+        </Link>
         <Link
           href={getSongLink(song)}
           variant="telegram"
