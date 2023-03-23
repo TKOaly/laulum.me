@@ -1,5 +1,6 @@
 ---
 title: Olof Palme -snapvisan
+melody: Deck the halls
 ---
 
 Olof Palme gick på bio,

@@ -2,7 +2,7 @@
 title: Minä soitan harmonikkaa
 ---
 
-Jalankulkiat juoskoon, astukoon lätäköihin
+Jalankulkijat juoskoon, astukoon lätäköihin
 kiiltäköön asfaltti vetinen
 Eihän tietää voi kansa joka märkänä kulkee
 miksi oon tänään niin iloinen
