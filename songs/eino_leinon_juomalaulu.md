@@ -1,6 +1,6 @@
 ---
 title: Eino Leinon juomalaulu
-melody: Pieni episodi
+melody: Piiri pieni pyörii
 ---
 
 Monta päivää juotuaan

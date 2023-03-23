@@ -1,5 +1,6 @@
 ---
 title: Kun mä kuolen
+melody: Jos sun lysti on
 ---
 
 :,: Kun mä kuolen vanhan piippuni sä saat. :,:

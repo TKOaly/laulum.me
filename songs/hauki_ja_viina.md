@@ -1,5 +1,6 @@
 ---
 title: Hauki ja viina
+melody: Stenka Rasin
 ---
 
 Katonrajass' kulkee hauki,

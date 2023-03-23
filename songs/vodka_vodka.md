@@ -1,5 +1,6 @@
 ---
 title: Vodka, vodka
+melody: Stenka Rasin
 ---
 
 Vodka, vodka vill jag dricka,

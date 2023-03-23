@@ -1,5 +1,6 @@
 ---
 title: Minun juomani kossu on
+melody: Minun kultani kaunis on
 ---
 
 :,: Minun juomani kossu on,
