@@ -32,10 +32,10 @@ niin upseerit välillä pullosta naukkaa,
 
 [KERTO]
 Kauf dir ein Auto und fahr gegen Baum,
-fann wird das Leben ein Traum,
+dann wird das Leben ein Traum,
 mein lieber Augustin!
 Kauf dir ein Auto und fahr gegen Baum,
-fann wird das Leben ein Traum, huhhei!
+dann wird das Leben ein Traum, huhhei!
 
 Maisterit koulussa opettaa,
 ja juo (ja laulaa), ja juo (ja laulaa).

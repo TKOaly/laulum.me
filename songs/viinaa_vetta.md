@@ -1,5 +1,6 @@
 ---
 title: Viinaa, vettä
+melody: Kissa vieköön
 ---
 
 Viinaa, vettä

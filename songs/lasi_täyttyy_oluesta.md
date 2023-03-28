@@ -1,5 +1,6 @@
 ---
 title: Lasi täyttyy oluesta
+melody: Syksyn sävel
 ---
 
 Lasi täytyy oluesta, elämä on dokaamista

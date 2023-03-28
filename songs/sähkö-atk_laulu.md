@@ -1,5 +1,6 @@
 ---
 title: Sähkö-ATK laulu
+melody: Jaakko Kulta
 ---
 
 Javascripti, javascripti, RoR, RoR,
