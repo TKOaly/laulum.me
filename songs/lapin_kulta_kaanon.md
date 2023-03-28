@@ -1,5 +1,6 @@
 ---
 title: Lapin Kulta -kaanon
+melody: Jaakko kulta
 ---
 
 Lapin Kulta, Lapin Kulta,

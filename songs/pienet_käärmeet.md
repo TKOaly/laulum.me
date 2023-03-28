@@ -1,5 +1,6 @@
 ---
 title: Pienet käärmeet
+melody: Kuningaskobra
 ---
 
 On pieniä käärmeitä,

@@ -1,5 +1,6 @@
 ---
 title: Minnet
+melody: Memory
 ---
 
 Minne, jag har tappat mitt minne,

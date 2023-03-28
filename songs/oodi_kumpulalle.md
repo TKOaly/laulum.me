@@ -1,5 +1,6 @@
 ---
 title: Oodi Kumpulalle
+melody: Pikku-Matin auto
 ---
 
 Käpistelyn pitäis olla amislinja,
