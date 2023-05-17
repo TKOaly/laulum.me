@@ -46,7 +46,7 @@ Hei juttele sinä vaan...
 
 Siellä näin minä teekkarityttösen
 Niin sievän, hennon ja herttaisen
-Vaan yks murjaani juoksi mun perääni
+Vaan yks kemisti juoksi mun perääni
 Ja halkaisi kirveellä kalloni
 
 Hei juttele sinä vaan...
