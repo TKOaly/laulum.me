@@ -1,6 +1,6 @@
 ---
 title: Klustronikka
-melody: Ankroniikka
+melody: Ankronikka
 writers: Henri Peurasaari
 ---
 
