@@ -31,7 +31,7 @@ Ja pissatestejä
 Siellä varmasti paranen
 
 Nyt olkoon määränpäänä
-YHTS
+YTHS
 Saan siellä lääkekuurin
 YTHS
 
