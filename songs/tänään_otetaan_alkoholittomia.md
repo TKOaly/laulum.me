@@ -8,16 +8,22 @@ writers: Lassi Koistinen, Mari Karlsson
 helvetin paljon limsaa. :,:
 
 :,: Huomenna on, huomenna on
-sunnuntai ilman darraa. :,:
+raikas ja kevyt olo. :,:
 
 :,: I dag ska vi ta, i dag ska vi ta
 helvete mycket saftdryck. :,:
 
 :,: I morgon ska vi ha, i morgon ska vi ha
-SÖNDAG UTAN DARRA. :,:
+roliga och glada minnen. :,:
 
 :,: Täna võtame, täna võtame
 kuradima palju mahla. :,:
 
 :,: Homme meil on, homme meil on
-tavaline pühapäev. :,:
+tavaline esmaspäev / teisipäev / kolmapäev / neljapäev / reede / laupäev /pühapäev. :,:
+
+:,: Tonight we shall drink, tonight we shall drink
+rampant amounts of soft drinks. :,:
+
+:,: Tomorrow we shall have, tomorrow we shall have
+just a little bit of caries. :,:
