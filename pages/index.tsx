@@ -20,7 +20,9 @@ const merriweather = Merriweather({ subsets: ["latin"], weight: "400" });
 export async function getStaticProps() {
   const songs = await getSongs();
   return {
-    props: { titles: songs.map(({ title }) => title) },
+    props: {
+      titles: songs.filter(({ hidden }) => !hidden).map(({ title }) => title),
+    },
   };
 }
 

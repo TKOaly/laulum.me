@@ -1,6 +1,7 @@
 ---
 title: Kun mä kuolen / Testamentti (Keltasitsit edition)
 melody: Jos sun lysti on
+hidden: true
 ---
 
 :,: Kun mä kuolen vanhan piippuni sä saat. :,:
@@ -95,8 +96,9 @@ Kun mä kuolen hiihtohousuni sä saat.
 
 ...hiihtorukkaseni saat...
 Treenaan harpun soittamista
+
 - kiusa siinä rukkasista.
-Kun mä kuolen hiihtorukkaseni saat.
+  Kun mä kuolen hiihtorukkaseni saat.
 
 ...kaikki tupakkani saat...
 Sillä luona taivaan portin
@@ -137,7 +139,7 @@ Kun mä kuolen RV-tilini sä saat
 Ne on käynyt käynyt läpi KJYRin,
 Niistä ykskään ei voi hyvin
 Kun mä kuolen kaikki fuksini sä saat
-  
+
 ...planeettanikin sä saat...
 Jos sen jätän kurjaan kuntoon,
 Niin se ottaa omatuntoon.
