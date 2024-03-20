@@ -96,9 +96,8 @@ Kun mä kuolen hiihtohousuni sä saat.
 
 ...hiihtorukkaseni saat...
 Treenaan harpun soittamista
-
 - kiusa siinä rukkasista.
-  Kun mä kuolen hiihtorukkaseni saat.
+Kun mä kuolen hiihtorukkaseni saat.
 
 ...kaikki tupakkani saat...
 Sillä luona taivaan portin
