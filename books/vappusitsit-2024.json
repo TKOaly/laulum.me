@@ -1,0 +1,263 @@
+{
+  "title": "Vappusitsit 2024",
+  "organisation": "TKO-äly ry.",
+  "credits": {
+    "Vappusitsien sähköisen läsyn koosti laulunjohtajat": [
+      "Mari Karlsson",
+      "Matti Ylhäisi"
+    ]
+  },
+  "songs": [
+    { "number": "I", "title": "Otetaan" },
+    {
+      "number": "38",
+      "title": "Tänään otetaan",
+      "slug": "tanaan-otetaan-tanaan-otetaan"
+    },
+    {"number": "38B", "title": "Tänään otetaan (alkoholittomia)"},
+    { "number": "10", "title": "Helan går" },
+    
+    { "number": "II", "title": "On viini kallein juomansa" },
+    { "number": "39", "title": "Unkarin viini" },
+    { "number": "32", "title": "Paavi ja Sulttaani" },
+    
+    { "number": "III", "title": "Lauletaanpas vedestä" },
+    { "number": "4", "title": "Aqua Vera" },
+    { "number": "41", "title": "Vesipoikien marssi" },
+    { "number": "V3", "title": "Se kolmas vesilaulu" },
+    
+    { "number": "IV", "title": "???" },
+    { "number": "3", "title": "De Brevitae Vitae" },
+    
+    { "number": "V", "title": "Suomessa juodaan kaikkea" },
+    { "number": "7", "title": "Eurovision juomalaulu" },
+    { "number": "8", "title": "Hauki ja viina" },
+    { "number": "14", "title": "Internationalen" },
+    { "number": "20", "title": "Lapin Kulta kaanon" },
+    { "number": "24", "title": "Mielihaluja" },
+    { "number": "25", "title": "Minnet" },
+    { "number": "26-30", "title": "NYT-kokonaisuus" },
+    { "number": "34", "title": "Puheenjohtajan juomalaulu" },
+    { "number": "35", "title": "Ryyppää vaan" },
+    { "number": "42", "title": "Vi ska dricka hela natten" },
+    { "number": "70", "title": "Kaks kisälliä" },
+    { "number": "81", "title": "Lonkéro" },
+    { "number": "x", "title": "Sahtilaulu" },
+
+    { "number": "MMXXIV", "title": "ATK" },
+    { "number": "13", "title": "Hypermedialaulu" },
+    { "number": "54", "title": "Sähkö-ATK laulu" },
+    { "number": "153", "title": "TIETO - Value for Life" },
+    { "number": "x", "title": "Cha Cha Chalgoritmi" },
+    { "number": "x", "title": "Mikan Faijan BSD" },
+    { "number": "x", "title": "Mockin päällä mocki" },
+    { "number": "x", "title": "Riti Tira Ralla" },
+    
+
+    { "number": "MMXXIV", "title": "Kumpula" },
+    { "number": "66", "title": "Gurulassa" },
+    { "number": "71", "title": "Kalliolle Kumpulamme" },
+    { "number": "74", "title": "Koodaillaan" },
+    { "number": "82", "title": "Luukkaisen poika" },
+    { "number": "105", "title": "Käpy" },
+    
+
+    { "number": "MMXXIV", "title": "Leppäsuo" },
+    { "number": "16", "title": "Järjestöasiantuntijan runtulaulu" },
+    { "number": "72", "title": "Klurre kädelläsi" },
+    { "number": "80", "title": "Leppätalo" },
+    { "number": "97", "title": "Urhometso" },
+    { "number": "181", "title": "Luonnontieteilijän uni" },
+    { "number": "n-1", "title": "Oodi Kumpulalle" },
+    { "number": "x", "title": "Klurrekärpänen" },
+    { "number": "x", "title": "Klustronikka" },
+
+    { "number": "MMXXIV", "title": "Opiskelijan tuskaa" },
+    { "number": "99", "title": "Viidestoista vuosi" },
+    { "number": "x", "title": "Jäärä" },
+    { "number": "x", "title": "Assarit" },
+
+
+    { "number": "MMXXIV", "title": "Liikuntaa" },
+    { "number": "15", "title": "Intian kuu" },
+    { "number": "17", "title": "Jos (e)ukkosi kieltää sua juomasta" },
+    {
+      "number": "87",
+      "title": "Muinaisten valssi",
+      "slug": "muinaisten-valssi-aka-kultisti-miikkulainen"
+    },
+    { "number": "96", "title": "Skumppaa punkun kaa" },
+    { "number": "117", "title": "Pumppulaulu" },
+    { "number": "137", "title": "Dirlandaa" },
+
+    { "number": "MMXXIV", "title": "Lastenlaulut yms" },
+    { "number": "103", "title": "Dodo-sorsa" },
+    { "number": "114", "title": "Pikkukakkosen posti" },
+    { "number": "115", "title": "Pokémon teema" },
+    { "number": "116", "title": "Pokémon Theme" },
+
+    { "number": "MMXXIV", "title": "Muuta" },
+    { "number": "19", "title": "Ko-Ko-Ko-Koskenkorvaa" },
+    { "number": "37", "title": "Sörnai gusha" },
+    { "number": "43", "title": "Vitutuslaulu" },
+    { "number": "89", "title": "Nisti ja nööri" },
+    { "number": "104", "title": "Kun mä kuolen" },
+    { "number": "121", "title": "Kalmarevisan" },
+
+    { "number": "MMXXIV", "title": "Jallu ja punssi" },
+    { "number": "128", "title": "Punschen kommer" },
+    { "number": "142", "title": "Jallutähden alla" },
+    { "number": "143", "title": "Jaloviinaa" },
+
+  
+    { "number": "N", "title": "Hiven lyyrassa kiiltää kultaa" },
+    { "number": "12", "title": "Henkilökuntaa", "slug": "henkilokunta" },
+    { "number": "n", "title": "Ken on fuksi", "slug": "ken-ompi-fuksi" },
+    { "number": "∞", "title": "Teinilaulu" },
+
+
+
+
+    { "number": "N+1", "title": "käy nämä vielä läpi" },
+  
+    { "number": "50", "title": "Nyt ryypätään" },
+    { "number": "51", "title": "Oispa kaljaa" },
+    { "number": "52", "title": "Raittiuslaulu" },
+    { "number": "53", "title": "Rati riti ralla" },
+    
+    { "number": "55", "title": "Sisään" },
+    { "number": "56", "title": "Snapsien kaveri" },
+    { "number": "57", "title": "Suhteellisen rivakka turkulainen juomalaulu" },
+    { "number": "58", "title": "Turkulainen juomalaulu" },
+    { "number": "59", "title": "Vaakuna, Herba ja Koskenkorva" },
+    { "number": "60", "title": "Valomerkin jälkeen" },
+    { "number": "61", "title": "Vem i helvete?" },
+    { "number": "62", "title": "Yliopistoinnovaatio" },
+    { "number": "63", "title": "Dokataan" },
+    { "number": "64", "title": "Euforia" },
+    { "number": "65", "title": "F-U-K-S-I" },
+    
+    { "number": "67", "title": "Huutolaatta" },
+    { "number": "68", "title": "Internationaali" },
+    { "number": "69", "title": "Jallu" },
+    
+    
+    { "number": "73", "title": "Koff" },
+    
+    { "number": "75", "title": "Melkki kaatuu" },
+    { "number": "76", "title": "Sen nimi oli Jallu" },
+    { "number": "77", "title": "Lasi täyttyy oluesta" },
+    { "number": "78", "title": "Laulu Uudelle" },
+    { "number": "79", "title": "Leikkaamaan" },
+    
+    
+    
+    { "number": "84", "title": "Mandariinimies" },
+    { "number": "85", "title": "Meksikon pikapano" },
+    { "number": "86", "title": "Minun juomani kossu on" },
+    
+    { "number": "88", "title": "Murheellisten bittien maa" },
+    
+    { "number": "90", "title": "Pienet konjakit" },
+    { "number": "91", "title": "Rakastuin mä klusteriin" },
+    { "number": "92", "title": "Rakenteisiin asti" },
+    { "number": "93", "title": "Sauvakirkon polttaja" },
+    { "number": "94", "title": "Skrillexin mökkitie" },
+    { "number": "95", "title": "Sitsipeto on irti" },
+    
+    
+    { "number": "98", "title": "YTHS" },
+    
+    {
+      "number": "100",
+      "title": "Alfred J. Kwak (Intro)",
+      "slug": "alfred-j-kwak"
+    },
+    {
+      "number": "101",
+      "title": "Alfred J. Kwak (Outro)",
+      "slug": "alfred-j-kwak"
+    },
+    { "number": "102", "title": "Ankronikka" },
+    
+    
+    
+    { "number": "106", "title": "Leipuri hiiva" },
+    { "number": "107", "title": "Matin syntymäpäivälaulu" },
+    { "number": "108", "title": "Matkalaulu" },
+    { "number": "109", "title": "Minä soitan harmonikkaa" },
+    { "number": "110", "title": "Muumit teema" },
+    { "number": "111", "title": "Onomatopoeettinen alkoholiliike" },
+    { "number": "112", "title": "Paljon jallua" },
+    { "number": "113", "title": "Peppi Pitkätossu" },
+    
+    
+    { "number": "118", "title": "Teletappien juomalaulu" },
+    { "number": "119", "title": "Tietoliikennelaulu" },
+    { "number": "120", "title": "Viinamaa" },
+    
+    { "number": "122", "title": "Koska meitä käsketään" },
+    { "number": "123", "title": "Lapsuuden toverille" },
+    { "number": "124", "title": "Nämä lääkkeet" },
+    { "number": "125", "title": "Niin minä neitonen sinulle laulan" },
+    { "number": "126", "title": "Nocturne" },
+    { "number": "127", "title": "Oman kullan silmät" },
+    
+    { "number": "129", "title": "Romanssi" },
+    { "number": "130", "title": "Rosvo Roope" },
+    { "number": "131", "title": "Ryyppy saapuu" },
+    { "number": "132", "title": "Vit vecka" },
+    { "number": "133", "title": "Vodka vodka" },
+    { "number": "134", "title": "Lenin-setä asuu Venäjällä" },
+    { "number": "135", "title": "Neuvostoliiton hymni" },
+    { "number": "136", "title": "Oodi sitoutumattomuudelle" },
+    
+    { "number": "138", "title": "Eesti (On My Mind)" },
+    { "number": "139", "title": "Ei tippa tapa" },
+    { "number": "140", "title": "Ievan Polkka" },
+    { "number": "141", "title": "Jallutyttö" },
+    
+    { "number": "144", "title": "Joutsenlaulu" },
+    { "number": "145", "title": "Juodaan viinaa" },
+    { "number": "146", "title": "Kotiviini" },
+    { "number": "147", "title": "Maija" },
+    { "number": "148", "title": "Mökkitie" },
+    { "number": "149", "title": "Pohjois-Karjala" },
+    { "number": "150", "title": "Sinä lähdit pois" },
+    { "number": "151", "title": "Soome" },
+    { "number": "152", "title": "Taistelu Jaska - Theme" },
+    
+    { "number": "154", "title": "Tähtipölyä" },
+    { "number": "155", "title": "Unelmia ja toimistohommia" },
+    { "number": "156", "title": "Volga" },
+    { "number": "157", "title": "A Finnish Drinking Song" },
+    { "number": "158", "title": "Ace of Spades" },
+    { "number": "159", "title": "All Star" },
+    { "number": "160", "title": "All the Drinks" },
+    { "number": "161", "title": "Always Look on the BRight Side of Life" },
+    { "number": "162", "title": "Barbie Girl" },
+    { "number": "163", "title": "Bohemian Rhapsody" },
+    { "number": "164", "title": "Call Me Maybe" },
+    { "number": "165", "title": "Drink Your Beer" },
+    { "number": "166", "title": "Drunken Sailor" },
+    { "number": "167", "title": "Eye of the Tiger" },
+    { "number": "168", "title": "Far Over the Misty Mountains Cold" },
+    { "number": "169", "title": "Fast Food Song" },
+    { "number": "170", "title": "HEYYEAYAAEYAAAEYA" },
+    { "number": "171", "title": "My Favourite DRinks" },
+    { "number": "172", "title": "Never Gonna Give You Up" },
+    { "number": "173", "title": "Numa Numa" },
+    { "number": "174", "title": "Still Alive" },
+    { "number": "175", "title": "Syphilis" },
+    { "number": "176", "title": "Take on Me" },
+    { "number": "177", "title": "The ABC song" },
+    {
+      "number": "178",
+      "title": "We Are Number One But Everytime One Is Said Everyone Takes a Drink"
+    },
+    { "number": "179", "title": "Wonderwall" },
+    { "number": "180", "title": "Yogi Bear" }
+    
+    
+  ]
+}
