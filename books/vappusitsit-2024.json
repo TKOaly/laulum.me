@@ -1,0 +1,119 @@
+{
+  "title": "Vappusitsit 2024",
+  "organisation": "TKO-äly ry.",
+  "credits": {
+    "Vappusitsien sähköisen läsyn koosti laulunjohtajat": [
+      "Mari Karlsson",
+      "Matti Ylhäisi"
+    ]
+  },
+  "songs": [
+    { "number": "I", "title": "Vad sjöng den lilla fågeln då?" },
+    {
+      "number": "38",
+      "title": "Tänään otetaan",
+      "slug": "tanaan-otetaan-tanaan-otetaan"
+    },
+    {"number": "E0 (38B)", "title": "Tänään otetaan (alkoholittomia)"},
+    { "number": "10", "title": "Helan går" },
+    
+    { "number": "II", "title": "On viini kallein juomansa" },
+    { "number": "39", "title": "Unkarin viini" },
+    { "number": "32", "title": "Paavi ja Sulttaani" },
+    
+    { "number": "III", "title": "Lauletaanpas vedestä" },
+    { "number": "4", "title": "Aqua Vera" },
+    { "number": "41", "title": "Vesipoikien marssi" },
+    { "number": "E1", "title": "Se kolmas vesilaulu" },
+    { "number": "E2", "title": "Päijännetunneli" },
+    
+    { "number": "IV", "title": "Vivat academia" },
+    { "number": "3", "title": "De Brevitae Vitae" },
+    
+    { "number": "V", "title": "Suomessa juodaan kaikkea" },
+    { "number": "7", "title": "Eurovision juomalaulu" },
+    { "number": "8", "title": "Hauki ja viina" },
+    { "number": "14", "title": "Internationalen" },
+    { "number": "20", "title": "Lapin Kulta kaanon" },
+    { "number": "24", "title": "Mielihaluja" },
+    { "number": "25", "title": "Minnet" },
+    { "number": "26-30", "title": "NYT-kokonaisuus" },
+    { "number": "34", "title": "Puheenjohtajan juomalaulu" },
+    { "number": "35", "title": "Ryyppää vaan" },
+    { "number": "42", "title": "Vi ska dricka hela natten" },
+    { "number": "70", "title": "Kaks kisälliä" },
+    { "number": "81", "title": "Lonkéro" },
+    { "number": "E3", "title": "Sahtilaulu" },
+
+    { "number": "VI", "title": "Etsin kaksin silmin bugei koodista" },
+    { "number": "13", "title": "Hypermedialaulu" },
+    { "number": "54", "title": "Sähkö-ATK laulu" },
+    { "number": "153", "title": "TIETO - Value for Life" },
+    { "number": "E4", "title": "Cha Cha Chalgoritmi" },
+    { "number": "E5", "title": "Mikan Faijan BSD" },
+    { "number": "E6", "title": "Mockin päällä mocki" },
+    { "number": "E7", "title": "Riti Tira Ralla" },
+    
+
+    { "number": "VII", "title": "RV:seen miinusta teen" },
+    { "number": "66", "title": "Gurulassa" },
+    { "number": "71", "title": "Kalliolle Kumpulamme" },
+    { "number": "74", "title": "Koodaillaan" },
+    { "number": "82", "title": "Luukkaisen poika" },
+    { "number": "105", "title": "Käpy" },
+    
+
+    { "number": "VIII", "title": "On meillä hauska talo" },
+    { "number": "16", "title": "Järjestöasiantuntijan runtulaulu" },
+    { "number": "72", "title": "Klurre kädelläsi" },
+    { "number": "80", "title": "Leppätalo" },
+    { "number": "97", "title": "Urhometso" },
+    { "number": "181", "title": "Luonnontieteilijän uni" },
+    { "number": "n-1", "title": "Oodi Kumpulalle" },
+    { "number": "E8", "title": "Klurrekärpänen" },
+    { "number": "E9", "title": "Klustronikka" },
+
+    { "number": "IX", "title": "Taas reputin ja sehän vihloo rintaa" },
+    { "number": "99", "title": "Viidestoista vuosi" },
+    { "number": "E10", "title": "Jäärä" },
+    { "number": "E11", "title": "Assarit" },
+
+
+    { "number": "X", "title": "Siis kaikki pumppaamaan" },
+    { "number": "15", "title": "Intian kuu" },
+    { "number": "17", "title": "Jos (e)ukkosi kieltää sua juomasta" },
+    {
+      "number": "87",
+      "title": "Muinaisten valssi",
+      "slug": "muinaisten-valssi-aka-kultisti-miikkulainen"
+    },
+    { "number": "96", "title": "Skumppaa punkun kaa" },
+    { "number": "117", "title": "Pumppulaulu" },
+    { "number": "137", "title": "Dirlandaa" },
+
+    { "number": "XI", "title": "Hei radiot ja töllöt" },
+    { "number": "103", "title": "Dodo-sorsa" },
+    { "number": "114", "title": "Pikkukakkosen posti" },
+    { "number": "115", "title": "Pokémon teema" },
+    { "number": "116", "title": "Pokémon Theme" },
+
+    { "number": "XII", "title": "Voi saatana" },
+    { "number": "19", "title": "Ko-Ko-Ko-Koskenkorvaa" },
+    { "number": "37", "title": "Sörnai gusha" },
+    { "number": "43", "title": "Vitutuslaulu" },
+    { "number": "89", "title": "Nisti ja nööri" },
+    { "number": "104*", "title": "Kun mä kuolen (Vappusitsit 2024 edition)" },
+    { "number": "121", "title": "Kalmarevisan" },
+
+    { "number": "XIII", "title": "Itken ilon kyyneleen" },
+    { "number": "128", "title": "Punschen kommer" },
+    { "number": "142", "title": "Jallutähden alla" },
+    { "number": "143", "title": "Jaloviinaa" },
+
+  
+    { "number": "XIV", "title": "Hiven lyyrassa kiiltää kultaa" },
+    { "number": "12", "title": "Henkilökuntaa", "slug": "henkilokunta" },
+    { "number": "n", "title": "Ken on fuksi", "slug": "ken-ompi-fuksi" },
+    { "number": "∞", "title": "Teinilaulu" }
+  ]
+}
