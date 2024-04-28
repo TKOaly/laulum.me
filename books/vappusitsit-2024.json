@@ -14,7 +14,7 @@
       "title": "Tänään otetaan",
       "slug": "tanaan-otetaan-tanaan-otetaan"
     },
-    {"number": "38B", "title": "Tänään otetaan (alkoholittomia)"},
+    {"number": "E0 (38B)", "title": "Tänään otetaan (alkoholittomia)"},
     { "number": "10", "title": "Helan går" },
     
     { "number": "II", "title": "On viini kallein juomansa" },
@@ -24,8 +24,8 @@
     { "number": "III", "title": "Lauletaanpas vedestä" },
     { "number": "4", "title": "Aqua Vera" },
     { "number": "41", "title": "Vesipoikien marssi" },
-    { "number": "V3", "title": "Se kolmas vesilaulu" },
-    { "number": "x", "title": "Päijännetunneli" },
+    { "number": "E1", "title": "Se kolmas vesilaulu" },
+    { "number": "E2", "title": "Päijännetunneli" },
     
     { "number": "IV", "title": "Vivat academia" },
     { "number": "3", "title": "De Brevitae Vitae" },
@@ -43,16 +43,16 @@
     { "number": "42", "title": "Vi ska dricka hela natten" },
     { "number": "70", "title": "Kaks kisälliä" },
     { "number": "81", "title": "Lonkéro" },
-    { "number": "x", "title": "Sahtilaulu" },
+    { "number": "E3", "title": "Sahtilaulu" },
 
     { "number": "VI", "title": "Etsin kaksin silmin bugei koodista" },
     { "number": "13", "title": "Hypermedialaulu" },
     { "number": "54", "title": "Sähkö-ATK laulu" },
     { "number": "153", "title": "TIETO - Value for Life" },
-    { "number": "x", "title": "Cha Cha Chalgoritmi" },
-    { "number": "x", "title": "Mikan Faijan BSD" },
-    { "number": "x", "title": "Mockin päällä mocki" },
-    { "number": "x", "title": "Riti Tira Ralla" },
+    { "number": "E4", "title": "Cha Cha Chalgoritmi" },
+    { "number": "E5", "title": "Mikan Faijan BSD" },
+    { "number": "E6", "title": "Mockin päällä mocki" },
+    { "number": "E7", "title": "Riti Tira Ralla" },
     
 
     { "number": "VII", "title": "RV:seen miinusta teen" },
@@ -70,13 +70,13 @@
     { "number": "97", "title": "Urhometso" },
     { "number": "181", "title": "Luonnontieteilijän uni" },
     { "number": "n-1", "title": "Oodi Kumpulalle" },
-    { "number": "x", "title": "Klurrekärpänen" },
-    { "number": "x", "title": "Klustronikka" },
+    { "number": "E8", "title": "Klurrekärpänen" },
+    { "number": "E9", "title": "Klustronikka" },
 
     { "number": "IX", "title": "Taas reputin ja sehän vihloo rintaa" },
     { "number": "99", "title": "Viidestoista vuosi" },
-    { "number": "x", "title": "Jäärä" },
-    { "number": "x", "title": "Assarit" },
+    { "number": "E10", "title": "Jäärä" },
+    { "number": "E11", "title": "Assarit" },
 
 
     { "number": "X", "title": "Siis kaikki pumppaamaan" },
