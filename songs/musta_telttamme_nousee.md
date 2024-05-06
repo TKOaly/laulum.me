@@ -2,7 +2,6 @@
 title: Musta telttamme nousee
 melody: Juice Leskinen - Musta aurinko nousee
 writers: Eetu Raunio, Mari Karlsson
-hidden: true
 ---
 
 Nousee taksista älypäät, silmät tottuu pimeään
