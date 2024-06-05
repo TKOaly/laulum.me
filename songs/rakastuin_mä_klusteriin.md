@@ -1,5 +1,5 @@
 ---
-title: Rakastuin mä klusteriin
+title: Rakastuin mä Klusteriin
 melody: Rakastuin mä luuseriin
 writers: Sakari Väkevä
 ---
@@ -12,7 +12,7 @@ Mä pongituoppeja katselin: oot mun
 Oon bmur
 
 Tänä yönä viimeinkin
-Rakastuin mä klusteriin
+Rakastuin mä Klusteriin
 Joka aito on, ja vielä enemmän
 
 Olin heikko - darrauduin
@@ -27,7 +27,7 @@ Et rippaa ystävää, sä oot vain mun
 Oon bmur
 
 Tänä yönä viimeinkin
-Rakastuin mä klusteriin
+Rakastuin mä Klusteriin
 Joka aito on, ja vielä enemmän
 
 Olin heikko darrauduin
