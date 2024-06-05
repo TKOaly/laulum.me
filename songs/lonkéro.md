@@ -16,7 +16,7 @@ Lonkeron - juomakseni saan!
 Vaik' olut ois halvempaa!
 Lonkero - oot mun valintain
 joka jurri-iltanain.
-Lonkeron - (juokamseni saan) - kun kurkkuun saan,
+Lonkeron - (juomakseni saan) - kun kurkkuun saan,
 en kirkkaampaa kaipaakaan.
 Limee, greippii, karpaloo!
 Lonkeroo!
