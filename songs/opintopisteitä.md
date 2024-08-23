@@ -1,5 +1,5 @@
 ---
-title: Opintopisteitä (Beta)
+title: Opintopisteitä
 writers: Eetu Raunio, Janne Löfhjelm
 melody: Tuure Kilpeläinen - Valon pisaroita
 ---
