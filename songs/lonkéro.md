@@ -1,6 +1,7 @@
 ---
 title: Lonkéro
 melody: Pokémon
+writer: Roope Vesterinen
 ---
 
 Mä tunnen sen jo tympivän,
