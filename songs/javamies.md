@@ -1,7 +1,7 @@
 ---
 title: Javamies
 melody: Pelimies
-writers: Kimmo Rantamäki, malo, mämmelä, rosama
+writers: malo, mämmelä, rosama
 ---
 
 :,: Nanananaa na na nan nan naa nanananaa na na nan nan naa nanananaa na na nan nan naa.
