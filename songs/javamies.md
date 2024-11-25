@@ -28,7 +28,7 @@ Tänä iltana ollaan Klussella.
 On joku muu joka demoihinkin kompastuu.
 Oon Javamies hoidan täydet pisteet.
 Muut väsähtää, WoWaan aamuyölle tunnit nää.
-Vain piltit jää, silloin koodaamaan.
+Vain fuksit jää, silloin koodaamaan.
 
 Tahdon koodata (koodata),
 Voin sen tunnustaa (tunnustaa).
