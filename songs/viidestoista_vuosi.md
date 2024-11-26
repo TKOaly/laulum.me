@@ -11,7 +11,7 @@ jos kysyn armolisäpisteen hintaa.
 Viidestoista vuosi alkaa peruskursseineen.
 On lukeminen kai jo aivan turhaa.
 Enää jaksa uskoa en valmistumiseen
-kun alan harkita jo itsemurhaa.
+kun alan harkita jo Lapin kultaa.
 
 Taas nukun tenttisalissa
 ja samaa unta nään:
