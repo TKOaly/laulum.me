@@ -11,7 +11,12 @@
     "next-pwa": "^5.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "typescript": "^4.8.3"
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.0",
+    "remark-html": "^16.0.1",
+    "remark-parse": "^11.0.0",
+    "typescript": "^4.8.3",
+    "unified": "^11.0.5"
   },
   "devDependencies": {
     "@types/next-pwa": "^5.6.2",
