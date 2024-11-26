@@ -20,7 +20,7 @@ Lanit luonasi?
 Tule niin vien sinut Klusselle,
 Tietokoneelleni jatkoille,
 Sieltä irkkiin kikkailen
-Tänä iltana ollaan Klussalla.
+Tänä iltana ollaan Klussella.
 
 Nanananaa na na nan nan naa nanananaa na na nan nan naa nanananaa na na nan nan naa.
 Tänä iltana ollaan Klussella.
@@ -38,7 +38,7 @@ Lanit luonasi?
 Tule niin vien sinut Klusselle,
 Tietokoneelleni jatkoille,
 Sieltä irkkiin kikkailen
-Tänä iltana ollaan Klussalla.
+Tänä iltana ollaan Klussella.
 
 Nanananaa na na nan nan naa nanananaa na na nan nan naa nanananaa na na nan nan naa.
 Tänä iltana ollaan Klussella.
@@ -56,7 +56,7 @@ Lanit luonasi?
 Tule niin vien sinut Klusselle,
 Tietokoneelleni jatkoille,
 Sieltä irkkiin kikkailen
-Tänä iltana ollaan Klussalla.
+Tänä iltana ollaan Klussella.
 
 :,: Nanananaa na na nan nan naa nanananaa na na nan nan naa nanananaa na na nan nan naa.
 Tänä iltana ollaan Klussella. :,:
