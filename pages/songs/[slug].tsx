@@ -1,5 +1,9 @@
 import type { GetStaticProps, InferGetStaticPropsType } from "next";
 import Head from "next/head";
+import { unified } from 'unified';
+import remarkParse from 'remark-parse';
+import remarkHtml from 'remark-html';
+import remarkGfm from 'remark-gfm';
 
 import { Footer, Header, Link } from "@/components";
 
@@ -9,6 +13,8 @@ import slugify from "@/lib/slugify";
 import { Song } from "@/types/song";
 import { useEffect, useState } from "react";
 import { getBookNames } from "@/lib/books";
+
+import markdownStyles from './markdown.module.css';
 
 export async function getStaticPaths() {
   const songs = await getSongs();
@@ -21,6 +27,7 @@ export async function getStaticPaths() {
 export const getStaticProps: GetStaticProps<{
   song: Song & { filename: string };
   bookNames: string[] | null;
+  markdownHtml: string;
 }> = async (context) => {
   const query = context.params?.slug;
 
@@ -36,12 +43,21 @@ export const getStaticProps: GetStaticProps<{
 
   const bookNames = await getBookNames();
 
-  return { props: { song, bookNames } };
+  const processedContent = await unified()
+    .use(remarkGfm)
+    .use(remarkParse)
+    .use(remarkHtml)
+    .process(song.lyrics);
+  console.log(processedContent)
+  const markdownHtml = processedContent.toString();
+
+  return { props: { markdownHtml, song, bookNames } };
 };
 
 const SongPage = ({
   song,
   bookNames,
+  markdownHtml,
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
   const title = `${song.title} | laulum.me`;
   const slug = slugify(song.title);
@@ -113,17 +129,7 @@ const SongPage = ({
         {song.melody && (
           <em style={{ display: "block" }}>Melody: {song.melody}</em>
         )}
-        <pre
-          style={{
-            fontFamily: "Times New Roman, serif",
-            maxWidth: "fit-content",
-            whiteSpace: "pre-line",
-            fontSize: "1.3rem",
-            lineHeight: "2rem",
-          }}
-        >
-          {song.lyrics}
-        </pre>
+        <div className={markdownStyles.markdown} dangerouslySetInnerHTML={{ __html: markdownHtml }} />
       </main>
 
       <Footer>

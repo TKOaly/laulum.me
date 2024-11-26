@@ -1,0 +1,10 @@
+.markdown {
+  font-family: "Times New Roman, serif";
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.markdown p {
+  max-width: fit-content;
+  white-space: pre-line;
+}
