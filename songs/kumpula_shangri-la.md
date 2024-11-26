@@ -24,10 +24,10 @@ Niiden Tito-kurssin luentojen Word Art -painajaiset
 Halleluijahhei, läppärin näyttö ohimolla
 Muista Tito-kone, rekisterit, KBD
 
-Järjestöillä (huuda päälle: tekiksellä) pankkitilit, valtavasti massii
+Järjestöillä pankkitilit, valtavasti massii
 Ei voiton tuottaminen haittaa virkailijasakkii
 Hurahuhhahhei, vujut maksaa kymppitonnei
-Tuet, sponssifirmat, avustus ja jääkaappi (sssshhhhhh)
+Tuet, sponssifirmat, avustus ja ~~jääkaappi~~
 
 Ja vappuisin ne alumnitkin sulatellaan jäästä
 Mantan lakitukseen muttei Mantalle me päästä
