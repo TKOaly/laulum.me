@@ -1,0 +1,65 @@
+{
+  "title": "Alkoholittomat vappusitsit 2025",
+  "organisation": "TKO-äly ry.",
+  "credits": {
+    "Alkoholittomien vappusitsien sähköisen läsyn koosti": [
+      "laulunjohtaja Mari Karlsson"
+    ]
+  },
+  "songs": [
+    { "number": "I", "title": "JuomaMME" },
+    { "number": "E0", "title": "Tänään otetaan (alkoholittomia)"},
+    { "number": "E1", "title": "Alkoholiton juomakaanon"},
+    { "number": "4", "title": "Aqua Vera" },
+    { "number": "41", "title": "Vesipoikien marssi" },
+    { "number": "E2", "title": "Se kolmas vesilaulu" },
+    { "number": "E3", "title": "Päijännetunneli" },
+    
+    { "number": "II", "title": "KoodiMME" },
+    { "number": "13", "title": "Hypermedialaulu" },
+    { "number": "54", "title": "Sähkö-ATK laulu" },
+    { "number": "153", "title": "TIETO - Value for Life" },
+    { "number": "E4", "title": "Cha Cha Chalgoritmi" },
+    { "number": "E5", "title": "Mikan Faijan BSD" },
+    { "number": "E6", "title": "Mockin päällä mocki" },
+    { "number": "E7", "title": "Riti Tira Ralla" },
+    
+
+    { "number": "III", "title": "OpiskelijaelämäMME" },
+    { "number": "16", "title": "Järjestöasiantuntijan runtulaulu" },
+    { "number": "66", "title": "Gurulassa" },
+    { "number": "71", "title": "Kalliolle Kumpulamme" },
+    { "number": "74", "title": "Koodaillaan" },
+    { "number": "80", "title": "Leppätalo" },
+    { "number": "82", "title": "Luukkaisen poika" },
+    { "number": "99", "title": "Viidestoista vuosi" },
+    { "number": "105", "title": "Käpy" },
+    { "number": "E8", "title": "Musta telttamme nousee" },  
+    { "number": "E9", "title": "Jäärä" },
+    { "number": "E10", "title": "Assarit" },
+
+
+    { "number": "IV", "title": "LeikkimielisyyteMME" },
+    { "number": "15", "title": "Intian kuu" },
+    {
+      "number": "87",
+      "title": "Muinaisten valssi",
+      "slug": "muinaisten-valssi-aka-kultisti-miikkulainen"
+    },
+    { "number": "103", "title": "Dodo-sorsa" },
+    { "number": "114", "title": "Pikkukakkosen posti" },
+    { "number": "115", "title": "Pokémon teema" },
+    { "number": "116", "title": "Pokémon Theme" },
+    { "number": "117", "title": "Pumppulaulu" },
+    { "number": "137", "title": "Dirlandaa" },
+
+    { "number": "V", "title": "Voi saatanaMME" },
+    { "number": "43", "title": "Vitutuslaulu" },
+
+    
+    { "number": "VI", "title": "LopetukseMME" },
+    { "number": "12", "title": "Henkilökuntaa", "slug": "henkilokunta" },
+    { "number": "n", "title": "Ken on fuksi", "slug": "ken-ompi-fuksi" },
+    { "number": "∞", "title": "Teinilaulu" }
+  ]
+}
