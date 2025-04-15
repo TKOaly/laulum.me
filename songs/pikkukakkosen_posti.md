@@ -26,3 +26,10 @@ Ammattikorkeakoulu
 Postilokero, mitä sen on väliä
 joku vitun tradenomitutkinto kuitenkin
 Ammattisurkeakoulu
+
+TKO-älyn hallitus,
+pelaa vaan Minecraftii.
+Dokattu ja kokattu.
+Joka vitun päivä,
+desittämäs Klussella,
+TKO-älyn hallitus.
