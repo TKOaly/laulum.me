@@ -2,7 +2,11 @@
 
 This is an electronic version of songbook for sitsit. All the songs in this repo are mostly as they are in TKO-äly ry official songbook. The site itself is hosted in https://laulum.me
 
-## Want to add a song? Make a pull request!
+## Want to add a song? Make a pull request
+
+> [!NOTE]
+> Please create a **separate pull request** for each song.  
+> This way the entire suite of songs is not rejected due to singular mistakes.
 
 Song lyrics are stored in the `songs/` directory.  
 If you want to add a song, create a new file in the directory with the song lyrics in it.
@@ -31,6 +35,11 @@ Topi lämpimikseen koodailee...
 ```
 
 ### Books (WIP)
+
+> [!NOTE]
+> Books should be their separate pull requests.  
+> If you're adding new songs alongside a book, please create **separate pull requests** for the songs.  
+> One-off songs can be added directly in the book file using the `content` field.
 
 Books can be added as JSON files in the `books` folder. See [`books/tekis-2017.json`](/books/tekis-2017.json) for reference.
 
