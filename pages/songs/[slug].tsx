@@ -5,7 +5,7 @@ import remarkParse from 'remark-parse';
 import remarkHtml from 'remark-html';
 import remarkGfm from 'remark-gfm';
 
-import { Footer, Header, Link } from "@/components";
+import { Footer, Header, Link, TagBadge } from "@/components";
 
 import { getSongLink } from "@/lib/getTelegramUrl";
 import { getSong, getSongs } from "@/lib/songs";
@@ -128,6 +128,16 @@ const SongPage = ({
         )}
         {song.melody && (
           <em style={{ display: "block" }}>Melody: {song.melody}</em>
+        )}
+        {song.tags && song.tags.length > 0 && (
+          <div>
+            <strong>Tags:</strong>
+            <div>
+              {song.tags.map(tag => (
+                <TagBadge key={tag} tag={tag} />
+              ))}
+            </div>
+          </div>
         )}
         <div className={markdownStyles.markdown} dangerouslySetInnerHTML={{ __html: markdownHtml }} />
       </main>
