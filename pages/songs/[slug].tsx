@@ -124,7 +124,7 @@ const SongPage = ({
       <main>
         <h1>{song.title}</h1>
         {song.tags && song.tags.length > 0 && (
-          <div style={{ marginTop: "-1.2em", marginBottom: "0.2em" }}>
+          <div style={{ marginTop: "-0.9em", marginBottom: "0.5em" }}>
             <strong>Tags: </strong>
             <div style={{ display: "inline-block" }}>
               {song.tags.map(tag => (
