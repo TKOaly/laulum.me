@@ -123,21 +123,21 @@ const SongPage = ({
 
       <main>
         <h1>{song.title}</h1>
+        {song.tags && song.tags.length > 0 && (
+          <div style={{ marginTop: "-1.2em", marginBottom: "0.2em" }}>
+            <strong>Tags: </strong>
+            <div style={{ display: "inline-block" }}>
+              {song.tags.map(tag => (
+                <TagBadge tag={tag} />
+              ))}
+            </div>
+          </div>
+        )}
         {song.writers && (
           <em style={{ display: "block" }}>Written by {song.writers}</em>
         )}
         {song.melody && (
           <em style={{ display: "block" }}>Melody: {song.melody}</em>
-        )}
-        {song.tags && song.tags.length > 0 && (
-          <div>
-            <strong>Tags:</strong>
-            <div>
-              {song.tags.map(tag => (
-                <TagBadge key={tag} tag={tag} />
-              ))}
-            </div>
-          </div>
         )}
         <div className={markdownStyles.markdown} dangerouslySetInnerHTML={{ __html: markdownHtml }} />
       </main>
