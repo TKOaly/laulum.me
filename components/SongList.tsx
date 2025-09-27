@@ -45,7 +45,7 @@ export const SongList = ({ titles, tagToTitlesMap }: SongListProps) => {
     useEffect(() => {
       if (typeof window !== "undefined") {
         const params = new URLSearchParams(window.location.search);
-        const tagParam = params.get("tag");
+        const tagParam = params.get("tag")?.replaceAll('-', ' ');
         if (tagParam && songTags.includes(tagParam)) {
           setToggledTags([tagParam]);
           setDropdownValue("");
