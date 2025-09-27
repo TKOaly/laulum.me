@@ -1,5 +1,6 @@
 ---
 title: Dodo-sorsa
+tags: finnish,long
 ---
 
 Hei Dodo-sorsa,

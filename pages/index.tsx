@@ -19,14 +19,27 @@ const merriweather = Merriweather({ subsets: ["latin"], weight: "400" });
 
 export async function getStaticProps() {
   const songs = await getSongs();
+
+  const tagToTitlesMap: Record<string, string[]> = {};
+
+  songs.forEach((song) => {
+    song.tags?.forEach((tag) => {
+      if (!tagToTitlesMap[tag]) {
+        tagToTitlesMap[tag] = [];
+      }
+      tagToTitlesMap[tag].push(song.title);
+    });
+  });
+
   return {
     props: {
       titles: songs.filter(({ hidden }) => !hidden).map(({ title }) => title),
+      tagToTitlesMap,
     },
   };
 }
 
-const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
+const Index = ({ titles, tagToTitlesMap }: InferGetStaticPropsType<typeof getStaticProps>) => {
   // PWA update prompting, song downloads
   const { promptVisible, updateWorker } = usePWAPrompt();
 
@@ -66,7 +79,7 @@ const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
         }}
       >
         <main>
-          <SongList titles={titles} />
+          <SongList titles={titles} tagToTitlesMap={tagToTitlesMap} />
         </main>
 
         <Footer style={{ textAlign: "center" }}>

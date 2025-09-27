@@ -1,5 +1,6 @@
 ---
 title: Bella Ciao
+tags: long
 ---
 
 Una mattina mi sono alzato 

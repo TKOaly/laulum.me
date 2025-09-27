@@ -21,18 +21,23 @@ title: Song title
 Song lyrics...
 ```
 
-You can also specify the melody and/or writers:
+You can also specify the melody and/or writers, as well as tags:
 
 ```
 ---
 title: Gurulassa
 melody: Anssi Kela - Puistossa
 writers: Ada
+tags: finnish,medium
 ---
 
 Gurulassa ilta viilenee.
 Topi lämpimikseen koodailee...
 ```
+
+Tags are to be specified as comma-separated values without spaces in between (see above example). If you want to add a tag, append it to `staticData.json`.
+
+The currently available tags are `finnish,english,estonian,swedish,german,short,medium,long,very long,kerava,drinking,water,jaloviina,wine,high abv,low abv,any drink`
 
 ### Books (WIP)
 
@@ -43,7 +48,7 @@ Topi lämpimikseen koodailee...
 
 Books can be added as JSON files in the `books` folder. See [`books/tekis-2017.json`](/books/tekis-2017.json) for reference.
 
-Books can be linked using their filename, e.g. `tekis-2017.json` matches https://laulum.me/book/tekis-2017.
+Books can be linked using their filename, e.g. `tekis-2017.json` matches https://laulum.me/books/tekis-2017.
 
 **Format**
 

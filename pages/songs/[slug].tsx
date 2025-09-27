@@ -5,7 +5,7 @@ import remarkParse from 'remark-parse';
 import remarkHtml from 'remark-html';
 import remarkGfm from 'remark-gfm';
 
-import { Footer, Header, Link } from "@/components";
+import { Footer, Header, Link, TagBadge } from "@/components";
 
 import { getSongLink } from "@/lib/getTelegramUrl";
 import { getSong, getSongs } from "@/lib/songs";
@@ -74,7 +74,7 @@ const SongPage = ({
       console.error("Unknown book name provided to query string.");
       return;
     }
-    setBackPage(`/book/${encodeURIComponent(book)}`);
+    setBackPage(`/books/${encodeURIComponent(book)}`);
   }, [setBackPage]);
 
   return (
@@ -123,6 +123,16 @@ const SongPage = ({
 
       <main>
         <h1>{song.title}</h1>
+        {song.tags && song.tags.length > 0 && (
+          <div style={{ marginTop: "-0.9em", marginBottom: "0.5em" }}>
+            <strong>Tags: </strong>
+            <div style={{ display: "inline-block" }}>
+              {song.tags.map((tag, index)=> (
+                <TagBadge key={index} tag={tag} />
+              ))}
+            </div>
+          </div>
+        )}
         {song.writers && (
           <em style={{ display: "block" }}>Written by {song.writers}</em>
         )}

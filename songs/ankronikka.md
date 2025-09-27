@@ -1,5 +1,6 @@
 ---
 title: Ankronikka
+tags: finnish,short
 ---
 
 Vauhtimesta hurjin on Ankkalinna.

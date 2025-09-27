@@ -1,6 +1,7 @@
 ---
 title: Bohemian Rhapsody
 melody: Queen - Bohemian Rhapsody
+tags: english,very long
 ---
 
 Is this the real life?

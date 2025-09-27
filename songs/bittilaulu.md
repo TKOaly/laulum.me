@@ -1,6 +1,7 @@
 ---
 title: Bittilaulu
 melody: Joulupukki
+tags: finnish,medium
 ---
 
 0000 0001
