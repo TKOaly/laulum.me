@@ -43,7 +43,7 @@ Topi lämpimikseen koodailee...
 
 Books can be added as JSON files in the `books` folder. See [`books/tekis-2017.json`](/books/tekis-2017.json) for reference.
 
-Books can be linked using their filename, e.g. `tekis-2017.json` matches https://laulum.me/book/tekis-2017.
+Books can be linked using their filename, e.g. `tekis-2017.json` matches https://laulum.me/books/tekis-2017.
 
 **Format**
 
