@@ -74,7 +74,7 @@ const SongPage = ({
       console.error("Unknown book name provided to query string.");
       return;
     }
-    setBackPage(`/book/${encodeURIComponent(book)}`);
+    setBackPage(`/books/${encodeURIComponent(book)}`);
   }, [setBackPage]);
 
   return (
