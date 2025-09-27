@@ -31,19 +31,31 @@ export const SongList = ({ titles, tagToTitlesMap }: SongListProps) => {
   // Type declaration for songTags
   const songTags: string[] = staticData.songTags;
 
+  // Filter titles by selected tags
+  const filteredTitles = useMemo(() => {
+    if (toggledTags.length === 0) {
+      return titles;
+    }
+    // Get sets of titles for each tag
+    const sets = toggledTags.map(tag => new Set(tagToTitlesMap[tag] || []));
+    // Intersect all sets
+    return titles.filter(title => sets.every(set => set.has(title)));
+  }, [titles, tagToTitlesMap, toggledTags]);
+
+  // Fuzzy search on filtered titles
   const sortedTitles = useMemo(() => {
     if (query.trim().length === 0) {
-      return titles.map((title) => ({ title, score: 100 }));
+      return filteredTitles.map((title) => ({ title, score: 100 }));
     }
 
-    const fuzzSortedSongs = extract(query, titles, {
+    const fuzzSortedSongs = extract(query, filteredTitles, {
       scorer: partial_ratio,
       cutoff: 40,
       limit: 15,
     }) as [string, number, number][];
 
     return fuzzSortedSongs.map(([title, score]) => ({ title, score }));
-  }, [query, titles]);
+  }, [query, filteredTitles]);
 
   const handleSubmit = useCallback(() => {
     if (sortedTitles.length === 0) {
@@ -60,12 +72,16 @@ export const SongList = ({ titles, tagToTitlesMap }: SongListProps) => {
     );
   };
 
+  // State for dropdown value
+  const [dropdownValue, setDropdownValue] = useState<string>("");
+
   // Handler for dropdown selection
   const handleDropdownChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const tag = e.target.value;
     if (tag && !toggledTags.includes(tag)) {
       setToggledTags(prev => [...prev, tag]);
     }
+    setDropdownValue(""); // Reset dropdown to default
   };
 
   return (
@@ -86,7 +102,7 @@ export const SongList = ({ titles, tagToTitlesMap }: SongListProps) => {
           </label>
           <select
             id="tag-dropdown"
-            defaultValue=""
+            value={dropdownValue}
             onChange={handleDropdownChange}
             style={{ marginRight: "1em" }}
           >
