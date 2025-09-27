@@ -1,6 +1,7 @@
 ---
 title: Hauki ja viina
 melody: Stenka Rasin
+tags: finnish,swedish,long,kerava,high abv
 ---
 
 Katonrajass' kulkee hauki,
