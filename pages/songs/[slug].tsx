@@ -127,8 +127,8 @@ const SongPage = ({
           <div style={{ marginTop: "-0.9em", marginBottom: "0.5em" }}>
             <strong>Tags: </strong>
             <div style={{ display: "inline-block" }}>
-              {song.tags.map(tag => (
-                <TagBadge tag={tag} />
+              {song.tags.map((tag, index)=> (
+                <TagBadge key={index} tag={tag} />
               ))}
             </div>
           </div>
