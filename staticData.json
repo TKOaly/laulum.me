@@ -11,8 +11,9 @@
         "very long",
         "kerava",
         "water",
-        "high-alcohol",
         "wine",
-        "low-alcohol"
+        "high abv",
+        "low abv",
+        "drinking"
     ]
 }
