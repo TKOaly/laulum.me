@@ -3,7 +3,7 @@ import styles from './TagBadge.module.css';
 
 export const TagBadge = ({ tag }: { tag: string }) => {
   return (
-    <Link href={`/?${encodeURIComponent(tag)}`}>
+    <Link href={`/?tag=${encodeURIComponent(tag)}`}>
       <span className={styles.badge}>{tag}</span>
     </Link>
   );
