@@ -21,18 +21,23 @@ title: Song title
 Song lyrics...
 ```
 
-You can also specify the melody and/or writers:
+You can also specify the melody and/or writers, as well as tags:
 
 ```
 ---
 title: Gurulassa
 melody: Anssi Kela - Puistossa
 writers: Ada
+tags: finnish,medium
 ---
 
 Gurulassa ilta viilenee.
 Topi lämpimikseen koodailee...
 ```
+
+Tags are to be specified as comma-separated values without spaces in between (see above example). If you want to add a tag, append it to `staticData.json`.
+
+The currently available tags are `finnish,english,estonian,swedish,german,short,medium,long,very long,kerava,drinking,water,jaloviina,wine,high abv,low abv,any drink`
 
 ### Books (WIP)
 
