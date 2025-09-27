@@ -1,5 +1,5 @@
 import Router from "next/router";
-import { useMemo, useCallback, useState } from "react";
+import { useMemo, useCallback, useState, useEffect } from "react";
 
 import { extract, partial_ratio } from "fuzzball";
 
@@ -41,6 +41,17 @@ export const SongList = ({ titles, tagToTitlesMap }: SongListProps) => {
     // Intersect all sets
     return titles.filter(title => sets.every(set => set.has(title)));
   }, [titles, tagToTitlesMap, toggledTags]);
+    // On mount, check for ?tag=... in URI and set initial tag selection
+    useEffect(() => {
+      if (typeof window !== "undefined") {
+        const params = new URLSearchParams(window.location.search);
+        const tagParam = params.get("tag");
+        if (tagParam && songTags.includes(tagParam)) {
+          setToggledTags([tagParam]);
+          setDropdownValue("");
+        }
+      }
+    }, [songTags]);
 
   // Fuzzy search on filtered titles
   const sortedTitles = useMemo(() => {
