@@ -1,6 +1,7 @@
 ---
 title: Always Look on the Bright Side of Life
 melody: Monty Python
+tags: english,long
 ---
 
 Some things in life are bad, they can really make you mad

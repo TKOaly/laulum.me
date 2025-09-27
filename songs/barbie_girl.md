@@ -1,6 +1,7 @@
 ---
 title: Barbie Girl
 melody: Aqua - Barbie Girl
+tags: english,long
 ---
 
 Hi, Barbie

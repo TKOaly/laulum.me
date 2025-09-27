@@ -1,5 +1,6 @@
 ---
 title: Dirlandaa
+tags: finnish,very long
 ---
 
 Esilaulaja laulaa, ja jokaisen välissä kaikki: daa dirlan dirlan daa

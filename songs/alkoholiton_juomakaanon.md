@@ -2,6 +2,7 @@
 title: Alkoholiton juomakaanon
 melody: Jaakko Kulta
 writers: Mari Karlsson
+tags: finnish,medium,water
 ---
 
 Mehukatti, Mehukatti

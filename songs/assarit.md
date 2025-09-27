@@ -2,6 +2,7 @@
 title: Assarit
 melody: PMMP - Joutsenet
 writers: Mikko Halmela
+tags: finnish,long
 ---
 
 Voit sanoa mitä haluat,
