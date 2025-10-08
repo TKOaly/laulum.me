@@ -8,9 +8,9 @@ Oon jo n-vuotias,
 Oppimaan innokas,
 Sain aineen hauskimman käpy.
 
-On paljon thetävää,
+On paljon tehtävää,
 Turhaa ja tärkeää,
-Prokrastinoi Gurulassa käpy.
+järjestöhommissaan käpy.
 
 Koneeni hyytyy niin minäkin,
 Oppaaksi StackOverflown värväsin.
