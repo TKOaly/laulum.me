@@ -2,9 +2,10 @@
 title: Koodaillaan
 melody: Kirka - Hengaillaan
 writers: Julia Lindén & Emilia Ala-Harja
+update: song book committee
 ---
 
-70T ja 55,
+56 ja 75,
 on dösä mennyt viimeinen,
 mut siitä viis.
 RV:seen miinusta teen
@@ -17,11 +18,11 @@ ja tentit feilataan.
 
 Se viimeinen ware mun quotan vei.
 Dogolla on tilaa, mulla ei.
-Melkki taas lagaa,
-irkistä mut pudottaa.
+Eduroam taas lagaa,
+MOOCista mut pudottaa.
 
 Nolla kaks, ja kello käy -
-diskissan kanssa kahden vain
+Mä Gurulassa yksin vain,
 ei muita näy.
 Tunnin, kaks, oon säätänyt,
 tää koodi vaan ei oo kääntynyt.
