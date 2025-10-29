@@ -1,5 +1,5 @@
 ---
-title: Vesipoikien marssi
+title: Vesikansan marssi
 ---
 
 Pois se meistä, että täällä maisteltais'
@@ -7,10 +7,10 @@ noita pahan tuomia alkoholijuomia,
 vaikka henki keltä täällä haisteltais'
 niin huugo raikas sois'.
 
-Hurraa, me nuoret vesipojat,
+Hurraa, me nuoret vedenjuojat,
 pää on selvä meillä aina,
 krapulat ei meitä paina,
-hurraa, me nuoret vesipojat,
+hurraa, me nuoret vedenjuojat,
 meillä luonto raitis on.
 
 Säyseästi näin kun aina elelee,
