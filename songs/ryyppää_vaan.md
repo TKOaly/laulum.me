@@ -1,7 +1,6 @@
 ---
 title: Ryyppää vaan
 melody: Mignon
-
 ---
 
 Ryyppää, ryyppää, ryyppää vaan,
