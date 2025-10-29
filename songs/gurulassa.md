@@ -2,7 +2,7 @@
 title: Gurulassa
 melody: Puistossa
 writers: Ada
-update: song book committee
+update: Song book committee 2025
 ---
 
 Gurulassa ilta viilenee.
