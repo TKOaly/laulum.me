@@ -3,16 +3,22 @@ title: Lärvit
 melody: Star Wars
 ---
 
-:,: Lärvit, lä-lä-lä-lärvit, lä-lä-lä-lärvit,
-nyt otetaan! :,:
-Lää-lä-lää-läl-läl-läl-läl-läl-läl-lä-lä-läl-läl-lää,
-lää-lä-lää-läl-läl-lää-lä-lär-vit.
-Lää-lä-lää-läl-läl-läl-läl-läl-läl-lä-lä-läl-läl-lää.
-Lää-lää-lä-lää-lä-lää-lä-lää-lä-lär-vit.
-:,: Lärvit, lä-lä-lä-lärvit, lä-lä-lä-lärvit,
-nyt otetaan! :,:
+:,: Lär-vit, lä-lä-lä-lärvit, lä-lä-lä-lärvit,
+nyt otetaan! :,;
 
-Kra-pu-la, kra-pu-la, kra-pu-la.
-Kra-pu-la, kra-pu-la, kra-pu-la.
-:,: Kraa-puu-laa, kraa-kra-kra-ra-ra-pu-la,
-kraa-kra-ra-ra-ra-pu-la, kra-pu-la, kra-pu-la :,:
+Kun tänään otan monta tuoppia kuohuvaa,
+niin hyvän olon siitä saan.
+Ja siihen päälle vedän putelin koskista,
+niin siitä vasta kone käynnistyy!
+
+:,: Lär-vit, lä-lä-lä-lärvit, lä-lä-lä-lärvit,
+nyt lärvit! :,;
+
+Kraa-kraa-kraa-kraa-pulaa-kraa-pulaa,
+kraa-kraa-kraa-kraa-pulaa-kraa-pulaa.
+Kraa-kraa-kraa-kraa-kra-kra-pula,
+kra-kraa-kraa-kra-kra-pula.
+Kra-kraa-kraa-pulaa-kraa-pulaa.
+
+:,: Lär-vit, lä-lä-lä-lärvit, lä-lä-lä-lärvit,
+nyt lärvit! :,;
