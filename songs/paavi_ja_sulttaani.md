@@ -18,7 +18,7 @@ ja haaremissaan elelee.
 sulttaani oisin mielelläin. :,:
 
 Mut ei, hän ompi polo mies,
-hänt' paina koraaninsa ies.
+hänt' paina uskontonsa ies.
 :,: Ei maista viinin tippaakaan,
 en sulttaaniksi tahtoiskaan. :,:
 
