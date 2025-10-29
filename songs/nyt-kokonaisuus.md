@@ -11,7 +11,7 @@ nyt pikkulinnuille? :,:
 
 Jo kuusi kynttilöitä
 on käynyt kukkimaan.
-:,: Ja pimeitä talven öitä
+:,: Pimeitä talven öitä
 nyt ehkä valaistaan. :,:
 
 Ja vanhakin nyt nuortuu,
