@@ -2,6 +2,7 @@
 title: Gurulassa
 melody: Puistossa
 writers: Ada
+update: Song book committee 2025
 ---
 
 Gurulassa ilta viilenee.
@@ -15,7 +16,7 @@ Ohjaajansa ei oo nähnytkään.
 
 Tontsu pitää huolen peleistään,
 Eilen sai viestin irkissä:
-"Nyt olis prokrastinointii tiedossa,
+"Nyt olis lautapelit tiedossa,
 Jos tuut mukaan, nähdään Gurulassa."
 Tontsu laskee peliohjaimet
 Ja nappaa poket viimeiset.
@@ -23,7 +24,7 @@ Vielä kerran miettii mielessään,
 Ei oo mitään menetettävää...
 
 [KERTO:]
-Gonat gonaa aina vaan,
+Jäärät koodaa aina vaan,
 Gurula pysyy paikallaan.
 Ei mikään muutu milloinkaan,
 Kaikki säilyy ennallaan.
