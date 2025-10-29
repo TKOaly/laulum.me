@@ -2,7 +2,7 @@
 title: Koodaillaan
 melody: Kirka - Hengaillaan
 writers: Julia Lindén & Emilia Ala-Harja
-update: song book committee
+update: Song book committee 2025
 ---
 
 56 ja 75,
