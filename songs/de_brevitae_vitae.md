@@ -1,19 +1,14 @@
 ---
-title: De Brevitae Vitae
+title: De brevitate vitae
 ---
 
 :,: Gaudeamus igitur,
 iuvenes dum sumus! :,:
-Post iuacundam iuventutem,
+Post iucundam iuventutem,
 post molestam senectutem
 Nos habebit humus, nos habebit humus!
 
-:,: Vivat academia, vivant professores! :,:
-Vivant membrum quodlibet,
+:,: Vivat Academia, vivant professores! :,:
+Vivat membrum quodlibet,
 vivant membra quaelibet,
 Semper sint in flore, semper sint in flore!
-
-:,: Vivant omnes virgines, graciles formosae! :,:
-Vivant et mulieres,
-tenerae, amabiles
-:,: bonae laboriosae! :,:
