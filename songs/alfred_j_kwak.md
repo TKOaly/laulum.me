@@ -1,5 +1,6 @@
 ---
 title: Alfred J. Kwak
+tags: finnish,medium
 ---
 
 (Intro)

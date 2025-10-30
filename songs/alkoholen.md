@@ -2,6 +2,7 @@
 title: Alkoholen
 melody: Hallelujah
 writers: Eva Rönnqvist & Ellen Strömberg
+tags: swedish,medium,high abv,low abv
 ---
 
 Jag hörde om en helig fest

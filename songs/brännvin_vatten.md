@@ -1,6 +1,7 @@
 ---
 title: Brännvin, Vatten
 melody: Kissa vieköön
+tags: finnish,swedish,short,water,high abv
 ---
 
 Brännvin, vatten
