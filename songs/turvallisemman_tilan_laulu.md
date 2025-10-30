@@ -1,5 +1,5 @@
 ---
-name: Turvallisemman tilan laulu
+title: Turvallisemman tilan laulu
 melody: Fröbelin Palikat - Pumppulaulu
 lyrics: Suvi Kanerva
 update: Song book committee 2025
