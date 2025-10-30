@@ -161,6 +161,6 @@
     { "number": "XI", "title": "Hiven lyyrassa kiiltää kultaa" },
     { "number": "0x<3", "title": "Henkilökunta" },
     { "number": "0xFE", "title": "Fuksilaulu", "slug": "ken-ompi-fuksi" },
-    { "number": "0xFF", "title": "Teinilaulu" },
+    { "number": "0xFF", "title": "Teinilaulu" }
   ]
 }
