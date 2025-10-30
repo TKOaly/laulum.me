@@ -1,7 +1,7 @@
 ---
 title: Turvallisemman tilan laulu
 melody: Fröbelin Palikat - Pumppulaulu
-lyrics: Suvi Kanerva
+writers: Suvi Kanerva
 update: Song book committee 2025
 ---
 
