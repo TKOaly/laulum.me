@@ -1,5 +1,5 @@
 ---
-name: Python
+title: Python
 melody: Volga
 ---
 

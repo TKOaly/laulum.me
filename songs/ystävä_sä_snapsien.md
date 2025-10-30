@@ -1,5 +1,5 @@
 ---
-name: Ystävä sä snapsien
+title: Ystävä sä snapsien
 melody: Ystävä sä lapsien
 ---
 

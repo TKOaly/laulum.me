@@ -1,5 +1,5 @@
 ---
-name: Skumpalle ja samppanjalle
+title: Skumpalle ja samppanjalle
 melody: Kalliolle kukkulalle
 writers: Lotta & Antti Pirilä
 ---

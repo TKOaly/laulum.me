@@ -1,5 +1,5 @@
 ---
-name: Sen siiderin
+title: Sen siiderin
 melody: Nick Borgen - Den Glider In
 ---
 
