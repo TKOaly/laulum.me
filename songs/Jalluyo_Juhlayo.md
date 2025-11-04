@@ -5,7 +5,7 @@ writers: Bryn Sloan, Aleksanteri Perkkiö
 ---
 
 Jalluyö, juhlayö!
-Päättynyt kaik on työ.
+Päättynyt kaikk' on työ.
 Kaks vain valveil on tuutoria
 Fuksin herttaisen nukkuessa
 Klussekätkyessään,
@@ -13,8 +13,8 @@ Klussekätkyessään.
 
 Jalluyö, juhlayö!
 Tuuroteil yksin työ.
-Vastaava taivaasta ilmoitti heill’:
-Suuri koittanut riemu on teill’!
+Vastaava taivaasta ilmoitti heill':
+Suuri koittanut riemu on teill!
 Syksy päättynyt on,
 Syksy päättynyt on!
 
@@ -26,7 +26,7 @@ Olkoon juopumus suur,
 Olkoon juopumus suur!
 
 Klusseyö, Kimmoyö!
-Päättynyt kaik on työ.
+Päättynyt kaikk' on työ.
 Kaks vain jäljellä on kimmoilijaa
 Fuksin herttaisen sammuessa
 Kimmopöydässä,
