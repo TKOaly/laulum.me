@@ -14,7 +14,7 @@ Klussekätkyessään.
 Jalluyö, juhlayö!
 Tuuroteil yksin työ.
 Vastaava taivaasta ilmoitti heill':
-Suuri koittanut riemu on teill!
+Suuri koittanut riemu on teill'!
 Syksy päättynyt on,
 Syksy päättynyt on!
 
