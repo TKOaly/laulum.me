@@ -16,7 +16,7 @@ Tuuroteil yksin työ.
 Vastaava taivaasta ilmoitti heill’:
 Suuri koittanut riemu on teill’!
 Syksy päättynyt on,
-Syksy päättynyt on!!
+Syksy päättynyt on!
 
 Jalluyö, juhlayö!
 Täytetty nyt on työ.
@@ -25,16 +25,16 @@ Maassa rauha, myös Fukseille
 Olkoon juopumus suur,
 Olkoon juopumus suur!
 
-Klusseyö, Kimmoyö
-Päättynyt kaik on työ
+Klusseyö, Kimmoyö!
+Päättynyt kaik on työ.
 Kaks vain jäljellä on kimmoilijaa
 Fuksin herttaisen sammuessa
-Kimmopöydässä
-Kimmopöydässä
+Kimmopöydässä,
+Kimmopöydässä.
 
-Klusseyö, Kimmoyö
-tuutoril yksin työ
-[Nykyinen Leppis PJ] taivaasta ilmoitti heill'
-Suuri koittanut siivous on teill'
-Laatta syntynyt on
-Laatta lentänyt on
+Klusseyö, Kimmoyö!
+Tuutoril yksin työ.
+[Nykyinen Leppis PJ] taivaasta ilmoitti heill':
+Suuri koittanut siivous on teill'!
+Laatta syntynyt on,
+Laatta lentänyt on!
