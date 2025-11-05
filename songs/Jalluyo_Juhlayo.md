@@ -12,7 +12,7 @@ Klussekätkyessään,
 Klussekätkyessään.
 
 Jalluyö, juhlayö!
-Tuuroteil yksin työ.
+Tuutoreil yksin työ.
 Vastaava taivaasta ilmoitti heill':
 Suuri koittanut riemu on teill'!
 Syksy päättynyt on,
