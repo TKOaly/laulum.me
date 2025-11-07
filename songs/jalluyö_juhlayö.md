@@ -6,7 +6,7 @@ writers: Bryn Sloan, Aleksanteri Perkkiö
 
 Jalluyö, juhlayö!
 Päättynyt kaikk' on työ.
-Kaks vain valveil on tuutoria
+Kaks vain valveil' on tuutoria
 Fuksin herttaisen nukkuessa
 Klussekätkyessään,
 Klussekätkyessään.
