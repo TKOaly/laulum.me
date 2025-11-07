@@ -1,6 +1,7 @@
 ---
 title: All the Drinks
 melody: London Bridge is Falling Down
+tags: english,medium,any drink
 ---
 
 All the drinks are going down,

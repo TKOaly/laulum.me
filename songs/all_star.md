@@ -1,6 +1,7 @@
 ---
 title: All Star
 melody: Smash Mouth - All Star
+tags: english,long
 ---
 
 Somebody once told me the world is gonna roll me
