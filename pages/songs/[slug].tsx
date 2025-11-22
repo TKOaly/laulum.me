@@ -75,7 +75,7 @@ const SongPage = ({
       return;
     }
     setBackPage(`/book/${encodeURIComponent(book)}`);
-  }, [setBackPage]);
+  }, [setBackPage, bookNames]);
 
   return (
     <>

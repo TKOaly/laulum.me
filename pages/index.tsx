@@ -1,7 +1,7 @@
 import type { InferGetStaticPropsType } from "next";
 
 import Head from "next/head";
-import { Merriweather } from "@next/font/google";
+import { Merriweather } from "next/font/google";
 
 import {
   Icon,
