@@ -8,6 +8,7 @@ const nextConfig = {
     unoptimized: true,
   },
   turbopack: {},
+  output: 'export',
 };
 
 const withPWA = require("next-pwa")({
