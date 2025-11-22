@@ -7,6 +7,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  turbopack: {},
 };
 
 const withPWA = require("next-pwa")({
