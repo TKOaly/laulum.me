@@ -1,5 +1,7 @@
 ---
-title: Laaserit
+title: Laser
+melody: Wikirock - Laser
+writers: Mika Johannes Kuokkanen / Wikipedia
 ---
 
 Ensimmäinen laser kehitettiin Yhdysvalloissa vuonna 60
