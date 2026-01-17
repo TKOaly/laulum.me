@@ -9,7 +9,7 @@ update: Song book committee 2025
 on dösä mennyt viimeinen,
 mut siitä viis.
 RV:seen miinusta teen
-ja navettaan koodaamaan meen.
+ja Navettaan koodaamaan meen.
 
 Tää yö nyt ollaan vaan ja koodaillaan,
 ei mennä nukkumaan.
