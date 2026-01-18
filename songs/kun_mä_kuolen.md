@@ -3,14 +3,16 @@ title: Kun mä kuolen
 melody: Jos sun lysti on
 ---
 
+```
 from laulut import kun_ma_kuolen
 from laulun_toivoja import ehto
 from laulunjohtaja import lupa
 for sakeisto in kun_ma_kuolen.sakeistot:
-if ehto(sakeisto.metadata):
-sakeisto.laula()
-elif lupa:
-horppy()
+ if ehto(sakeisto.metadata):
+  sakeisto.laula()
+ elif lupa:
+  horppy()
+```
 
 (0) :,: Kun mä kuolen vanhan piippuni sä saat. :,:
 Noilla taivaan kessumailla
