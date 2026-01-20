@@ -1,6 +1,7 @@
 ---
 title: Aku Ankka
 melody: Saku Sammakko
+tags: finnish,long
 ---
 
 :,: Aku Ankkako lapsemme turmelee?

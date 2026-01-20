@@ -67,7 +67,15 @@ const readSong = async (
   const content = fm<Song>(fileContents);
   const lyrics = content.body;
 
-  return { ...content.attributes, lyrics, filename: filename };
+  const attributes = {
+    ...content.attributes,
+    tags:
+      content.attributes.tags && typeof content.attributes.tags === "string"
+        ? (content.attributes.tags as string).split(",").map(tag => tag.trim()).filter(Boolean)
+        : []
+  };
+
+  return { ...attributes, lyrics, filename };
 };
 
 export const getSongs = async () => {

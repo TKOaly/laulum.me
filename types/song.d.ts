@@ -5,6 +5,8 @@ export interface Song {
   melody?: string;
   /** Writer of the song */
   writers?: string;
+  /** Tags for the song */
+  tags?: string[];
   /** Lyrics of the song */
   lyrics: string;
   /** Hidden means the song is not displayed on the main page */

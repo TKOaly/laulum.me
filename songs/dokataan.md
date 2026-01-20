@@ -1,6 +1,7 @@
 ---
 title: Dokataan
 melody: Heilutaan
+tags: finnish,long
 ---
 
 Sitsit loppui ja meillä on pulloja vaan,

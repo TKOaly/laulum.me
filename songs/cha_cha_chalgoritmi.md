@@ -2,6 +2,7 @@
 title: Cha Cha Chalgoritmi
 melody: Käärijä - Cha Cha Cha
 writers: Ada
+tags: finnish,very long
 ---
 Rankka viikko ja paljon pitkii luentoi takan
 Mielenkiintona aikavaativuus ja tira

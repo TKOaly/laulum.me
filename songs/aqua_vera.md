@@ -1,5 +1,6 @@
 ---
 title: Aqua Vera
+tags: finnish,swedish,medium,water
 ---
 
 Lauletaanpas vedestä,

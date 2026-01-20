@@ -1,6 +1,7 @@
 ---
 title: Call Me Maybe
 melody: Carly Rae Jepsen - Call Me Maybe
+tags: english,very long
 ---
 
 I threw a wish in the well
