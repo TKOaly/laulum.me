@@ -2,7 +2,7 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 
 import "./app.css";
-import { Roboto } from "@next/font/google";
+import { Roboto } from "next/font/google";
 import { ErrorBoundary } from "@/components";
 
 const roboto = Roboto({ subsets: ["latin"], weight: "400" });
