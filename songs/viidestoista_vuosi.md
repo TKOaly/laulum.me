@@ -1,6 +1,7 @@
 ---
 title: Viidestoista vuosi
 melody: Juice Leskinen - Viidestoista yö
+update: Song book committee 2025
 ---
 
 Silmissäni orpo katse lapsen eksyneen.
@@ -17,7 +18,7 @@ Taas nukun tenttisalissa
 ja samaa unta nään:
 kuin hullu huudan tutkintoni perään.
 Pää konseptiin kun painuu,
-reputan myös tentin tään.
+reputan myös tentin tän.
 Se pian ohi on,
 taas liian myöhään herään.
 
