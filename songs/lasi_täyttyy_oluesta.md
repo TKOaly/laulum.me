@@ -7,6 +7,7 @@ Lasi täytyy oluesta, elämä on dokaamista
 ota lasi käteen, juodaan kaljaa.
 Pyydä minut aamuteelle,
 oksennetaan parvekkeelle.
+
 Nyt on lokakuu, ja minä vasta treenaan.
 En kossua dokaa, en vinkkua dokaa,
 kun dokaan, niin dokaan kaljaa vaan,
