@@ -13,7 +13,7 @@ ja Navettaan koodaamaan meen.
 
 Tää yö nyt ollaan vaan ja koodaillaan,
 ei mennä nukkumaan.
-Aamulla luennolla irkataan
+Aamulla luennolla feidataan
 ja tentit feilataan.
 
 Se viimeinen ware mun quotan vei.
@@ -29,7 +29,7 @@ tää koodi vaan ei oo kääntynyt.
 
 Tää yö nyt ollaan vaan ja koodaillaan,
 ei mennä nukkumaan.
-Gurulassa kääntäjälle kiroillaan,
+Navetassa kääntäjälle kiroillaan,
 kun koodi kusee taas.
 
 Se viimeinen bugi mun hermot vei,
