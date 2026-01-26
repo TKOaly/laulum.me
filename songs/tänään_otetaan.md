@@ -1,5 +1,6 @@
 ---
 title: Tänään otetaan, tänään otetaan
+melody: Joulu on taas
 ---
 
 :,: Tänään otetaan, tänään otetaan
