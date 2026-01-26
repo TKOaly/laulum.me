@@ -5,51 +5,51 @@ writers: Kalle Viiri
 ---
 
 Lauri jälkeen vuosien
-soitti kysyäkseen
-Kerättäiskö kannu kasaan
-ei irkattu oo pitkään aikaan
+soitti kysyäkseen:
+"Kerättäiskö kannu kasaan?
+Ei irkattu oo pitkään aikaan."
 
 Mistä saadaan palvelin?
-Uumenista Mikan kellarin
+Uumenista Mikan kellarin.
 Miksei pantais sitä virtoihin,
-tehtäis kaikki niinkuin ennenkin
+tehtäis kaikki niinkuin ennenkin.
 
 Ja niin loggaan uudelleen
-shelliin vanhan BSD:n,
+shelliin vanhan BSD:n.
 Mika sudot ottaa tietenkin,
 se on sen faijan servu.
 Mika RMS:ää fanittaa,
 Lauri Mäcillänsä lanittaa,
-RAMia on kolkytkaks megaa
-hyvä jos sen klinun käyntiin saa
+RAMia on kolkytkaks megaa,
+hyvä jos sen klinun käyntiin saa.
 
 [KERTO:]
 Mikan faijan BSD
-irkkishellii hostailee
-se vielä kerran kuljettaa
-vanhat jäärät bamlaamaan
+irkkishellii hostailee.
+Se vielä kerran kuljettaa
+vanhat jäärät bamlaamaan.
 
-Mikan faijan BSD
-pönttö huhkii, huokailee
-vaikka on kaikki kohdallaan,
-ei mikään ole ennallaan.
+Mikan faijan BSD,
+pönttö huhkii, huokailee.
+Vaikka on kaikki kohdallaan,
+ei mikään ole ennallaan
 
 Viimeksi kun tavattiin,
 tämän servun kuoret avattiin.
-Lauri pöntön kattoo läimäyttää
+Lauri pöntön kattoo läimäyttää,
 pölypilvet lentää, kimmeltää.
 Mika suuttunut on edelleen,
-painiessaan kanssa GCC:n,
-ei Irssiä saa repoista,
+painiessaan kanssa GCC:n.
+Ei Irssiä saa repoista,
 täytyy itse kääntää koodeista.
 
 Ja Lauri nyt jo nähnyt on
-Mikan faijan koko arkiston
-palvelimen levyt sisältää
+Mikan faijan koko arkiston.
+Palvelimen levyt sisältää
 alle gigan muinaiselämää.
 Tää pönttö ollu ehkä uus
-on viimeks joskus vuonna ysikuus,
-mitä suotta hyvää korvaamaan,
+on viimeks joskus vuonna ysikuus.
+Mitä suotta hyvää korvaamaan,
 Mika läpi yön jää sorvaamaan.
 
 [KERTO]
@@ -57,7 +57,7 @@ Mika läpi yön jää sorvaamaan.
 Kyllähän me hauskaa pidettiin,
 BSD:n kun kanssa tapeltiin.
 Avoimeksi illan anti jää,
-Onko IrcNETissä elämää?
+onko IrcNETissä elämää?
 Ilta arvoisensa päätöksen
 sai kun Mika koetti boottaa Centoksen.
 Se on kyllä pirun raikasta,
