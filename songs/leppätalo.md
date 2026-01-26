@@ -9,7 +9,7 @@ Kas näin saapuu lasku, ja lasku saapuu näin,
 Kas näin saapuu lasku, ja lasku saapuu näin.
 
 On meillä hauska talo, se Leppätalo on.
-Kun Moodi tulee klurrelle on meno hulvaton.
+Kun Moodi tulee Klurrelle on meno hulvaton.
 Kas näin heiluu hanska, ja hanska heiluu näin...
 
 On meillä hauska talo, se Leppätalo on.
