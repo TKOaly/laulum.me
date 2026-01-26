@@ -1,5 +1,6 @@
 ---
 title: Vesikansan marssi
+melody: Kapteeni katsoi horisonttiin
 ---
 
 Pois se meistä, että täällä maisteltais'
