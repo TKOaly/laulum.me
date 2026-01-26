@@ -1,5 +1,6 @@
 ---
 title: Aqua Vera
+melody: Terve teille lintuset
 ---
 
 Lauletaanpas vedestä,
