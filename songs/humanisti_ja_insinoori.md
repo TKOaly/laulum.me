@@ -1,0 +1,42 @@
+---
+title: Humanisti ja insinööri
+melody: Päivänsäde ja menninkäinen
+---
+
+Assari kun päätti tentin, 
+siskoistaan jäi jälkeen sentin 
+humanisti viimeinen. 
+Hämärä jo Stadiin hiipi, 
+humanisti Kamppiin kiiti, 
+juuri aikoi nousta linjuriin, 
+kun insinöörin fiksun näki 
+vastaan tulevan, 
+se juuri oli noussut bussistaan. 
+Kas insinööri ennen päivänlaskua ei voi, 
+milloinkaan lähtee lafkaltaan. 
+
+Katselivat toisiansa, 
+insinööri rinnassansa 
+tunsi kummaa leiskuntaa. 
+Sanoi: poltat Marlboroa, 
+mutten ole eläissäni 
+nähnyt mitään yhtä ihanaa! 
+Ei haittaa, vaikka röökisi 
+mut yskiväksi saa - 
+on astmaisena hyvä asustaa. 
+Käy kanssani, niin Otaniemeen 
+näytän sulle tien, 
+ja sinut perhekylään vien. 
+
+Nisti vastas: nööri kulta, 
+teekkarit vie järjen multa, 
+enkä toivo hourulaan. 
+Pois mun täytyy heti mennä, 
+ellen kohta Dommaan ennä, 
+niin en hetkeäkään lukee saa. 
+Niin lähti kaunis humanisti. 
+Mutta vieläkin, 
+kun insinööri öisin integroi, 
+hän miettii, miksi toinen täällä 
+lukutoukka on, 
+ja toinen nablaa rakastaa.
