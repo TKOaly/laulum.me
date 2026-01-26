@@ -1,6 +1,6 @@
 ---
 title: Tänään otetaan (alkoholittomia)
-melody: Tänään otetaan
+melody: Joulu on taas
 writers: Lassi Koistinen, Mari Karlsson
 ---
 
