@@ -8,57 +8,73 @@ update: Song book committee 2025
 Gurulassa ilta viilenee.
 Topi lämpimikseen koodailee.
 Kelloaan katsoo kiroillen,
-Ajaa syötteen viimeisen.
+ajaa syötteen viimeisen.
 Luokan priimus oli koulussa,
-Nyt jatko-opiskelee, irkkiin koukussa,
+nyt jatko-opiskelee, irkkiin koukussa,
 Miniboss ei jaksa välittää,
-Ohjaajansa ei oo nähnytkään.
+ohjaajansa ei oo nähnytkään.
 
-Tontsu pitää huolen peleistään,
+Tontsu pitää huolen peleistään.
 Eilen sai viestin irkissä:
 "Nyt olis lautapelit tiedossa,
-Jos tuut mukaan, nähdään Gurulassa."
+jos tuut mukaan, nähdään Gurulassa."
 Tontsu laskee peliohjaimet
-Ja nappaa poket viimeiset.
+ja nappaa poket viimeiset.
 Vielä kerran miettii mielessään,
-Ei oo mitään menetettävää...
+ei oo mitään menetettävää...
 
 [KERTO:]
 Jäärät koodaa aina vaan,
 Gurula pysyy paikallaan.
 Ei mikään muutu milloinkaan,
-Kaikki säilyy ennallaan.
+kaikki säilyy ennallaan.
 Samat läpät kerrotaan,
-Samat meemit printataan
-Ja kaikki taidot katoaa,
+samat meemit printataan
+ja kaikki taidot katoaa.
 Motivaatio kuolee aikanaan
 
 Outo humanisti Ada on.
 Käytyään eliittilukion,
-Päätti opetella koodaamaan,
-Niin löysi tiensä Kumpulaan.
+päätti opetella koodaamaan,
+niin löysi tiensä Kumpulaan.
 Mutta Ada joutui vaikeuksiin,
-Ajautui suorituspaineisiin.
+ajautui suorituspaineisiin.
 Nyt selviä ei laskuistaan,
-Tenteistä puhumattakaan.
+tenteistä puhumattakaan.
 
 Töitä gonilla kyllä riittäis,
-Mut ne ei tahtois jaksaa niitäkään.
+mut ne ei tahtois jaksaa niitäkään.
 Ne miettii: "Tervetuloa maailmaan,
-Täällä pärjää ei kukaan kuitenkaan."
+täällä pärjää ei kukaan kuitenkaan."
 Ada valvoo irkkiin itkien,
 "Topi auta, osaa en."
 
 [KERTO]
+Jäärät koodaa aina vaan,
+Gurula pysyy paikallaan.
+Ei mikään muutu milloinkaan,
+kaikki säilyy ennallaan.
+Samat läpät kerrotaan,
+samat meemit printataan
+ja kaikki taidot katoaa.
+Motivaatio kuolee aikanaan
 
 Tontsu saapuu potkulaudallaan,
-Sen pöydän viereen pysäyttää.
+sen pöydän viereen pysäyttää.
 Topi nousee myöskin potkimaan,
-Adakaan ei sano sanaakaan
+Adakaan ei sano sanaakaan.
 Gonat ajavat oveen Kumpulan,
-Henksuavaimensa ojentaa
-Piti vielä tarinaa sanoittaa
-Mutta gonat ei saaneet aikaan
+henksuavaimensa ojentaa.
+Piti vielä tarinaa sanoittaa,
+mutta gonat ei saaneet aikaan.
 Lallallallaa...
 
 [KERTO]
+Jäärät koodaa aina vaan,
+Gurula pysyy paikallaan.
+Ei mikään muutu milloinkaan,
+kaikki säilyy ennallaan.
+Samat läpät kerrotaan,
+samat meemit printataan
+ja kaikki taidot katoaa.
+Motivaatio kuolee aikanaan
