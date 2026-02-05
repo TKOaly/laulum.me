@@ -3,8 +3,8 @@ title: Brännvin, Vatten
 melody: Kissa vieköön
 ---
 
-Brännvin, vatten
-Smakar skit som katten.
+Brännvin, vatten,
+smakar skit som katten.
 Brännvin, helt rått
 :,: smakar jävligt gott :,:
 
