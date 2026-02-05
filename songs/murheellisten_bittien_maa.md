@@ -4,43 +4,43 @@ melody: Murheellisten laulujen maa
 ---
 
 Syyttömänä saapumaan sattui hän
-tähän Klurreen omituiseen ja pimeään
-jossa jo tuutorit, juovuksissa totta kai
-hakkasivat Urho Karhun jos sen kiinni sai
+tähän Klurreen omituiseen ja pimeään.
+Jossa jo tuutorit, juovuksissa totta kai
+hakkasivat Urho Karhun, jos sen kiinni sai.
 
 Perinteisen nörtin kohtalon
-halus välttää fuksi tuo
-en koskaan ota vastuuta
-enkä koskaan 'kultaa juo muuten
-juon kassan
+halus välttää fuksi tuo.
+"En koskaan ota vastuuta
+enkä koskaan 'kultaa juo. Muuten
+juon kassan."
 
-Aurajoki kutsuu TKO-älyä keväisin
-vaan en tahdo tehdä koskaan lailla jäärän
-mut kun Meego-koodaajana työtä ei saa
-hälle Eficoden koura juottaa väkijuomaa
+Aurajoki kutsuu TKO-älyä keväisin,
+vaan en tahdo tehdä koskaan lailla jäärän.
+Mut kun Meego-koodaajana työtä ei saa
+hälle Eficoden koura juottaa väkijuomaa.
 
 Niin Annajuhani Lantto taas herää henkiin
-ja tuutorin elkeet tarttuvat fuksiin
-kohti laukkaa, Idan saunaa
+ja tuutorin elkeet tarttuvat fuksiin.
+Kohti laukkaa, Idan saunaa.
 
-Se Mahnun epätoivoon ajaa
-kun viskipullon korkkaa
-keskeltä kylmän koodin hiljaa
-kylmä virhe tuijottaa
-kun poikkeus kohoaa
+Se Mahnun epätoivoon ajaa,
+kun viskipullon korkkaa.
+Keskeltä kylmän koodin hiljaa
+kylmä virhe tuijottaa,
+kun poikkeus kohoaa.
 
-Keskeltä bugien, pk-tölkkien
-aktiivit synkeinä etsivät kenkiään
+Keskeltä bugien, PK-tölkkien
+aktiivit synkeinä etsivät kenkiään.
 Koodiorjuus, viina, Mäkkärin porttikielto
-B-rapun kamera ja viimeinen erhe
+B-rapun kamera ja viimeinen erhe.
 
-Tämä tuhansien murheellisten bittien maa
-jonka Alina-pantit voi menettää
-Katajainen Tekis jonka taksilaskun määrää
+Tämä tuhansien murheellisten bittien maa,
+jonka Alina-pantit voi menettää.
+Katajainen Tekis, jonka taksilaskun määrää
 ei mittaa järki,
-eikä Esko määrää
+eikä Esko määrää,
 jonka koodista puuttuvat
 ne suunnittelumallit
-ja poissa pysyvät opintopisteet
-koodaajan epätoivosta
+ja poissa pysyvät opintopisteet.
+Koodaajan epätoivosta
 ne kertovat.
