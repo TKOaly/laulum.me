@@ -9,7 +9,7 @@ Laskuhumalan oireita odotetaan,
 juomat lopussa on, ei yhtään dokattavaa.
 
 Pidä kiinni hei mua, niin mä pitää voin sua.
-Kyllä kavereilta pitää aina saada tukea, HEI!
+Kyllä kavereilta pitää aina saada tukea.
 
 Mutta satoi tai paistoi, me yritetään,
 päästä Matlu-klusterille yötä viettelemään.
@@ -31,8 +31,8 @@ nekin pitäis dokata.
 
 Ei se minun syy oo,
 jos on viinaa pullossa.
-Parhaani mä teen,
-mutta lattia on vinossa.
+Kaikki dokattava on,
+vaikka konttauskunnossa, HEI!
 
 Aamunkoitteessa krapula vaivaa,
 mua niin janottaa.
