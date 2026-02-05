@@ -1,8 +1,9 @@
 ---
 title: Eurovision juomalaulu
+melody: Te deum
 ---
 
-Ranskassa juodaan viiniä
+Ranskassa juodaan viiniä,
 Saksassa olutta ja Venäjällä vodkaa.
 Suomessa juodaan kaikkea,
 siis malja sille nostakaa!
