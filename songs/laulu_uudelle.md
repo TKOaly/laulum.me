@@ -13,12 +13,12 @@ ja ylöspäin vei raput käytävän.
 Laulut laulettiin, pitkään iltaa istuttiin
 ja jatkoille siirryttiin.
 
-Kun oluen niin vaahdontäytteisen
+Kun oluen niin vaahdontäytteisen,
 sä tarjosit ja katsoit hymyillen.
 Koskin pulloa ja sen pintaa kosteaa
 ja aloin paikkaa rakastaa.
 
-Yks kerrallaan nous hauet aivoihin
+Yks kerrallaan nous hauet aivoihin,
 kun käsissäs sä kannoit Apteekkiin.
 Sieltä Vinnille, Illusioon, Kupoliin,
 se ilta jatkui loputtomiin.
