@@ -15,13 +15,13 @@ Nyt juhlitaan, nyt juhlitaan.
 
 On mulla naama valkoinen, naama valkoinen
 ja maistuis' olut huurteinen, olut huurteinen.
-Juon sitä kolpakollisen, kolpakollisen
+Juon sitä kolpakollisen, kolpakollisen,
 ja oksennan - yli laidan.
 
 Ottaisin matemaatikon, matemaatikon,
 tai sitten söpön kemistin, söpön kemistin.
-Kelpaa se geologikin, geologikin,
-nyt sekstaillaan, nyt sekstaillaan.
+Kelpaa se geologikin, geologikin.
+Nyt sekstaillaan, nyt sekstaillaan.
 
 Jos saisin, niin mitä tekisin, mitä tekisin?
 Kyll' varmaan jotain keksisin, jotain keksisin,
