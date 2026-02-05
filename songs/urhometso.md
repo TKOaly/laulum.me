@@ -4,7 +4,7 @@ melody: Ukkometso
 ---
 
 Katto kallellaan siinä Domman alla,
-seisoo vielä klurre paikallaan.
+seisoo vielä Klurre paikallaan.
 Kampin ostoskeskuksen ohi kuljen tiedän sen,
 kohta tullut oon Klusterille.
 Hei ryyppyfrendi tuo mulle kolpakko,
