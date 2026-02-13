@@ -1,27 +1,31 @@
 ---
 title: Leukojen välliin
-melody: Silmien välliin
+melody: Karjalan poikia
 ---
 
 Viina on elämän riemuja varten,
-viina on lahjana jumalatarten
+viina on lahjana jumalatarten.
 Leukojen välliin, leukojen välliin,
 leukojen välliin viinaa juu!
 
-Leukojen välliin ryyppi
+Ryypillä tehdään kuninkaita,
+herroja suuria ruhtinaita.
+Leukojen välliin...
+
+Leukojen välliin ryyppi,
 nyt joka ainut tyyppi!
 Leukojen välliin...
 
-Ryypillä tehdään kuninkaita,
-herroja suuria ruhtinaita
-Leukojen välliin...
-
 Ryyppi se painuu sisuksihin syvvää,
-päässä ja sydämessä tekkee se hyvvää
+päässä ja sydämessä tekkee se hyvvää.
 Leukojen välliin...
 
 Ryyppi se menee miehiin ja frouviin,
 kaikki sen saa, jotka tulleet on krouviin
+Leukojen välliin...
+
+Leukojen välliin ryyppi,
+nyt joka ainut tyyppi!
 Leukojen välliin...
 
 Ryyppi kun mennyt on kurkusta sissään,

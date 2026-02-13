@@ -35,9 +35,9 @@ järjestöt on kauhuissaan.
 jälleen huomenna. :,:
 
 Kieltokyltti ei aukee, palo-ovi sen sijaan,
-Hoplop keskus taas uuden vieraan saa.
+Hoplop-keskus taas uuden vieraan saa.
 Ylin johtokin saapuu, taidetta katselemaan,
-AEE vuokranmaksun lopettaa
+AEE vuokranmaksun lopettaa.
 
 Minä annan käyttökiellon,
 järjestöt on kauhuissaan.

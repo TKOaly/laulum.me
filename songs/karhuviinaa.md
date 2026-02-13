@@ -22,7 +22,7 @@ Tiu tau, tiu tau...
 
 Syksyn tullen sieniä kasvaa
 varpaanväleissämme.
-Eikä me sukkia vaihdeta kuin
+Eikä me sukkia vaihdeta, kuin
 korkeintaan keskenämme.
 Eikä me sukkia vaihdeta,
 

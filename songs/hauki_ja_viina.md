@@ -24,11 +24,11 @@ maitoo koittaa tyrkyttää.
 maitohapot myrkyttää. :,:
 
 Uppå väggen går en gädda
-med långa ludna svarta ben,
-:,: men ni ska inte vara rädda,
+med långa ludna svarta ben.
+:,: Men ni ska inte vara rädda,
 tag en sup och allt går väl. :,:
 
-Vita möss som går i taket
-råna hest och falla ner,
-:,: men ni ska inte vara rädda,
+Vita möss som går i taket,
+råna hest och falla ner.
+:,: Men ni ska inte vara rädda,
 tag en sup och allt gör väl. :,:

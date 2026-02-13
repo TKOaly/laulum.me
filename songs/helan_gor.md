@@ -2,14 +2,14 @@
 title: Helan går
 ---
 
-(Soolo:)
+_Soolo:_
 En liten fågel satt en gång
 och sjöng i furuskog,
 han hade sjungit dagen lång
 men dock ej sjungit nog.
 Vad sjöng den lilla fågeln då?
 
-(Kaikki:)
+_Kaikki:_
 Helan går,
 sjung hoppfaderallan lallan lej
 Helan går, sjung hoppfaderallan lej

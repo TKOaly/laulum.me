@@ -1,8 +1,8 @@
 ---
-title: Kaks kisälliä
+title: Kaks' kisälliä
 ---
 
-Kaks' kisälliä kulki
+Kaks'kisälliä kulki
 maantietä laulellen.
 He laulussaan toi julki
 ylevän aattehen:
@@ -24,7 +24,7 @@ ah, eikös tätä voisi
 verrata Eedeniin.
 Kyllä vaan!
 
-Kaljaa...
+:,: Kaljaa, kaljaa, kaljallallallallaa! :,:
 
 Jos viimein parannusta
 ei saatais krapulaan,
@@ -33,4 +33,4 @@ loikattais kuolemaan.
 Ja me ryypättäis vain viinaa...
 Kyllä vaan!
 
-Kaljaa...
+:,: Kaljaa, kaljaa, kaljallallallallaa! :,:

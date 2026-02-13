@@ -4,12 +4,12 @@ melody: Kansainvälinen
 ---
 
 Mera brännvin i glasen,
-mera glas på vårt bord,
-mera bord på kalasen,
+mera glas på vårt bord.
+Mera bord på kalasen,
 mera kalas på vår jord.
 Mera jordar kring månen,
-mera månar kring Mars,
-mera marscher till Skåne,
+mera månar kring Mars.
+Mera marscher till Skåne,
 mera Skåne, bevars, bevars, bevars!
 
 Lisää viinaa mun lasiin,
