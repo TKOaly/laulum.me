@@ -6,7 +6,7 @@
   "dependencies": {
     "front-matter": "^4.0.2",
     "fuzzball": "^2.1.2",
-    "next": "16.0.3",
+    "next": "16.1.6",
     "next-pwa": "^5.6.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
@@ -18,7 +18,6 @@
     "unified": "^11.0.5"
   },
   "devDependencies": {
-    "@types/next-pwa": "^5.6.2",
     "@types/node": "^24.10.13",
     "@types/react": "19.2.6",
     "@types/react-dom": "19.2.3",
