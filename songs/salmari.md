@@ -24,7 +24,7 @@ and all that I can see
 is just another Salmari.
 
 It’s spinning my head up and down,
-spinning, spinning, spinning, spinning, spinning  around
+spinning, spinning, spinning, spinning, spinning around
 and all that I can see
 is just another Salmari.
 
@@ -49,6 +49,6 @@ and all that I can see
 is just another Salmari.
 
 It’s spinning my head up and down,
-spinning, spinning, spinning, spinning, spinning  around
+spinning, spinning, spinning, spinning, spinning around
 and all that I can see
 is just another Salmari.
