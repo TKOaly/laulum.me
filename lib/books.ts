@@ -5,7 +5,14 @@ import path from "path";
 
 const directory = path.join(process.cwd(), "books");
 
-const getFilenames = async () => promises.readdir(directory);
+// Simple cache
+let FILENAMES: string[] | null = null;
+const getFilenames = async () => {
+  if (FILENAMES) return FILENAMES;
+
+  FILENAMES = await promises.readdir(directory);
+  return FILENAMES;
+};
 
 // FIXME: Validate JSON structure (parsed data is `unknown`)
 export const getBooks = async (): Promise<Book[]> => {
@@ -22,13 +29,25 @@ export const getBook = async (name: string): Promise<Book | null> => {
   return readBook(filename);
 };
 
+// Simple cache to avoid reading and parsing the same book file multiple times
+const BOOKS = new Map<string, Book>();
+
 const readBook = async (filename: string): Promise<Book> => {
   const filePath = path.join(directory, filename);
+  const stats = await promises.stat(filePath);
+  const cacheKey = `${filename}-${stats.mtime.getTime()}`;
+
+  if (BOOKS.has(cacheKey)) {
+    return BOOKS.get(cacheKey)!;
+  }
+
   const contents = await promises.readFile(filePath, "utf-8");
-  return {
+  const book = {
     ...JSON.parse(contents),
     name: path.basename(filename, ".json"),
   };
+  BOOKS.set(cacheKey, book);
+  return book;
 };
 
 export const getBookNames = async () => {

@@ -1,9 +1,9 @@
 import type { GetStaticProps, InferGetStaticPropsType } from "next";
 import Head from "next/head";
-import { unified } from 'unified';
-import remarkParse from 'remark-parse';
-import remarkHtml from 'remark-html';
-import remarkGfm from 'remark-gfm';
+import { unified } from "unified";
+import remarkParse from "remark-parse";
+import remarkHtml from "remark-html";
+import remarkGfm from "remark-gfm";
 
 import { Footer, Header, Link } from "@/components";
 
@@ -14,7 +14,7 @@ import { Song } from "@/types/song";
 import { useEffect, useState } from "react";
 import { getBookNames } from "@/lib/books";
 
-import markdownStyles from './markdown.module.css';
+import markdownStyles from "./markdown.module.css";
 
 export async function getStaticPaths() {
   const songs = await getSongs();
@@ -48,7 +48,7 @@ export const getStaticProps: GetStaticProps<{
     .use(remarkParse)
     .use(remarkHtml)
     .process(song.lyrics);
-  console.log(processedContent)
+
   const markdownHtml = processedContent.toString();
 
   return { props: { markdownHtml, song, bookNames } };
@@ -129,7 +129,10 @@ const SongPage = ({
         {song.melody && (
           <em style={{ display: "block" }}>Melody: {song.melody}</em>
         )}
-        <div className={markdownStyles.markdown} dangerouslySetInnerHTML={{ __html: markdownHtml }} />
+        <div
+          className={markdownStyles.markdown}
+          dangerouslySetInnerHTML={{ __html: markdownHtml }}
+        />
       </main>
 
       <Footer>

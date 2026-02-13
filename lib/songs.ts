@@ -8,9 +8,7 @@ import slugify from "./slugify";
 const directory = path.join(process.cwd(), "songs");
 const cache = path.join(process.cwd(), "cache", "songs.json");
 
-const getFilenames = async () => {
-  return promises.readdir(directory);
-};
+const getFilenames = async () => promises.readdir(directory);
 
 // Since slugs do not match filenames, we need a mapping between the two.
 const getSlugs = async (
@@ -58,16 +56,29 @@ const getSlugs = async (
   return mapping;
 };
 
+// Simple cache to avoid reading and parsing the same song file multiple times
+const SONGS = new Map<string, Song>();
+
 const readSong = async (
   filename: string
 ): Promise<Song & { filename: string }> => {
+  // Cache hash is filename-datemodified to avoid stale data in dev
   const filePath = path.join(directory, filename);
-  const fileContents = await promises.readFile(filePath, "utf-8");
+  const stats = await promises.stat(filePath);
+  const cacheKey = `${filename}-${stats.mtime.getTime()}`;
 
-  const content = fm<Song>(fileContents);
-  const lyrics = content.body;
+  if (SONGS.has(cacheKey)) {
+    return { ...SONGS.get(cacheKey)!, filename };
+  } else {
+    const fileContents = await promises.readFile(filePath, "utf-8");
 
-  return { ...content.attributes, lyrics, filename: filename };
+    const content = fm<Song>(fileContents);
+    const lyrics = content.body;
+
+    const song = { ...content.attributes, lyrics, filename: filename };
+    SONGS.set(cacheKey, song);
+    return song;
+  }
 };
 
 export const getSongs = async () => {
