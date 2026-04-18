@@ -13,7 +13,8 @@ import {
 } from "@/components";
 
 import { usePWAPrompt } from "@/lib/usePWAPrompt";
-import { getSongs } from "@/lib/songs";
+import { getSongs } from "@/lib/serverSongs";
+import slugify from "@/lib/slugify";
 
 const merriweather = Merriweather({ subsets: ["latin"], weight: "400" });
 
@@ -21,12 +22,16 @@ export async function getStaticProps() {
   const songs = await getSongs();
   return {
     props: {
-      titles: songs.filter(({ hidden }) => !hidden).map(({ title }) => title),
+      songs: songs.map(({ title, hidden }) => ({
+        title,
+        slug: slugify(title),
+        isContentHidden: Boolean(hidden),
+      })),
     },
   };
 }
 
-const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
+const Index = ({ songs }: InferGetStaticPropsType<typeof getStaticProps>) => {
   // PWA update prompting, song downloads
   const { promptVisible, updateWorker } = usePWAPrompt();
 
@@ -66,7 +71,7 @@ const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
         }}
       >
         <main>
-          <SongList titles={titles} />
+          <SongList songs={songs} />
         </main>
 
         <Footer style={{ textAlign: "center" }}>
