@@ -73,7 +73,6 @@ const SongPage = ({
   const didInitialize = useRef(false);
 
   const [backPage, setBackPage] = useState("/");
-  const [canViewSong, setCanViewSong] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
   const [isUserHidden, setIsUserHidden] = useState(false);
 
@@ -121,7 +120,6 @@ const SongPage = ({
     }
 
     recordSongVisit(slug);
-    setCanViewSong(true);
   }, [router, slug, song.hidden]);
 
   const handleFavoriteClick = () => {
@@ -179,61 +177,57 @@ const SongPage = ({
       </Header>
 
       <main>
-        {canViewSong ? (
-          <>
-            <h1>{song.title}</h1>
-            {song.writers && (
-              <em style={{ display: "block" }}>Written by {song.writers}</em>
-            )}
-            {song.melody && (
-              <em style={{ display: "block" }}>Melody: {song.melody}</em>
-            )}
+        <>
+          <h1>{song.title}</h1>
+          {song.writers && (
+            <em style={{ display: "block" }}>Written by {song.writers}</em>
+          )}
+          {song.melody && (
+            <em style={{ display: "block" }}>Melody: {song.melody}</em>
+          )}
 
-            <div
+          <div
+            style={{
+              display: "flex",
+              gap: "0.75rem",
+              marginBlock: "1rem",
+              flexWrap: "wrap",
+            }}
+          >
+            <button
+              type="button"
+              onClick={handleFavoriteClick}
               style={{
-                display: "flex",
-                gap: "0.75rem",
-                marginBlock: "1rem",
-                flexWrap: "wrap",
+                border: "1px solid currentcolor",
+                background: "transparent",
+                borderRadius: "5pt",
+                padding: "0.5rem 0.75rem",
+                cursor: "pointer",
               }}
             >
-              <button
-                type="button"
-                onClick={handleFavoriteClick}
-                style={{
-                  border: "1px solid currentcolor",
-                  background: "transparent",
-                  borderRadius: "5pt",
-                  padding: "0.5rem 0.75rem",
-                  cursor: "pointer",
-                }}
-              >
-                {isFavorite ? "Remove favorite" : "Add favorite"}
-              </button>
+              {isFavorite ? "Remove favorite" : "Add favorite"}
+            </button>
 
-              <button
-                type="button"
-                onClick={handleHiddenClick}
-                style={{
-                  border: "1px solid currentcolor",
-                  background: "transparent",
-                  borderRadius: "5pt",
-                  padding: "0.5rem 0.75rem",
-                  cursor: "pointer",
-                }}
-              >
-                {isUserHidden ? "Unhide song" : "Hide song"}
-              </button>
-            </div>
+            <button
+              type="button"
+              onClick={handleHiddenClick}
+              style={{
+                border: "1px solid currentcolor",
+                background: "transparent",
+                borderRadius: "5pt",
+                padding: "0.5rem 0.75rem",
+                cursor: "pointer",
+              }}
+            >
+              {isUserHidden ? "Unhide song" : "Hide song"}
+            </button>
+          </div>
 
-            <div
-              className={markdownStyles.markdown}
-              dangerouslySetInnerHTML={{ __html: markdownHtml }}
-            />
-          </>
-        ) : (
-          <p>Checking visibility...</p>
-        )}
+          <div
+            className={markdownStyles.markdown}
+            dangerouslySetInnerHTML={{ __html: markdownHtml }}
+          />
+        </>
       </main>
 
       <Footer>
