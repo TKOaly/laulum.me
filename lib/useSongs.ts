@@ -97,17 +97,20 @@ export const useSongs = (baseSongs: BaseSong[]): UseSongsResult => {
     [baseSongs, state]
   );
 
-  const hiddenCount = useMemo(
-    () => allSongs.filter((song) => song.isHiddenEffective).length,
+  const nonContentHiddenSongs = useMemo(
+    () => allSongs.filter((song) => !song.isContentHidden),
     [allSongs]
+  );
+
+  const hiddenCount = useMemo(
+    () => nonContentHiddenSongs.filter((song) => song.isUserHidden).length,
+    [nonContentHiddenSongs]
   );
 
   const favoriteSongs = useMemo(
     () =>
-      allSongs
-        .filter(
-          (song) => song.isFavorite && (showHidden || !song.isHiddenEffective)
-        )
+      nonContentHiddenSongs
+        .filter((song) => song.isFavorite && (showHidden || !song.isUserHidden))
         .sort((a, b) => {
           const aFavoritedAt = a.favoritedAt ?? 0;
           const bFavoritedAt = b.favoritedAt ?? 0;
@@ -118,13 +121,13 @@ export const useSongs = (baseSongs: BaseSong[]): UseSongsResult => {
 
           return a.title.localeCompare(b.title);
         }),
-    [allSongs, showHidden]
+    [nonContentHiddenSongs, showHidden]
   );
 
   const visibleSongs = useMemo(() => {
     const maybeFiltered = showHidden
-      ? allSongs
-      : allSongs.filter((song) => !song.isHiddenEffective);
+      ? nonContentHiddenSongs
+      : nonContentHiddenSongs.filter((song) => !song.isUserHidden);
 
     if (query.trim().length > 0) {
       return maybeFiltered
@@ -149,7 +152,7 @@ export const useSongs = (baseSongs: BaseSong[]): UseSongsResult => {
       state.sortMode === "mostVisited" ? orderByMostVisited : orderAlphabetically
     );
     return sortedSongs;
-  }, [allSongs, query, showHidden, state.sortMode]);
+  }, [nonContentHiddenSongs, query, showHidden, state.sortMode]);
 
   const handleSortMode = useCallback((mode: SortMode) => {
     const next = setSongSortMode(mode);
