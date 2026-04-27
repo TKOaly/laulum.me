@@ -1,6 +1,7 @@
 ---
 title: Ei
 melody: Maija Vilkkumaa - Ei
+writers: Laura Blomroos, Lassi Liimatainen
 ---
 Assistentti
 Ole hyvä ja auta, Hyvä ja auta
@@ -10,9 +11,9 @@ Et mä saan tän tehtyy, Saan tän tehtyy
 Mä haluaisin kun jokainen muukin saa
 On perjantai ja Klusse kiinnostaa
 Mä tiedän et läpipääsystä on huoli
-Mut kurjaa on jos ulkopuoliseksi jää 
+Mut kurjaa on jos ulkopuoliseksi jää
 
-:,: Ja proffan silmät on sumeat jo 
+:,: Ja proffan silmät on sumeat jo
 Hän sanoo Klusse on kurssien turmio
 Se sama Klusse noppasi vei
 Sä kysyt pääsetkö läpi ja vastaus on ei :,:
@@ -20,26 +21,26 @@ Sä kysyt pääsetkö läpi ja vastaus on ei :,:
 Vuodet vierii
 Ja kun Klusse on raukee ja proffa on raukee
 Kandi laskee noppii
-Mut ne ei riitä, Ei ne ei riitä 
+Mut ne ei riitä, Ei ne ei riitä
 
 Mikään ei tätä ikävää poista
-Uupunein hän on fyysikoista 
+Uupunein hän on fyysikoista
 Ja hän tietää ettei assarit auta
 Hän huutaa Klusselle heti jumalauta
 
-:,: Ja proffan silmät on sumeat jo 
+:,: Ja proffan silmät on sumeat jo
 Hän sanoo Klusse on kurssien turmio
 Se sama Klusse noppasi vei
 Sä kysyt pääsetkö läpi ja vastaus on ei :,:
 
-ja yönä erään marraskuun
+Ja yönä erään marraskuun
 Fuksi herää, pukeutuu
 haalaareihin, lähtee Klusterin pauhuun
-toisessa huoneessa, proffa suussaan kahvia, kuuntelee ja herää pian kauhuun
+Toisessa huoneessa, proffa suussaan kahvia, kuuntelee ja herää pian kauhuun
 ja hän huutaa, fuksiaan huutaa
-mutta fuksi on kaukana ja lähellä Klussee!
+Mutta fuksi on kaukana ja lähellä Klussee!
 
-:,: Ja proffan silmät on sumeat jo 
+:,: Ja proffan silmät on sumeat jo
 Hän sanoo Klusse on kurssien turmio
 Se sama Klusse noppasi vei
 Sä kysyt pääsetkö läpi ja vastaus on ei :,:
