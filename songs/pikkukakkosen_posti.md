@@ -14,8 +14,13 @@ kautta tilde ransu
 
 Pikku kakkosen Ransu
 Yleisradion kovin jätkä ikinä
-Kolkytä vuotta nyrkki perseessä
+Nelkytä vuotta nyrkki perseessä
 Pikku kakkosen Ransu
+
+Pikku kakkosen Jyrki
+Yleisradion kovin jätkä ikinä
+Nelkytä vuotta nyrkki Ransun perseessä
+Pikku kakkosen Jyrki
 
 Sinivilkkuinen taksi
 Etupenkillä kaksi v\*\*\*n mulkkua
