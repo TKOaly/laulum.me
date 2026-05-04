@@ -1,5 +1,6 @@
 import type { GetStaticProps, InferGetStaticPropsType } from "next";
 import Head from "next/head";
+import { useRouter } from "next/router";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
 import remarkHtml from "remark-html";
@@ -8,11 +9,17 @@ import remarkGfm from "remark-gfm";
 import { Footer, Header, Link } from "@/components";
 
 import { getSongLink } from "@/lib/getTelegramUrl";
-import { getSong, getSongs } from "@/lib/songs";
+import { getSong, getSongs } from "@/lib/serverSongs";
 import slugify from "@/lib/slugify";
 import { Song } from "@/types/song";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { getBookNames } from "@/lib/books";
+import {
+  readPersonalization,
+  recordSongVisit,
+  toggleSongFavorite,
+  toggleSongHidden,
+} from "@/lib/personalization";
 
 import markdownStyles from "./markdown.module.css";
 
@@ -61,8 +68,14 @@ const SongPage = ({
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
   const title = `${song.title} | laulum.me`;
   const slug = slugify(song.title);
+  const router = useRouter();
+
+  const didInitialize = useRef(false);
 
   const [backPage, setBackPage] = useState("/");
+  const [isFavorite, setIsFavorite] = useState(false);
+  const [isUserHidden, setIsUserHidden] = useState(false);
+
   useEffect(() => {
     if (!bookNames) return;
 
@@ -76,6 +89,48 @@ const SongPage = ({
     }
     setBackPage(`/book/${encodeURIComponent(book)}`);
   }, [setBackPage, bookNames]);
+
+  useEffect(() => {
+    if (didInitialize.current) {
+      return;
+    }
+
+    didInitialize.current = true;
+
+    const state = readPersonalization();
+    const userHidden = Boolean(state.hidden[slug]);
+    const hiddenByContent = Boolean(song.hidden);
+
+    setIsFavorite(Boolean(state.favorites[slug]));
+    setIsUserHidden(userHidden);
+
+    if (userHidden || hiddenByContent) {
+      const canContinue = window.confirm(
+        "This song is hidden. Are you sure you want to view it?"
+      );
+
+      if (!canContinue) {
+        if (window.history.length > 1) {
+          router.back();
+        } else {
+          router.push("/");
+        }
+        return;
+      }
+    }
+
+    recordSongVisit(slug);
+  }, [router, slug, song.hidden]);
+
+  const handleFavoriteClick = () => {
+    const next = toggleSongFavorite(slug);
+    setIsFavorite(Boolean(next.favorites[slug]));
+  };
+
+  const handleHiddenClick = () => {
+    const next = toggleSongHidden(slug);
+    setIsUserHidden(Boolean(next.hidden[slug]));
+  };
 
   return (
     <>
@@ -122,17 +177,57 @@ const SongPage = ({
       </Header>
 
       <main>
-        <h1>{song.title}</h1>
-        {song.writers && (
-          <em style={{ display: "block" }}>Written by {song.writers}</em>
-        )}
-        {song.melody && (
-          <em style={{ display: "block" }}>Melody: {song.melody}</em>
-        )}
-        <div
-          className={markdownStyles.markdown}
-          dangerouslySetInnerHTML={{ __html: markdownHtml }}
-        />
+        <>
+          <h1>{song.title}</h1>
+          {song.writers && (
+            <em style={{ display: "block" }}>Written by {song.writers}</em>
+          )}
+          {song.melody && (
+            <em style={{ display: "block" }}>Melody: {song.melody}</em>
+          )}
+
+          <div
+            style={{
+              display: "flex",
+              gap: "0.75rem",
+              marginBlock: "1rem",
+              flexWrap: "wrap",
+            }}
+          >
+            <button
+              type="button"
+              onClick={handleFavoriteClick}
+              style={{
+                border: "1px solid currentcolor",
+                background: "transparent",
+                borderRadius: "5pt",
+                padding: "0.5rem 0.75rem",
+                cursor: "pointer",
+              }}
+            >
+              {isFavorite ? "Remove favorite" : "Add favorite"}
+            </button>
+
+            <button
+              type="button"
+              onClick={handleHiddenClick}
+              style={{
+                border: "1px solid currentcolor",
+                background: "transparent",
+                borderRadius: "5pt",
+                padding: "0.5rem 0.75rem",
+                cursor: "pointer",
+              }}
+            >
+              {isUserHidden ? "Unhide song" : "Hide song"}
+            </button>
+          </div>
+
+          <div
+            className={markdownStyles.markdown}
+            dangerouslySetInnerHTML={{ __html: markdownHtml }}
+          />
+        </>
       </main>
 
       <Footer>

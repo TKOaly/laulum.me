@@ -6,7 +6,7 @@ import { getBook, getBookNames } from "@/lib/books";
 import { getBookLink } from "@/lib/getTelegramUrl";
 import { Link, Header, Footer } from "@/components";
 import slugify from "@/lib/slugify";
-import { songExists } from "@/lib/songs";
+import { songExists } from "@/lib/serverSongs";
 
 export async function getStaticPaths() {
   const bookNames = await getBookNames();
