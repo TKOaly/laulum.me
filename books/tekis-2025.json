@@ -135,7 +135,7 @@
     { "number": "0x6D", "title": "Dirlandaa" },
     { "number": "0x6E", "title": "Intian kuu" },
     { "number": "0x6F", "title": "Jos (e)ukkosi kieltää sua juomasta" },
-    { "number": "0x70", "title": "No onkos tullut kesä" },
+    { "number": "0x70", "title": "No onkos tullut kesä", "slug": "NYT-kokonaisuus" },
     { "number": "0x71", "title": "Varpunen jouluaamuna" },
     { "number": "0x72", "title": "Joulu on nyt" },
     { "number": "0x73", "title": "Joulu on taas" },
