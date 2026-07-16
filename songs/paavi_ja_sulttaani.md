@@ -18,13 +18,13 @@ ja haaremissaan elelee.
 sulttaani oisin mielelläin. :,:
 
 Mut ei, hän ompi polo mies,
-hänt' paina uskontonsa ies.
+hänt' painaa uskontonsa ies.
 :,: Ei maista viinin tippaakaan,
 en sulttaaniksi tahtoiskaan. :,:
 
 En yksin olla tahtoisi,
 mä paavi enkä sulttaani.
-:,: Mut vuoroin virkaan kumpaakin,
+:,: Mut vuoroin virkaan kumpaankin,
 mä mielelläni astuisin. :,:
 
 Suo suukko mulle neitonen,
