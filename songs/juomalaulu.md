@@ -3,21 +3,21 @@ title: Juomalaulu
 ---
 
 No onkos tullut kesä,
-nyt talven keskelle
-:,: ja laitetaankos pesä
+nyt talven keskelle.
+:,: Ja laitetaankos pesä
 nyt pikkulinnuille? :,:
 
 Jo kuusi kynttilöitä
-on käynyt kukkimaan,
-:,: pimeitä talven öitä
+on käynyt kukkimaan.
+:,: Pimeitä talven öitä
 nyt ehkä valaistaan. :,:
 
 Ja vanhakin nyt nuortuu,
-kuin lapsi leikkimään,
-:,: ja koukkuselkä suortuu,
+kuin lapsi leikkimään.
+:,: Ja koukkuselkä suortuu,
 nyt kaikk' on mielissään. :,:
 
 Ja hyvä lämmin hellä,
-nyt mieli jokaisen,
-:,: nyt jospa ihmisellä,
+nyt mieli jokaisen.
+:,: Nyt jospa ihmisellä,
 ois juhla ainainen! :,:
