@@ -30,4 +30,4 @@ Your comrades hear you loudly snore,
 decide that they can take no more,
 so on your lips they pour the Jaloviina.
 
-:,: Jaloviina, Jaloviina, Jaloviina, Jaloviina :,:
+:,: Jaloviina, Jaloviina, Jaloviina, Jaloviina. :,:
