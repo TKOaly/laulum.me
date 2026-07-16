@@ -4,7 +4,7 @@ melody: Jos sun lysti on
 ---
 
 Vi ska dricka hela natten alkohol,
-vi ska dricka hela natten alkohol,
-vi ska dricka hela natten,
-vi ska inte dricka vatten,
-vi ska dricka hela natten alkohol!
+vi ska dricka hela natten alkohol.
+Vi ska dricka hela natten,
+vi ska inte dricka vatten.
+Vi ska dricka hela natten alkohol!
