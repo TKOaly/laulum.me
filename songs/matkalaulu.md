@@ -11,7 +11,7 @@ Saavunpa keskelle Gurula-maan,
 laukussa jalluu ja kossuu vaan.
 Yksin ei tarvitse ollakaan,
 nyt uuden ystävän saan.
-:,: Kun sanon päivää, hän sanoo PEEKOO! :,:
+:,: Kun sanon päivää, hän sanoo ÄRVEE! :,:
 
 Saavunpa keskelle ___________-maan,
 laukussa jalluu ja kossuu vaan.
