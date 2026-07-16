@@ -86,7 +86,7 @@ Kuuluu tuttu huuto vaan,
 Pete kääntyi kannoillaan,
 leveästi hymyillen Pat hälle heiluttaa.
 "Tule tänne ystäväin, ja käy mun syleilyyn
-kyllästynyt en sun hempeilyy
+kyllästynyt en sun hempeilyyn!"
 
 Romanttinen loppu nyt
 tarinaan on syntynyt.
