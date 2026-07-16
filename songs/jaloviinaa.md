@@ -11,7 +11,7 @@ Kuin kiveksi muuttui, enää puhukkaan ei.
 Hän vain juo Jaloviinaa.
 Viileää viinaa, kuin vettä vain juo.
 Hän läikyttää lasissaan ruskeaa viinaa
-ja tien muistaa ruskeiden silmien lu
+ja tien muistaa ruskeiden silmien luo.
 
 Vuosia myöhemmin naisesta kuulin
 joka elelee yksinään Naarvassa päin.
