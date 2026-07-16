@@ -1,6 +1,6 @@
 ---
-title: Muinaisten Valssi aka Kultisti Miikkulainen
-melody: Vanhojapoikia viiksekkäitä
+title: Muinaisten Valssi
+melody: Juha Vainio - Vanhojapoikia viiksekkäitä
 ---
 
 Saimaan saaressa pikkuinen torppa,
