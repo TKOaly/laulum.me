@@ -18,6 +18,7 @@ Sua eilen lähdin seuraamaan.
 En tiedä minne jouduinkaan.
 Vain kaaduin paikkaan pehmeään
 ja päätin: yöksi tähän jään.
+
 Sain kuulla laineen laulavan
 ja tunsin suukon hurjimman.
 Näin alla kuuman auringon
@@ -32,6 +33,11 @@ Mä lauloin dirlan dirlan daa.
 Dii dirlan darlan dirlan dii.
 Lardan lirdan lardan laa.
 Dirlan darlan dirlan dii.
+
+Kun luonto meille lemmen loi
+vain hullu vastaan kapinoi.
+Mies luonnostansa lankeaa
+kun Afrodite vallan saa.
 
 Ja kun on tullut vuoro mun
 mä siihen suostun, mukaudun.
