@@ -14,6 +14,6 @@ sinoli ja lasoli, sinoli ja lasoli,
 tärpätti, tärpätti.
 
 Viru Valge, Viru Valge,
-Saarenmaa, Saarenmaa,
+Saaremaa, Saaremaa,
 Laua-viin, Laua-viin,
 Rock A. le Coq, Rock A. le Coq.

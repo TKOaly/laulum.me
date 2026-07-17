@@ -34,7 +34,7 @@ Mutt' laulumme, teinilaulumme tää
 oli meidän ja rakkaus neitten.
 Ne taisivat täysin ymmärtää
 teot teinien eksyneitten.
-Ne shamppanjaks elon kalkin loi
+Ne samppanjaks elon kalkin loi
 ja laulumme, teinilaulumme soi.
 
 Ja kun kerran, veljet, kaikki on nää

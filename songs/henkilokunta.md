@@ -5,7 +5,7 @@ title: Henkilökunta
 :,: Henkilökuntaa, henkilökuntaa, parlevuu. :,:
 Henkilökuntaa, henkilökuntaa,
 henkilökuntaa, henkilökuntaa.
-:,: Henkilökuntaa parlevuu. :,:
+:,: Henkilökuntaa, parlevuu. :,:
 
 Lissää viinaa...
 Konjakki ois poikaa...

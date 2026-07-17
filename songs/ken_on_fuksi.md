@@ -4,6 +4,7 @@ title: Ken ompi fuksi
 
 :,: Ken ompi fuksi n (jne...)
 ylös nouskohon.
+
 Hän lasin käteen ottakoon
 Sen huulillensa nostakoon.
 Juo pois, juo pois, juo pois, juo pois.

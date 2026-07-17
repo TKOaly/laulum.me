@@ -2,86 +2,88 @@
 title: Intian kuu
 ---
 
-Intiassa kuukin on kuumempi
-oo-hiio-hei!
-Kuin aurinko meillä vaan suurempi
-oo-hiio-hei!
-Ja kerran se lakkini sytytti
-oo-hiio-hei!
-Olin kännissä silloin tietysti
-oo-hiio-hei!
+(E) esilaulaja/foresinger
+
+(E) Intiassa kuukin on kuumempi.
+Oo-hiio-hei!
+(E) Kuin aurinko meillä vaan suurempi.
+Oo-hiio-hei!
+(E) Ja kerran se lakkini sytytti.
+Oo-hiio-hei!
+(E) Olin kännissä silloin tietysti.
+Oo-hiio-hei!
 
 :,: Hei juttele sinä vaan,
 kyllä sinut tunnetaan
 ja vaikka sen valheeksi vannotkin
-niin kyllä sua uskotaan :,:
+niin kyllä sua uskotaan. :,:
 
-Linnut siellä paistuivat lennossa
-Ja voi siellä myytiin pullossa
-Ja jok'ikinen kala joka ongittiin
-Oli keitettynä kun se nostettiin
+(E) Linnut siellä paistuivat lennossa
+(E) ja voi siellä myytiin pullossa.
+(E) Ja jok'ikinen kala joka ongittiin
+(E) oli keitettynä kun se nostettiin.
 
-Hei juttele sinä vaan...
+:,: Hei juttele sinä vaan... :,:
 
-Intiassa ankkuri nostettiin
-Ja Punaiseen Mereen se laskettiin
-Ja sen minä voin vaikka vannoa,
-Että seilasimme puolukkahillossa
+(E) Intiassa ankkuri nostettiin
+(E) ja Punaiseen Mereen se laskettiin.
+(E) Ja sen minä voin vaikka vannoa,
+(E) että seilasimme puolukkahillossa.
 
-Hei juttele sinä vaan...
+:,: Hei juttele sinä vaan... :,:
 
-Näin minä Niilin rannikot
-Näin krokotiilit ja faaraot
-Siellä muumiot eli niinkuin ennenkin
-Ja lähettivät terveiset teillekin
+(E) Näin minä Niilin rannikot.
+(E) Näin krokotiilit ja faaraot.
+(E) Siellä muumiot eli niinkuin ennenkin
+(E) ja lähettivät terveiset teillekin.
 
-Hei juttele sinä vaan...
+:,: Hei juttele sinä vaan... :,:
 
-Pyramiidin huipull' oli majakka
-Ja majakass' oli kapakka
-Ja siellä me kävimme ryypyllä
-Ja muumioitten kanssa hypyllä
+(E) Pyramiidin huipull' oli majakka
+(E) ja majakass' oli kapakka.
+(E) Ja siellä me kävimme ryypyllä
+(E) ja muumioitten kanssa hypyllä.
 
-Hei juttele sinä vaan...
+:,: Hei juttele sinä vaan... :,:
 
-Siellä näin minä teekkarityttösen
-Niin sievän, hennon ja herttaisen
-Vaan yks kemisti juoksi mun perääni
-Ja halkaisi kirveellä kalloni
-
-Hei juttele sinä vaan...
-
-Kun me purjehdimme Kreetalle
-Niin Välimeri haiskahti sillille
-Siellä seireenit lauloivat kuorossa
-Oli uintiretki siis vuorossa
+(E) Siellä näin minä teekkarityttösen,
+(E) niin sievän, hennon ja herttaisen.
+(E) Vaan yks kemisti juoksi mun perääni
+(E) ja halkaisi kirveellä kalloni.
 
 Hei juttele sinä vaan...
 
-Siellä tutustuin seireenityttöseen
-Niin sievään, hentoon ja herttaiseen
-Vaan kun suutelin sitä pyrstölleen
-Se haukkas mun perseeni lounaakseen
+(E) Kun me purjehdimme Kreetalle
+(E) niin Välimeri haiskahti sillille.
+(E) Siellä seireenit lauloivat kuorossa
+(E) oli uintiretki siis vuorossa.
 
-Hei juttele sinä vaan...
+:,: Hei juttele sinä vaan... :,:
 
-Kreikan nienten takana
-Väijyi alkoholisti pakana
-Se entrasi meidän kylkehen
-Juotti pontikkaa perämiehellen
+(E) Siellä tutustuin seireenityttöseen,
+(E) niin sievään, hentoon ja herttaiseen.
+(E) Vaan kun suutelin sitä pyrstölleen
+(E) se haukkas mun perseeni lounaakseen.
 
-Hei juttele sinä vaan...
+:,: Hei juttele sinä vaan... :,:
 
-Perämiehemme pontikkakänninen
-Vei meidät Maltan saarellen
-Vaan kun saari oli pieni niin
-Me purjehdimme sen upoksiin
+(E) Kreikan nienten takana
+(E) väijyi alkoholisti pakana.
+(E) Se entrasi meidän kylkehen,
+(E) juotti pontikkaa perämiehelle.
 
-Hei juttele sinä vaan...
+:,: Hei juttele sinä vaan... :,:
 
-Ja laivalla karttapallona
-Oli suuren suuri peruna
-Vaan kun muona alkoi loppua
-Meidän täytyi syödä Afrikka
+(E) Perämiehemme pontikkakänninen
+(E) vei meidät Maltan saarelle.
+(E) Vaan kun saari oli pieni niin
+(E) me purjehdimme sen upoksiin.
 
-Hei juttele sinä vaan...
+:,: Hei juttele sinä vaan... :,:
+
+(E) Ja laivalla karttapallona
+(E) oli suuren suuri peruna.
+(E) Vaan kun muona alkoi loppua
+(E) meidän täytyi syödä Afrikka.
+
+:,: Hei juttele sinä vaan... :,:
