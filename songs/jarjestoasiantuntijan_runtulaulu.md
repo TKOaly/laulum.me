@@ -43,3 +43,14 @@ Minä annan käyttökiellon,
 järjestöt on kauhuissaan.
 :,: Voisin viettää runtupäivää
 jälleen huomenna. :,:
+
+Sitsijatkoilla pöydät
+portaikosta sä löydät,
+meno kuin VSO:lla konsanaan.
+Siellä HYYH-PJ sanoi: "Minä en nähnyt mitään",
+silti TKO-äly käyttökiellon saa.
+
+Minä annan käyttökiellon,
+järjestöt on kauhuissaan.
+:,: Voisin viettää runtupäivää
+jälleen huomenna. :,:
