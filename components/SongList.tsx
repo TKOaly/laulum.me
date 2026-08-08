@@ -1,48 +1,51 @@
 import Router from "next/router";
-import { useMemo, useCallback } from "react";
-
-import { extract, partial_ratio } from "fuzzball";
+import { FormEvent, useCallback, useRef } from "react";
 
 import { Input } from "./Input";
 import { Link } from "./Link";
 
-import useInput from "@/lib/useInput";
-import slugify from "@/lib/slugify";
+import { BaseSong, useSongs } from "@/lib/useSongs";
 
 export type SongListProps = {
-  titles: string[];
+  songs: BaseSong[];
 };
 
-export const SongList = ({ titles }: SongListProps) => {
+export const SongList = ({ songs }: SongListProps) => {
+  const inputRef = useRef<HTMLInputElement>(null);
+
   const {
-    ref: inputRef,
-    scrollTo: scrollToInput,
     query,
-    updateQuery,
-    clearQuery,
-  } = useInput();
+    setQuery,
+    sortMode,
+    setSortMode,
+    showHidden,
+    setShowHidden,
+    visibleSongs,
+    favoriteSongs,
+    hasHydrated,
+    hiddenCount,
+  } = useSongs(songs);
 
-  const sortedTitles = useMemo(() => {
-    if (query.trim().length === 0) {
-      return titles.map((title) => ({ title, score: 100 }));
-    }
-
-    const fuzzSortedSongs = extract(query, titles, {
-      scorer: partial_ratio,
-      cutoff: 40,
-      limit: 15,
-    }) as [string, number, number][];
-
-    return fuzzSortedSongs.map(([title, score]) => ({ title, score }));
-  }, [query, titles]);
-
-  const handleSubmit = useCallback(() => {
-    if (sortedTitles.length === 0) {
+  const scrollToInput = useCallback(() => {
+    if (!inputRef.current) {
       return;
     }
 
-    Router.push(`songs/${slugify(sortedTitles[0].title)}`);
-  }, [sortedTitles]);
+    inputRef.current.scrollIntoView({ behavior: "smooth" });
+  }, []);
+
+  const handleSubmit = useCallback(
+    (event: FormEvent<HTMLFormElement>) => {
+      event.preventDefault();
+
+      if (visibleSongs.length === 0) {
+        return;
+      }
+
+      Router.push(`/songs/${visibleSongs[0].slug}`);
+    },
+    [visibleSongs]
+  );
 
   return (
     <>
@@ -51,10 +54,70 @@ export const SongList = ({ titles }: SongListProps) => {
           ref={inputRef}
           placeholder="Type song name and press enter/submit"
           value={query}
-          onChange={updateQuery}
+          onChange={({ target }) => setQuery(target.value)}
           onFocus={scrollToInput}
         />
       </form>
+
+      <div
+        style={{
+          display: "flex",
+          gap: "0.75rem",
+          alignItems: "center",
+          flexWrap: "wrap",
+          marginBottom: "1rem",
+        }}
+      >
+        <label htmlFor="song-sort-mode">Sort:</label>
+        <select
+          id="song-sort-mode"
+          value={sortMode}
+          onChange={({ target }) =>
+            setSortMode(
+              target.value === "mostVisited" ? "mostVisited" : "alphabetical"
+            )
+          }
+          disabled={!hasHydrated}
+          style={{ padding: "0.25rem" }}
+        >
+          <option value="alphabetical">Alphabetical</option>
+          <option value="mostVisited">Most visited</option>
+        </select>
+
+        <button
+          type="button"
+          onClick={() => setShowHidden(!showHidden)}
+          style={{
+            border: "1px solid currentcolor",
+            borderRadius: "5pt",
+            background: "transparent",
+            padding: "0.5rem 0.75rem",
+            cursor: "pointer",
+          }}
+        >
+          {showHidden ? "Hide hidden songs" : `Show hidden (${hiddenCount})`}
+        </button>
+      </div>
+
+      {favoriteSongs.length > 0 && (
+        <section style={{ marginBottom: "2rem" }}>
+          <h2 style={{ marginBottom: "0.75rem" }}>Favorites</h2>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+              gap: "1rem",
+              alignItems: "center",
+            }}
+          >
+            {favoriteSongs.map((song) => (
+              <Link key={`favorite-${song.slug}`} href={`/songs/${song.slug}`}>
+                {song.title}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       <div
         style={{
@@ -64,14 +127,10 @@ export const SongList = ({ titles }: SongListProps) => {
           alignItems: "center",
         }}
       >
-        {sortedTitles.length === 0 && <p>No songs found</p>}
-        {sortedTitles.map(({ title, score }) => (
-          <Link
-            key={title}
-            href={`/songs/${slugify(title)}`}
-            style={{ width: "100%", opacity: Math.max(score, 20) / 100 }}
-          >
-            {title}
+        {visibleSongs.length === 0 && <p>No songs found</p>}
+        {visibleSongs.map((song) => (
+          <Link key={song.slug} href={`/songs/${song.slug}`} style={{ width: "100%" }}>
+            {song.title}
           </Link>
         ))}
       </div>
