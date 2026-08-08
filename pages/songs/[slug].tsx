@@ -1,9 +1,5 @@
 import type { GetStaticProps, InferGetStaticPropsType } from "next";
 import Head from "next/head";
-import { unified } from "unified";
-import remarkParse from "remark-parse";
-import remarkHtml from "remark-html";
-import remarkGfm from "remark-gfm";
 
 import { Footer, Header, Link } from "@/components";
 
@@ -13,6 +9,7 @@ import slugify from "@/lib/slugify";
 import { Song } from "@/types/song";
 import { useEffect, useState } from "react";
 import { getBookNames } from "@/lib/books";
+import { renderMarkdownToSafeHtml } from "@/lib/markdown";
 
 import markdownStyles from "./markdown.module.css";
 
@@ -43,13 +40,7 @@ export const getStaticProps: GetStaticProps<{
 
   const bookNames = await getBookNames();
 
-  const processedContent = await unified()
-    .use(remarkGfm)
-    .use(remarkParse)
-    .use(remarkHtml)
-    .process(song.lyrics);
-
-  const markdownHtml = processedContent.toString();
+  const markdownHtml = await renderMarkdownToSafeHtml(song.lyrics);
 
   return { props: { markdownHtml, song, bookNames } };
 };
