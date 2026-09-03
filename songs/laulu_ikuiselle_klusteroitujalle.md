@@ -1,6 +1,6 @@
 ---
 title: Laulu ikuiselle klusteroitujalle 
-melody: Bella ciao 
+melody: Bella Ciao 
 writers: Lauri Franzon
 ---
 
