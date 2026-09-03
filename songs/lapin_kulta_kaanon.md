@@ -18,6 +18,8 @@ Saaremaa, Saaremaa,
 Laua-viin, Laua-viin,
 Rock A. le Coq, Rock A. le Coq.
 
+---
+
 **Lisäsäkeistöt**
 
 Random Forest, Random Forest,
