@@ -22,11 +22,11 @@
   border: 0;
 }
 
-a {
+.md-song-content a {
   color: black;
 }
 @media (prefers-color-scheme: dark) {
-  a {
+  .md-song-content a {
     color: white;
   }
 }
