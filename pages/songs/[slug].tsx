@@ -130,7 +130,7 @@ const SongPage = ({
           <em style={{ display: "block" }}>Melody: {song.melody}</em>
         )}
         <div
-          className={`${markdownStyles.markdown} md-song-content`}
+          className={markdownStyles.markdown}
           dangerouslySetInnerHTML={{ __html: markdownHtml }}
         />
       </main>

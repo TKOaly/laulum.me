@@ -9,7 +9,7 @@
   white-space: pre-line;
 }
 
-.sr-only {
+.markdown .sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -22,15 +22,10 @@
   border: 0;
 }
 
-.md-song-content a {
-  color: black;
-}
-@media (prefers-color-scheme: dark) {
-  .md-song-content a {
-    color: white;
-  }
+.markdown a {
+  color: inherit;
 }
 
-.footnotes {
+.markdown .footnotes {
   color: rgb(150, 150, 150);
 }
