@@ -25,6 +25,10 @@
     color: inherit;
   }
 
+  .data-footnote-backref {
+    font-size: .75em;
+  }
+
   .footnotes {
     color: rgb(150, 150, 150);
   }
