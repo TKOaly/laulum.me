@@ -23,5 +23,6 @@ Rock A. le Coq, Rock A. le Coq.
 Random Forest, Random Forest,
 Navetta, Navetta.
 Luola sekä Haxxo, Luola sekä Haxxo,
-Gurula. Gurula.
-<span style="font-style: italic; font-size: 0.3em">(Sanat: Oskari Larsen)</span>
+Gurula. Gurula.[^gurula]
+
+[^gurula]: Sanat: Oskari Larsen
