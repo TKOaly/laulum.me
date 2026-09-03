@@ -14,7 +14,7 @@ import { Song } from "@/types/song";
 import { useEffect, useState } from "react";
 import { getBookNames } from "@/lib/books";
 
-import markdownStyles from "./markdown.module.css";
+import "./markdown.css";
 
 export async function getStaticPaths() {
   const songs = await getSongs();
@@ -130,7 +130,7 @@ const SongPage = ({
           <em style={{ display: "block" }}>Melody: {song.melody}</em>
         )}
         <div
-          className={markdownStyles.markdown}
+          className="markdown"
           dangerouslySetInnerHTML={{ __html: markdownHtml }}
         />
       </main>
