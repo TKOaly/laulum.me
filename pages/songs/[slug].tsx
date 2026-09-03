@@ -14,8 +14,6 @@ import { Song } from "@/types/song";
 import { useEffect, useState } from "react";
 import { getBookNames } from "@/lib/books";
 
-import "./markdown.css";
-
 export async function getStaticPaths() {
   const songs = await getSongs();
   const paths = songs.map(({ title }) => ({
