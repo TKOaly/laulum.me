@@ -1,9 +1,11 @@
+import { ErrorBoundary } from "@/components";
 import type { AppProps } from "next/app";
+import { Roboto } from "next/font/google";
 import Head from "next/head";
 
 import "./app.css";
-import { Roboto } from "next/font/google";
-import { ErrorBoundary } from "@/components";
+import "./markdown.css";
+
 
 const roboto = Roboto({ subsets: ["latin"], weight: "400" });
 
