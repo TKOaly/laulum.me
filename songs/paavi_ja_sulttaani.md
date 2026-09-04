@@ -31,3 +31,13 @@ Suo suukko mulle neitonen,
 oon sulttaani mä hetkisen.
 :,: Hei veikot maljat täyttäkää,
 kun paaviks muuttuu poika tää! :,:
+
+---
+
+**Lisäsäkeistöt**
+En yksin olla tahtoisi
+En yksin olla tahtoisi
+En yksin olla tahtoisi
+En yksin olla tahtoisi
+Keskellä naisten viehkeäin,
+en yksin olla tahtoisi
