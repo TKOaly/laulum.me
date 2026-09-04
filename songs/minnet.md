@@ -17,7 +17,7 @@ Minne? Muisti hävis, mut' minne?
 Juhlista selvisimme, muistikatkoja on.
 Minne? Lähtisin vaikka minne,
 kunhan selvittäisimme,
-mitä tapahtunut on.
+mitä sattunut on.
 Mutta tiedän
-mä keinon mikä auttaapi tuo:
+mä keinon joka auttaapi tuo:
 Ota ryyppy, ja muistis juo!
