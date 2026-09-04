@@ -1,5 +1,5 @@
 ---
-title: Pikkukakkosen posti
+title: Pikku kakkosen posti
 ---
 
 Pikku kakkosen posti
@@ -7,7 +7,7 @@ postilokero 347
 33101 Tampere 10
 Pikku kakkosen posti
 
-Pikku kakkosen URLi
+Pikku kakkosen URL
 h-t-t-p kaksoispiste kautta-kautta
 w-w-w piste yle piste fi
 kautta tilde ransu
@@ -31,6 +31,16 @@ Aalto-yliopisto
 Postilokero, kato vittu Googlesta
 Vitun kalliin logon värit pöllitty Ikealta
 Huippuyliopisto
+
+Aalto-yliopisto
+Koulutusohjelma, mitä sen on väliä
+Teekkari tai kylteri, kusipää kuitenkin
+Aalto-yliopisto
+
+Helsingin yliopistp
+Koulutusohjelma, mitä sen on väliä
+Kandi tai maisteri, idiootti kuitenkin
+Helsingin yliopisto
 
 Ammattikorkeakoulu
 Postilokero, mitä sen on väliä
