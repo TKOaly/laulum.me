@@ -76,7 +76,7 @@ const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            Contribute a song on GitHub
+            Contribute on GitHub
           </Link>
         </Footer>
       </div>
