@@ -127,6 +127,15 @@ const SongPage = ({
         {song.melody && (
           <em style={{ display: "block" }}>Melody: {song.melody}</em>
         )}
+        {song.thanks && (
+          <em style={{ display: "block" }}>Thanks: {song.thanks}</em>
+        )}
+        {song.info && (
+          <em style={{ display: "block" }}>Info: {song.info}</em>
+        )}
+        {song.update && (
+          <em style={{ display: "block" }}>Update: {song.update}</em>
+        )}
         <div
           className="markdown"
           dangerouslySetInnerHTML={{ __html: markdownHtml }}
