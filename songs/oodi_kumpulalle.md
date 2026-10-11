@@ -1,7 +1,6 @@
 ---
 title: Oodi Kumpulalle
 melody: Pikku-Matin auto
-lyrics: Kumpula's subject organisations
 ---
 
 Kemisti se hakee vielä kerran lääkikseen,
